@@ -1,0 +1,11 @@
+
+transformers
+accelerate
+datasets
+evaluate
+jiwer
+pillow
+pandas
+scikit-learn
+torch
+sentencepiece
