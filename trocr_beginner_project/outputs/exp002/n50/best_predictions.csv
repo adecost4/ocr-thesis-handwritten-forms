@@ -1,0 +1,6 @@
+sample,image,ground_truth,prediction,cer,wer,exact
+a01-003-02,/Users/aloyson/Documents/Thesis/ocr-thesis-handwritten-forms/trocr_beginner_project/data/iam/lines/a01/a01-003/a01-003-02.png,turn down the Foot-Griffiths resolution . Mr.,turn down the Foot-Griffiths resolution . Mr.,0.0,0.0,1
+a01-003-04,/Users/aloyson/Documents/Thesis/ocr-thesis-handwritten-forms/trocr_beginner_project/data/iam/lines/a01/a01-003/a01-003-04.png,opposed the Government Bill which brought,opposed the Government Bill which brought,0.0,0.0,1
+a01-003-05,/Users/aloyson/Documents/Thesis/ocr-thesis-handwritten-forms/trocr_beginner_project/data/iam/lines/a01/a01-003/a01-003-05.png,"life peers into existence , they should not","life peers into existence , they should not",0.0,0.0,1
+a01-003-06,/Users/aloyson/Documents/Thesis/ocr-thesis-handwritten-forms/trocr_beginner_project/data/iam/lines/a01/a01-003/a01-003-06.png,now put forward nominees . He believes,now put forward nominees . He believes,0.0,0.0,1
+a01-003-07,/Users/aloyson/Documents/Thesis/ocr-thesis-handwritten-forms/trocr_beginner_project/data/iam/lines/a01/a01-003/a01-003-07.png,that the House of Lords should be abolished,that the House of Lords should be abolished,0.0,0.0,1

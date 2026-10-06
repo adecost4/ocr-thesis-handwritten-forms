@@ -1,0 +1,6 @@
+sample,image,ground_truth,prediction,cer,wer,exact
+a01-003-10,/Users/aloyson/Documents/Thesis/ocr-thesis-handwritten-forms/trocr_beginner_project/data/iam/lines/a01/a01-003/a01-003-10.png,institution .,institutionalism .,0.38461538461538464,0.5,0
+a01-011-06,/Users/aloyson/Documents/Thesis/ocr-thesis-handwritten-forms/trocr_beginner_project/data/iam/lines/a01/a01-011/a01-011-06.png,"Mr. Iain Macleod , is insisting on a policy of change .","Mr. Iain Macleod , is insisting on a policy of change",0.03636363636363636,0.08333333333333333,0
+a01-003-03,/Users/aloyson/Documents/Thesis/ocr-thesis-handwritten-forms/trocr_beginner_project/data/iam/lines/a01/a01-003/a01-003-03.png,Foot's line will be that as Labour M Ps,Foot's line will be that as Labour MPs,0.02564102564102564,0.2222222222222222,0
+a01-007-01,/Users/aloyson/Documents/Thesis/ocr-thesis-handwritten-forms/trocr_beginner_project/data/iam/lines/a01/a01-007/a01-007-01.png,Peeresses have been created . Most Labour,Peeresses have been created . Most Labour-,0.024390243902439025,0.14285714285714285,0
+a01-014-04,/Users/aloyson/Documents/Thesis/ocr-thesis-handwritten-forms/trocr_beginner_project/data/iam/lines/a01/a01-014/a01-014-04.png,British Government gives in to Sir Roy and,British government gives in to Sir Roy and,0.023809523809523808,0.125,0

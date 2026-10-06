@@ -1,4 +1,50 @@
-.venv/
+# -----------------------
+# Datasets
+# -----------------------
+
+# IAM Handwriting Database
+data/iam/
+
+# Other generated/processed datasets
+data/processed/
+
+# Dataset archives
+*.tgz
+*.tar
+*.tar.gz
+*.zip
+
+
+# -----------------------
+# Python
+# -----------------------
+
 __pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+
+# -----------------------
+# Jupyter
+# -----------------------
+
 .ipynb_checkpoints/
-*.pyc
+
+
+# -----------------------
+# macOS
+# -----------------------
+
+.DS_Store
+
+
+# -----------------------
+# Model checkpoints
+# -----------------------
+
+*.pt
+*.pth
+*.ckpt

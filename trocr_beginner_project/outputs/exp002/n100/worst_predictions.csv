@@ -1,0 +1,6 @@
+sample,image,ground_truth,prediction,cer,wer,exact
+a01-003-10,/Users/aloyson/Documents/Thesis/ocr-thesis-handwritten-forms/trocr_beginner_project/data/iam/lines/a01/a01-003/a01-003-10.png,institution .,institutionalism .,0.38461538461538464,0.5,0
+a01-038-12,/Users/aloyson/Documents/Thesis/ocr-thesis-handwritten-forms/trocr_beginner_project/data/iam/lines/a01/a01-038/a01-038-12.png,talks .,"talks ,",0.14285714285714285,0.5,0
+a01-049-06,/Users/aloyson/Documents/Thesis/ocr-thesis-handwritten-forms/trocr_beginner_project/data/iam/lines/a01/a01-049/a01-049-06.png,of Virginia - met today in closed session,of Virginia - need today in closed sessions,0.0975609756097561,0.25,0
+a01-049-08,/Users/aloyson/Documents/Thesis/ocr-thesis-handwritten-forms/trocr_beginner_project/data/iam/lines/a01/a01-049/a01-049-08.png,Robertson later disclosed he had sent a letter,Robertson later disclosed the fact sent a letter,0.08695652173913043,0.25,0
+a01-043-02,/Users/aloyson/Documents/Thesis/ocr-thesis-handwritten-forms/trocr_beginner_project/data/iam/lines/a01/a01-043/a01-043-02.png,defended the appointment of a Negro as,defenched the appointment of a Negro as,0.05263157894736842,0.14285714285714285,0
