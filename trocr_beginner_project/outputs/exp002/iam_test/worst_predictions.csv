@@ -1,0 +1,11 @@
+sample,ground_truth,prediction,cer,wer,exact
+p03-033-04,"suppose , to meet me for supper somewhere ? "" she had","Surname , is met at the ROH Superior Adventure ? "" THE WHO",0.6037735849056604,0.8333333333333334,0
+m04-038-04,Dinas Motor Omnibus Co. to ask what had happened to their,"Dennis Hunter Dravides , her , Her wish that had happened for Edeni",0.5789473684210527,1.0,0
+p06-047-07,"his # prescription pad , and","his # # # if pressure script on paid , and",0.5357142857142857,1.1666666666666667,0
+p02-022-04,laid his hand on hers . Gay smiled at him,David Luis blamed on Nero . Glory reunited out him,0.4878048780487805,0.7,0
+p06-030-08,you are satisfied . ',"you are rats "" pedal .",0.42857142857142855,0.8,0
+p03-189-00,Sentence Database P03-189,instance Database # # P. 3-189,0.4,1.6666666666666667,0
+p06-047-08,"# scribble on it . Then ,","still # trouble on it . Then ,",0.4,0.2857142857142857,0
+m01-049-05,"thrust out , arms dangling loosely .","themwell , and , arms changing loosely .",0.3888888888888889,0.5714285714285714,0
+m04-030-02,"She was already up the bus steps , and the bus was away . And Morfydd Owen","She was already run there has stops , and there was away . And the eighth ones",0.32432432432432434,0.5294117647058824,0
+n02-157-07,"to all kin' o' boats , wid d'ose big , big","to all trial of Scouts , which chose big , big",0.30952380952380953,0.45454545454545453,0

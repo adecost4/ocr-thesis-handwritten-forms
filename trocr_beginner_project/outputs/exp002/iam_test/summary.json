@@ -1,0 +1,9 @@
+{
+  "model": "microsoft/trocr-base-handwritten",
+  "evaluation_set": "IAM writer-independent test split (usable status=ok lines)",
+  "samples_evaluated": 1480,
+  "average_cer": 0.03329295494415804,
+  "average_wer": 0.0862928248483589,
+  "exact_matches": 842,
+  "exact_match_rate": 0.5689189189189189
+}

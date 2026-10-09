@@ -1,0 +1,1481 @@
+sample,ground_truth,prediction,cer,wer,exact
+m01-049-00,He rose from his breakfast-nook bench,He rose from his breakfast-nook bench,0.0,0.0,1
+m01-049-01,"and came into the livingroom , where","and come into the European , where",0.3055555555555556,0.2857142857142857,0
+m01-049-02,Heather and Steve stood aghast at,Heather and Neue stood again on,0.24242424242424243,0.5,0
+m01-049-03,"his entrance . He came , almost falling","his entrance . He came , album falling",0.10256410256410256,0.125,0
+m01-049-04,"forward in an ungainly shuffle , neck","found in an ungainly shuffle , neck",0.10810810810810811,0.14285714285714285,0
+m01-049-05,"thrust out , arms dangling loosely .","themwell , and , arms changing loosely .",0.3888888888888889,0.5714285714285714,0
+m01-049-06,"Then , abruptly , he drew himself up","Then , abruptly , he drew himself up",0.0,0.0,1
+m01-049-07,and walked on the very tips of,and talked on the very lips of,0.06666666666666667,0.2857142857142857,0
+m01-049-08,his toes . He stretched his arms,his does . He sketched his arms,0.09375,0.2857142857142857,0
+m01-049-10,drawing-in great breaths that,drawing-in good breaths that,0.13793103448275862,0.25,0
+m01-060-02,"forward . "" Isn't it a glorious thing ! Long awaited","forward . "" Sn't it a glorious thing ! I say awaited",0.1346153846153846,0.2727272727272727,0
+m01-060-03,"transcendent event , the exalted desire of all","transcendent event , the exalted desire of all",0.0,0.0,1
+m01-060-04,mankind through all ages ! The Kingdom of the,mankind through all ages ! The Kingdom of the,0.0,0.0,1
+m01-060-05,"Mind is at hand ! "" He turned beaming eyes","Mind is at hand ! "" He turned becoming eyes",0.047619047619047616,0.1,0
+m01-060-06,upward and shook his head slowly from,upward and shook his head slowly from,0.0,0.0,1
+m01-079-00,A superfluous precaution for there was no other car,A superfluos precaution for there was no other car,0.0196078431372549,0.1111111111111111,0
+m01-079-01,abroad ; and no pedestrian to cross his path nor to wait,abroad ; and no pedestrian to cross his path nor to wait,0.0,0.0,1
+m01-079-02,at an intersection for the light to change . At his,at an intersection for the light to change . At his,0.0,0.0,1
+m01-079-03,apartment he garaged his car and then stood,apartment he garaged his car and then stood,0.0,0.0,1
+m01-084-00,"Deadly stillness , deadly portent !","Deadly stillness , deadly patient !",0.08571428571428572,0.16666666666666666,0
+m01-084-01,Steve awakened early and switched on,Steve awakened early and switched on,0.0,0.0,1
+m01-084-03,The set lighted-up but gave only a low,The set lighted-up but gave only a low,0.0,0.0,1
+m01-084-04,buzzing sound . He had just finished,buzzing sound . He had just finished,0.0,0.0,1
+m01-084-05,"shaving when it came on , with a flat","shaving when it came on , with a flat",0.0,0.0,1
+m01-084-06,"voice repeating : "" This is BBC calling","voice reporting : "" This is BBC calling",0.05128205128205128,0.125,0
+m01-084-07,"... this is BBC calling ... """," ... . this is BBC calling ... """,0.06896551724137931,0.14285714285714285,0
+m01-090-00,"After what seemed an undue period of repetition , the voice","After what seemed an undue period of repetition , the voice",0.0,0.0,1
+m01-090-01,went on to describe the landing of the Thetan colony,went on to describe the landing of the Thetan colony,0.0,0.0,1
+m01-090-02,"in Sussex , in all its obscene details . Then the radio","in Sussex , in all its obscure details . Then the radio",0.03636363636363636,0.08333333333333333,0
+m01-090-03,"went dead again , and Steve had no stomach for","went dead again , and Steve had no stomach for",0.0,0.0,1
+m01-090-04,"breakfast . It was a beautiful day , as firsts-of-June","breakfast . It was a beautiful day , as first-of-June",0.018518518518518517,0.1,0
+m01-090-05,should be . Steve got out the car and traversed the,should be . Steve got out the car and traversed the,0.0,0.0,1
+m01-090-06,"same empty streets as he had the night before ,","sainie empty streets as he had the night before ,",0.06382978723404255,0.1,0
+m01-090-07,to keep an appointment with Heather .,to keep an appointment with Heather-,0.05405405405405406,0.2857142857142857,0
+m01-095-00,Coming around the great mass of the Chateau,Coming around the great mass of the Chateau,0.0,0.0,1
+m01-095-01,"Laurier , he braked to a screeching stop . A","Laurier , he broken to a screeching stop . A",0.045454545454545456,0.1,0
+m01-095-02,flying saucer was tilting and dipping over,flying cancer was sitting and dipping over,0.09523809523809523,0.2857142857142857,0
+m01-095-03,the War Memorial . There was a deep,the war Memorial . There was a deep,0.02857142857142857,0.125,0
+m01-095-05,overtone that sang in his ears with an,overtone that sang in his ears with an,0.0,0.0,1
+m01-095-06,almost painful sharpness . He reversed and,almost painful sharpness . He reversed and,0.0,0.0,1
+m01-095-07,turned back on McKenzie Avenue .,turned back on Mc Kenzie Avenue .,0.03125,0.3333333333333333,0
+m01-104-00,""" The Thetans , "" he said , "" are presumably here to",""" The Bretans , "" he said , "" are presumably here to",0.038461538461538464,0.07692307692307693,0
+m01-104-01,"take charge , as it were , of the minds of the","take charge , as it were , of the minds of the",0.0,0.0,1
+m01-104-02,people - who are probably falling all over them-,people - who are probably falling all over them-,0.0,0.0,1
+m01-104-03,selves in their zeal to get their orders and to carry,selves in these zeal to get their orders and to carry,0.03773584905660377,0.09090909090909091,0
+m01-104-04,"them out . Just what these orders will be , we don't","them out . Just what these orders will be , we don't",0.0,0.0,1
+m01-104-05,"know . Now , because of prior hypnosis we have es-","know . Now , because of prior hypnosis we have es-",0.0,0.0,1
+m01-104-06,caped Thetan subjugation . This time . But we no,caped Phalan subjugation . This time . But we no,0.0625,0.1,0
+m01-104-07,longer have any immunity .,longer have any immunity .,0.0,0.0,1
+m01-110-00,There can be little doubt that if the,There can be little doubt that if the,0.0,0.0,1
+m01-110-01,Thetans discover our mental independence,therbias discovers our mental independence,0.15,0.4,0
+m01-110-02,they will promptly give us their hypnotic,they will probably give us their hypnotic,0.07317073170731707,0.14285714285714285,0
+m01-110-03,treatment . If we can avoid undue,treatment . If we can avoid undue,0.0,0.0,1
+m01-110-04,"prominence , it may be that we can","prominence , it may be that we can",0.0,0.0,1
+m01-110-05,move about pretty freely without,move about pretty freeless without,0.09375,0.2,0
+m01-110-06,"detection . If we can - well , then we","detactions . It is con-well , them are",0.2894736842105263,0.8,0
+m01-110-08,interests . What those interests,interest . What those interests,0.03125,0.2,0
+m01-110-09,"are , beyond personal security ,","are , beyond personal security ,",0.0,0.0,1
+m01-110-10,"I haven't a clue ; but , who knows ,","I haven't a clue ; but , who knows ,",0.0,0.0,1
+m01-115-00,""" Now , to summarize what I think our",""" Now , to summarize what I think our",0.0,0.0,1
+m01-115-01,"course of action should be . First , to avoid the","course of action should be . First , to avoid the",0.0,0.0,1
+m01-115-02,"Thetans like the plague , for they must not","Thetans like the plague , for they must not",0.0,0.0,1
+m01-115-03,"find us out ! Second , to tread pretty warily","find us out ! Second , to tread pretty warily",0.0,0.0,1
+m01-115-04,"among our own people , finding out just how","among our own people , finding out just how",0.0,0.0,1
+m01-115-05,much freedom we can take with safety .,much freedom we can take with safety .,0.0,0.0,1
+m01-115-06,"And third , to study these damned Thetans .","And third , to study these damned Thetans",0.046511627906976744,0.1111111111111111,0
+m01-115-07,We must learn all we can about,We must learn all we can about,0.0,0.0,1
+m01-121-00,There is just a hope that we may uncover,there is just a hope that we may uncover,0.025,0.1111111111111111,0
+m01-121-01,"some weakness , and find a way of fighting","some weakness , and find a way of fighting",0.0,0.0,1
+m01-121-02,"back at them . "" Heather agreed , and suggested","back at them . "" Heather agreed , and suggested",0.0,0.0,1
+m01-121-03,that they use Dan as a specimen demonstra-,that they use Dan as a specimen demonstrated,0.07142857142857142,0.125,0
+m01-121-04,ting how the Thetan machinations had been,ting how the Phatan machinations had been,0.04878048780487805,0.14285714285714285,0
+m01-121-05,working out . It occurred to Steve that this may,working out . It occurred to Steve that this may,0.0,0.0,1
+m01-121-06,not have been entirely an objective suggestion,net have been entirely an objective suggestion,0.021739130434782608,0.14285714285714285,0
+m01-121-07,on her part ; but he thought it a good idea,on her part ; but he thought it a good idea,0.0,0.0,1
+m01-125-00,So they proceeded to see if the coast,So they proceeded to see if the coast,0.0,0.0,1
+m01-125-01,was clear . The street was quiet and,was clear . The street was quiet and,0.0,0.0,1
+m01-125-03,nor sound of flying saucers . So they,now sound of flying success . So they,0.10810810810810811,0.25,0
+m01-125-04,ventured forth and made their way on,ventures for the land made their way on,0.1111111111111111,0.5714285714285714,0
+m01-125-05,foot to Dan's house . Dan came,foot to Dam's house . Dan came,0.03333333333333333,0.14285714285714285,0
+m01-125-06,to the door at their ring but neglected,to the door at their ring but neglected,0.0,0.0,1
+m01-125-07,to offer any greeting . He was deeply,to offer any greeting . He was deeply,0.0,0.0,1
+m01-125-08,"preoccupied , and it seemed that the","preoccupied , and it seemed that the",0.0,0.0,1
+m01-125-09,ringing of a doorbell was to him,ringing of a doorbell was to him,0.0,0.0,1
+m01-125-10,a new and strange phenomenon .,a new and strange phenomena .,0.06666666666666667,0.16666666666666666,0
+m01-131-00,"When he finally beckoned to them to enter , the action","When he finally beckoned to them to enter , the action",0.0,0.0,1
+m01-131-01,gave the impression of having been thought out and,gave the impression of having been thought out and,0.0,0.0,1
+m01-131-05,their heads like tennis spectators as he walked up and,their heads like tennis spectators as he walked up and,0.0,0.0,1
+m01-136-00,His whole attitude was a mixture of,His whole attitude was a mixture of,0.0,0.0,1
+m01-136-01,impatience pending an awaited,impatience penciling an awaited,0.10344827586206896,0.25,0
+m01-136-02,communication and of a vague,communication and of a vague,0.0,0.0,1
+m01-136-03,perplexity respecting his surroundings,perplexity respecting his surroundings,0.0,0.0,1
+m01-136-04,and the purpose he was to serve .,and the purpose he was to serve,0.06060606060606061,0.125,0
+m01-136-06,Heather and Steve tried to make themselves,Heather and Steve tried to make themselves,0.0,0.0,1
+m01-136-07,at home . Steve switched on Dan's,at home . Steve switched on Dan's,0.0,0.0,1
+m01-136-08,"powerful , world-wide radio and systematically","powerful , world-wide radio and systematically",0.0,0.0,1
+m01-136-09,turned the tuning knob through all the,turned the tuning knob through all the,0.0,0.0,1
+m01-149-00,"They followed him to a city bus stop on Carling Avenue , where","They followed him to a city bus stop on Carling Avenue , where",0.0,0.0,1
+m01-149-01,he waited . The bus stop was a deserted island on an empty street .,he waited . The bus stop was a deserted island on a empty street .,0.014925373134328358,0.06666666666666667,0
+m01-149-02,"But not for long , for soon pedestrians and cars flocked upon","But not for long , for some pedestrians and cars flocked upon",0.03278688524590164,0.08333333333333333,0
+m01-149-03,the Avenue from its many tributary streets . It might have,the Avenue from its many trilmonary streets . It might have,0.06896551724137931,0.09090909090909091,0
+m01-149-04,"been a normal business-day bustle , except for two anomalies .","been a normal business-day hostile , except for two anomalies .",0.04838709677419355,0.09090909090909091,0
+m01-149-06,"walked , or drove , or waited as a person possessed of","walked , or drove , or waited as a person possessed of",0.0,0.0,1
+m01-149-07,a single all-exclusive purpose .,a single all-exclusive purpose .,0.0,0.0,1
+m01-160-00,After a long wait a bus appeared and they,After a long wait a bus appeared and they,0.0,0.0,1
+m01-160-01,"followed the beaming Dan aboard , taking","followed the beaming Dan aboard , taking",0.0,0.0,1
+m01-160-02,seats some rows behind him . Steve was,seats some rows behind him . Steve was,0.0,0.0,1
+m01-160-03,"beginning to find the stereotyped , flattish , happy","beginning to find the stereotyped , flattish , happy",0.0,0.0,1
+m01-160-04,faces very disconcerting ; and looking at,faces very disconcerting ; and looking at,0.0,0.0,1
+m01-160-05,Heather he found a welcome relief in her,Heather he found on welcome relief in her,0.05,0.125,0
+m01-160-06,relatively long doleful one,relatively long doleful one,0.0,0.0,1
+m02-048-00,Then he would go back to Plato for a final spell of,Then he would go back to Plato for a final spell of,0.0,0.0,1
+m02-048-01,real days and would return to New York in late,real days and would return to New York in late,0.0,0.0,1
+m02-048-03,little sorry if we were not back for Christmas,little sorry if we were not back for Christmas,0.0,0.0,1
+m02-048-04,"as arranged , but he consoled himself by","as arranged , but he consulted himself by",0.05,0.125,0
+m02-048-05,thinking that he and Angelina would have,thinking that he and Angelina would have,0.0,0.0,1
+m02-048-06,plenty of time together in the future . And,Plenty of time together in the future . And,0.023255813953488372,0.1111111111111111,0
+m02-048-07,"Heaven alone knew when , if ever , he would be","Heaven alone knew when , if ever , he would be",0.0,0.0,1
+m02-048-08,"back on Moon again , and able to do","book on Moon again , and able to do",0.05714285714285714,0.1111111111111111,0
+m02-048-09,research at first hand into matters on which,research at first hand into matters on which,0.0,0.0,1
+m02-048-10,"the future of everyone , including Angelina , depended ...","the future of everyone , including Angelina , depends .",0.06896551724137931,0.2,0
+m02-052-02,"expenses , with the people to whom Moke had","expenses , with the people to whom Moke had",0.0,0.0,1
+m02-052-03,sent him : little people who regarded him as,sent him : little people who regarded him as,0.0,0.0,1
+m02-052-04,lucky to have descended from such economic altitudes .,lucky to have descended from such economic altitudes .,0.0,0.0,1
+m02-052-05,Tom Dreyfus had a job on the machines in the Secretariat,Tom Dreyfus had a job on the machines in the secretariat,0.017857142857142856,0.09090909090909091,0
+m02-052-06,( Stamp Department ) while Sally sulked at home .,( Stamp Department ) while Sally sulked at home,0.04081632653061224,0.1,0
+m02-055-00,"They had been married for six years , but the","They had been married for six years , but the",0.0,0.0,1
+m02-055-01,"salary raise , on the expectation of which they","salary raise , on the expectation of which they",0.0,0.0,1
+m02-055-02,"had done so , had not materialised . "" Do you","had done so , had not materialised . "" Do you",0.0,0.0,1
+m02-055-03,"know , I had to send back our bedroom","brows , I had to send back our bedroom",0.08108108108108109,0.1111111111111111,0
+m02-055-04,"furniture in the second year , "" she moaned . She","furniture in the second year , "" she moaned . She",0.0,0.0,1
+m02-055-05,"had contacts in political circles , a school-","had contacts in political circles , a school-",0.0,0.0,1
+m02-055-06,"friend of hers having married Lester Peron ,","friend of hers having married Lester Peron ,",0.0,0.0,1
+m02-055-07,a Mocrat Senator with a seat on the,a Macrat Senator with a seat on the,0.02857142857142857,0.125,0
+m02-059-01,"never her husband , a fact he accepted as inevitable . "" I guess","never her husband , a fact he accepted as inevitable . "" I guess",0.0,0.0,1
+m02-059-02,"Sally made a mistake about me , "" he said one","Sally made a mistake about me , "" he said one",0.0,0.0,1
+m02-059-03,"evening , when he had been left to cook his own meal .","evening , when he had been left to cook his own meal",0.037037037037037035,0.07692307692307693,0
+m02-059-05,"was a Static Mib , the middle-income-bracket equivalent","was a static Mlb , the middle-income-brocket equivalent",0.05454545454545454,0.375,0
+m02-066-00,"All Aristotle was excited at the time , not by the prospect of the","All Aristotle was excited at the time , not by the prospect of the",0.0,0.0,1
+m02-066-01,"U.S. President's visit , but by a great storm in the photo-","U.S. President's visit , but by a great storm in the photos-",0.01694915254237288,0.08333333333333333,0
+m02-066-02,sphere of the sun . A matter which on Earth would hardly,where of the score . A matter which on Earth could hardly,0.125,0.25,0
+m02-066-03,penetrate beyond the minds of astronomers was of general,exertimate beyond the minds of astronomers was of general,0.08928571428571429,0.1111111111111111,0
+m02-069-00,One wondered if this greater awareness of the physical cosmos might,One wondered if this greater awareness of the physical cosmos might,0.0,0.0,1
+m02-069-01,"with time instil the reverence which , on Earth , nature inspires ,","With three instill the resource which , on Earth , native inquiries ,",0.22388059701492538,0.46153846153846156,0
+m02-069-02,especially when one reflected that the rockets over which Mr. Peron's,expelling when one reflected that the rocket over which Mr. Raon's,0.15942028985507245,0.2727272727272727,0
+m02-069-03,Board presided had it in their power permanently to warp the,Band presided had it in their power permanently to warp the,0.03333333333333333,0.09090909090909091,0
+m02-069-04,"solar system . True enough , such ultimate weapons had not been","what spoken . The enough , such intimate weapons had not been",0.19047619047619047,0.3333333333333333,0
+m02-069-07,allies being more inferior than formerly to W.C.U. in the,allies being more inferior than to W.C. U. in the,0.17543859649122806,0.3,0
+m02-072-00,Lester was not home yet from his formidable,Lester was not home yet from his formidable,0.0,0.0,1
+m02-072-01,"duties and his wife , in the manner of middle-brow","clatties and his wife , in the manner of middle-brow",0.08,0.1,0
+m02-072-03,"country lawyer , and we were very small 4microdebs , weren't we ,","country lawyer , and we were very small ( microdebs , when time ,",0.1076923076923077,0.3076923076923077,0
+m02-072-04,"Sally "" - here she had dropped her voice in homage to the","Sally "" there she had dropped her voice in homage to the",0.03508771929824561,0.15384615384615385,0
+m02-072-05,"economic system : that was reverenced - "" when he thought","economic system : that was revered - "" when he thought",0.05263157894736842,0.09090909090909091,0
+m02-072-06,we might get GO a bit better if he entered politics .,we might get GO a bit better if he entered politics .,0.0,0.0,1
+m02-075-00,Know how he did it ? He 's clever on,Know how he did it ? He's clever on,0.027777777777777776,0.2,0
+m02-075-01,the mouth-organ . So when he visited some,the mouth-organ . So when he visited some,0.0,0.0,1
+m02-075-02,craterlet on Face ( ours is an agricultural,craterlet on Face ( ours is an agricultural,0.0,0.0,1
+m02-075-04,as soon as he had spoken a few,as soon as he had spoken a few,0.0,0.0,1
+m02-075-05,sentences of his speech : ' Cut the,sentences of his speech : ' Cut the,0.0,0.0,1
+m02-075-06,"politics , Lester , give us something on","politics , Lester , give us something on",0.0,0.0,1
+m02-080-02,we came through to 4makrodeb status and,we came through to 4makrodelo status and,0.05128205128205128,0.14285714285714285,0
+m02-080-03,"got all these lovely things "" - she waved a",got all these lovely things ' - she moved a,0.06976744186046512,0.2,0
+m02-080-04,"plump hand towards her grand pianos , etc :","plump hand towards her grand pianos , etc :",0.0,0.0,1
+m02-080-05,"at the same time a door banged - "" but don't","at the same time a door banged - "" but don't",0.0,0.0,1
+m02-080-06,"say a word about it , Lester wants his","say a word about it , Lester wants his",0.0,0.0,1
+m02-080-07,mouth-organ to be forgotten now . The time,mouth-organ to be forgotten now . The time,0.0,0.0,1
+m02-080-08,has come for him to be taken seriously,has come for him to be taken seriously,0.0,0.0,1
+m02-083-00,"Peron entered , a large man , who had once been","Peron entered , a large man , who had once been",0.0,0.0,1
+m02-083-01,"handsome but was now seedy-looking , a sufferer","handsome but was now seedy-looking , a sufferer",0.0,0.0,1
+m02-083-02,from stomach-ulcers . In the Back-Face tradition he,from stomach-ulcers . In the Back-Face tradition he,0.0,0.0,1
+m02-083-03,"wore , and kept on indoors , a fifty gallon hat . Harry was","wore , and kept on indoors , a fifty gallon hat . Harry was",0.0,0.0,1
+m02-083-04,"prepared for something unpleasant , for this was","prepared for something unpleasant , for this was",0.0,0.0,1
+m02-083-05,the Senator who had annoyed the United States,the Senator who had annoyed the United States,0.0,0.0,1
+m02-083-06,by bragging how he had once won a trick from,by bragging how he had once won a trick from,0.0,0.0,1
+m02-083-07,W.C.U. by threatening to loose off one of his,W.C.U. by threatening to loose off one of his,0.0,0.0,1
+m02-083-08,rockets ( an admission which would scarcely help,rockets ( an admission which would scarcely help,0.0,0.0,1
+m02-083-09,"bluff to succeed the next time ) and , lately , by","bluff to succeed the next time ) and , lately , by",0.0,0.0,1
+m02-087-00,But privately he turned out to be as friendly as,But privately he turned out to be as friendly as,0.0,0.0,1
+m02-087-01,"Mr. Wise the tube manufacturer , to have the same adolescent","Mr. Wise the tube manufacturer , to have the same adolescent",0.0,0.0,1
+m02-087-02,"openness and freshness , though perhaps not the same","openness and freshness , though perhaps not the same",0.0,0.0,1
+m02-087-03,maturity . One remembered that he was a lawyer,maternity . One remembered that he was a lawyer,0.043478260869565216,0.1111111111111111,0
+m02-087-04,"by training , and suspected that the points he made","by training , and suspected that the points he made",0.0,0.0,1
+m02-087-05,so sharply in international politics were as abstract,so sharply in international politics were as abstract,0.0,0.0,1
+m02-087-06,to him as those a lawyer makes in a court,to him as those a lawyer makes in a court,0.0,0.0,1
+m02-090-00,"The motive would be the same in both cases , to","The motive would be the same in both cases , to",0.0,0.0,1
+m02-090-01,"serve this home of his , in which his heart lay .","serve this home of his , in which his heart lay",0.04081632653061224,0.08333333333333333,0
+m02-090-02,Here the rocket man's charm was disarming . Yet,Here the rocket man's charm was disarming . Yet,0.0,0.0,1
+m02-090-03,"when the time came to leave , Harry felt as de-","when the time came to leave , Harry felt as de-",0.0,0.0,1
+m02-090-04,"pressed as when he left Mrs. Halliday's office ,","pressed as when he left Mrs. Halliday's office ,",0.0,0.0,1
+m02-090-05,exactly a month ago . If even Mo statesmen only,exactly a month ago . If even it's statesmen only,0.0851063829787234,0.1,0
+m02-090-06,did what they had to do to get GO on an expan-,did what they had to do to get GO on an expan-,0.0,0.0,1
+m02-090-07,"ding scale , and left the sum-total of their actions ,","ding scale , and left the sum-total of their actions ,",0.0,0.0,1
+m02-090-08,"and their lunar and earthly repercussions , to luck","and their lunar and earthly repercussions , to luck",0.0,0.0,1
+m02-095-00,The political life of Aristotle looked more and more,The political life of Aristotle looked more and more,0.0,0.0,1
+m02-095-01,like a masquerade of business interests in dis-,like a Masquerade of Business interests in his-,0.06382978723404255,0.375,0
+m02-095-02,"guise which , far from attracting the allegiance","quise which , far from attracting the allegiance",0.020833333333333332,0.125,0
+m02-095-03,"of free men everywhere , could only repel them .","of free men everywhere , could only repel them .",0.0,0.0,1
+m02-095-04,Then what of the cultural life ? Did this per-,Then what of the cultural life ? Did this per-,0.0,0.0,1
+m02-095-05,haps nurture a genuinely civilizing impulse,haps nurture a genuinely civilizing impulse,0.0,0.0,1
+m02-095-06,which might in time become social fact,which might in time become social fact,0.0,0.0,1
+m02-095-07,and counteract the obsession with economics,and counteract the obsession with economics,0.0,0.0,1
+m02-095-08,which had grown up during the Moon's,which had grown up during the Monn's,0.027777777777777776,0.14285714285714285,0
+m02-102-00,At the centre of each circle stood personnel,At the centre of each circle stood personnel,0.0,0.0,1
+m02-102-02,and their filing clerks . The students had,and their filing clerks . They students had,0.023809523809523808,0.125,0
+m02-102-04,were now being bought forward in their,were now being bought forward in their,0.0,0.0,1
+m02-102-05,turn . By comparing personal appearances,turn . By comparing personal appearances,0.0,0.0,1
+m02-102-06,"with university records , the agents of the","with university records , the agents of the",0.0,0.0,1
+m02-102-08,"and women who interested them , and contracts","and women who interested them , and contracts",0.0,0.0,1
+m02-102-09,would be initialled at the end of,would be in its likelihood at the end of,0.30303030303030304,0.42857142857142855,0
+m02-106-00,But since starting salaries would depend on grade A,But since starting salaries would depend on grade A,0.0,0.0,1
+m02-106-01,"or B in the finals next May , and since mating","or B in the finals next May , and since mating",0.0,0.0,1
+m02-106-02,"prospects would depend upon salaries , scholarship for","prospects would depend upon salaries , scholarship for",0.0,0.0,1
+m02-106-03,these fine young people was closely geared to,these fine young people was closely geared to,0.0,0.0,1
+m02-106-05,"were really means . So , seeing them revolve in","were really means . So , seeing them revolves in",0.02127659574468085,0.1,0
+m02-106-07,"Moke consciously or unconsciously symbolised , any-","Moke consciously or unconsciously symbolised , any-",0.0,0.0,1
+m02-106-08,way in Harry's mind ) had these splendid young,way in Harry's mind ) had these splendid young,0.0,0.0,1
+m02-106-09,"people by the short hairs , and was diverting them ...","people by the short hairs , and was diverting them ... .",0.037037037037037035,0.09090909090909091,0
+m02-109-01,"to be diverted , however , with the single exception of one","to be divestant , however , with the single exception of over",0.1016949152542373,0.16666666666666666,0
+m02-109-03,step . He looked as if nothing Moke and his,step . He lateral as if nothing more and his,0.18604651162790697,0.2,0
+m02-109-06,neurosis and not in some eruption from those,nearosis and not in some eruption from those,0.022727272727272728,0.125,0
+m02-112-00,"So once again the metaphysics were depressing ,","So once again the metaphysics were depressing ,",0.0,0.0,1
+m02-112-01,and in absolute contrast to the physical display .,and in absolute contrast to the physical display,0.04,0.1111111111111111,0
+m02-112-02,"Mos have an un-American love of parades , and","Most have an un-American love of parades , and",0.022222222222222223,0.1111111111111111,0
+m02-112-03,"these young ones , on parade for jobs which they","these young ones , on parade for jobs which they",0.0,0.0,1
+m02-112-05,putting their best foot forward .,putting their best foot forward .,0.0,0.0,1
+m03-006-02,edge ... did you notice ? And the mules,"edge ... , did you notice ? And the number",0.15384615384615385,0.2222222222222222,0
+m03-006-03,didn't seem to want to get off the raft . ',"didn't seem to want to get off the raft . """,0.023255813953488372,0.09090909090909091,0
+m03-006-04,He peered as it were into the dark secrets,He peered as it were into the dark secrets,0.0,0.0,1
+m03-006-07,"night , exceptionally brilliant and strange ,","night , exceptionally brilliant and strange ,",0.0,0.0,1
+m03-006-08,"for in the proximity of the mountains ,","for in the proximity of the mountains ,",0.0,0.0,1
+m03-006-09,"whose presence I could almost smell ,","whose presence I could almost smell ,",0.0,0.0,1
+m03-013-01,on the cosmic handiwork . ' All those stars . But I 'm,on the cosmic handiwork . ' All those stars . But I'm,0.018518518518518517,0.15384615384615385,0
+m03-013-02,"a bit earthbound tonight , Trout . I 've got a queer","a bit earthboard tonight , Trout . I've got a queer",0.057692307692307696,0.25,0
+m03-013-03,"feeling , like I always get when something","feeling , like I always get when something",0.0,0.0,1
+m03-013-05,"if you ask me . Might be jaguar , might be ...","if you ask me . Might be jaguar , might be ... .",0.043478260869565216,0.08333333333333333,0
+m03-020-00,"Hope I die kind of composed , Trout . I mean you can't","Hope I did kind of composed , Trout . I mean you can't",0.018518518518518517,0.07692307692307693,0
+m03-020-01,"imagine the Christian martyrs twisting and shrieking ,",imagine the Christian martyrs twisting and shrieking,0.037037037037037035,0.125,0
+m03-020-03,"lion munching , or arrows where it hurts most . Or","lion mucking , or arrows where it hurts most . or",0.06,0.18181818181818182,0
+m03-020-04,can you . Look over there . ' He pointed to the,"can you , Look over there . ' He pointed to the",0.02127659574468085,0.08333333333333333,0
+m03-020-05,shadows beyond the river . ' Something moved . ',shadows beyond the river . ' Something moved . ',0.0,0.0,1
+m03-033-01,may have thought I had become unbalanced,may have thought I had become unbalanced,0.0,0.0,1
+m03-033-02,through fear . ' A character Mr Gilberto mentioned,through fear . ' A character Mr Giillberto mentioned,0.04,0.1111111111111111,0
+m03-033-04,the forest Indians are said to be mortally,they forest Indians are said to be mortally,0.023809523809523808,0.125,0
+m03-033-05,"afraid , with a hoof shaped like the heel","afraid , with a proof shaped like the heel",0.04878048780487805,0.1111111111111111,0
+m03-033-06,of a bottle . If your lordship will excuse me,of a bottle . If your hardship will excuse me,0.044444444444444446,0.1,0
+m03-062-00,"Small , repulsive creatures they were ,","Small , repulsive creatures they were ,",0.0,0.0,1
+m03-062-02,resemblance to the shrunk heads we had,resemblance to the shrunk heads we had,0.0,0.0,1
+m03-062-03,gazed at recently ; and I have no,gazed at recently ; and I have no,0.0,0.0,1
+m03-062-04,hesitation in saying that they would have,hesitation in saying that they would have,0.0,0.0,1
+m03-062-05,made an end of us but for an intervention,made an end of us but for an intervention,0.0,0.0,1
+m03-062-06,"so unexpected , so unusual , that only the","so unexpected , so unusual , that only the",0.0,0.0,1
+m03-062-07,necessity of rounding my narrative,necessity of rounding my narrative,0.0,0.0,1
+m03-062-08,compels me to mention it .,campsets me to mention it .,0.11538461538461539,0.16666666666666666,0
+m03-095-00,I had a distinct impression that the,I had a distinct impression that the,0.0,0.0,1
+m03-095-01,hut had recently been cleaned and,hut had recently been cleaned and,0.0,0.0,1
+m03-095-02,prepared for visitors . Mrs Caine said,prepared for visitors . Mrs Caine said,0.0,0.0,1
+m03-095-03,we were to go no further unless and,we were to go no further unless and,0.0,0.0,1
+m03-095-04,"until we were sent for , confirming","until we were sent for , confirming",0.0,0.0,1
+m03-095-05,another impression that became more,another impression that became more,0.0,0.0,1
+m03-095-06,"and more definite , namely , that","and more definite , namely , that",0.0,0.0,1
+m03-095-07,she was in touch with an invi-,she was in touch with an invi-,0.0,0.0,1
+m03-095-08,sible source of authority .,sible source of authority .,0.0,0.0,1
+m03-110-00,"Sally and of course Mrs Septimus , for surely","Sally and of course Mrs Septimus , for surely",0.0,0.0,1
+m03-110-01,Mr Septimus stood in the same case as,Mr Septimus stood in the same case as,0.0,0.0,1
+m03-110-02,myself ? But was it so ? I allowed myself,myself ? But was it so ? I allowed myself,0.0,0.0,1
+m03-110-03,"to entertain for an instant the idea , the","to entertain for an instant the idea , the",0.0,0.0,1
+m03-110-06,would be inopportune ; and with the idea came,would be inapparture ; and will the idea came,0.1111111111111111,0.2222222222222222,0
+m03-110-08,"to watch Mr Septimus more closely , Mrs","to watch Mr Septimus more closely , Mrs",0.0,0.0,1
+m03-110-09,Caine too and Mr Gilberto who would ...,Caine too and Mr Gilbert who would ... .,0.07692307692307693,0.25,0
+m03-114-00,But all three were to the casual,But all three were to the casual,0.0,0.0,1
+m03-114-01,observation I permitted myself unruffled ;,"observation I permitted myself unruffled ,",0.023809523809523808,0.16666666666666666,0
+m03-114-02,Mr Septimus reserved and certainly very,Mr Septimus reserved and certainly very,0.0,0.0,1
+m03-114-03,"thoughtful , but that was his habit . Indeed","thoughtful , but that was his habit . Indeed",0.0,0.0,1
+m03-114-04,we were all invaded by a most tranquil,we were all invaded by a most tranquil,0.0,0.0,1
+m03-114-05,"mood . Even the Indian servants relaxed , knowing ,","wood . Even the Indian servants released , knowing ,",0.058823529411764705,0.2,0
+m03-114-06,"so Mr Gilberto told us , that the wild and","so Mr Gilbert's told us , that the wild and",0.047619047619047616,0.1,0
+m03-114-07,savage tribes never approached this region : at,savage tribes never approached this region : at,0.0,0.0,1
+m03-114-08,"any rate they remained with us , perhaps","any rate they remained with us , perhaps",0.0,0.0,1
+m03-114-09,"for such protection as our presence , or Mrs","for such protection as our presence , or Mrs",0.0,0.0,1
+m03-118-00,But after what Mrs Caine had said it was never,Bent after what Mrs Caine had opened it was never,0.15217391304347827,0.2,0
+m03-118-01,far from our minds that at any moment we were,far from our minds that at any moment we were,0.0,0.0,1
+m03-118-02,to receive a summons . I could see that Mr Septimus,"to receive a summons . "" I could see that Mr. Septimny",0.09803921568627451,0.2727272727272727,0
+m03-118-03,"was impatient for it . This afternoon , then , we climbed","was impatient for it . This afternoon , then , we convinced",0.08771929824561403,0.08333333333333333,0
+m03-118-04,"a promontory , a mass of clean rock crowned with","a promontory , a mass of clean rock crowned with",0.0,0.0,1
+m03-118-05,"trees and bushes , that stood well out over the lake .","trees and bushes , that stood well out over the lake .",0.0,0.0,1
+m04-000-00,NO ONE has ever satisfactorily explained how a,NO ONE has ever satisfactorily explained how a,0.0,0.0,1
+m04-000-03,"too carefree , and becoming airborne ?","too carefree , and becoming airborne ?",0.0,0.0,1
+m04-000-04,Caught by a sudden gust of wind ? A,Caught by a sudden gust of wind ? A,0.0,0.0,1
+m04-000-05,combination of the two ? No one seems,combination of the two ? No one seems,0.0,0.0,1
+m04-000-06,to know . But the fact remains that get,to know . But the fact remains that get,0.0,0.0,1
+m04-000-07,itself into orbit it did .,itself into orbit it did .,0.0,0.0,1
+m04-007-00,"And a fine old fuss there was about it , too .","And a fine old fuss there was about it , too ,",0.021739130434782608,0.08333333333333333,0
+m04-007-02,"the bus , the 2.20 from Dinas to Llangrwl ,","the bus , the 2.20 from Dinas to Llangrwl ,",0.0,0.0,1
+m04-007-04,"Aboard , apart from the crew , were Mrs. Megan","Aboard , apart from the crew , were Mrs. Megan",0.0,0.0,1
+m04-007-05,Thomas and her five-year-old son Cadwallader ;,"Thomas and her five-year-old son Cadwallader ,",0.021739130434782608,0.14285714285714285,0
+m04-007-06,pretty little Morfydd Owen ; Mr. Stanley Hayball,pretty little Morfydd Owen ; Mr. Stanley Hayball,0.0,0.0,1
+m04-007-08,Birmingham ; Price the Provisions ; and the,Birmingham ; Price the Provisions ; and the,0.0,0.0,1
+m04-012-00,"Yes , the bus set out from Dinas . So much","Yes , the bus set out from Dinas . So much",0.0,0.0,1
+m04-012-01,"is established . Ifor Huw Evans , Propr. ,","is established . Ifor Huw Evans , Progn. ,",0.047619047619047616,0.1111111111111111,0
+m04-012-02,watched it go from the windows of the,watched it go from the windows of the,0.0,0.0,1
+m04-012-03,"Dinas Motor Omnibus Co. Very interested ,","Dinas Motor Omnibus Co. Very interested ,",0.0,0.0,1
+m04-012-04,"Ifor was . For there was his garage hand ,","Ifor was . For there was his garage hand ,",0.0,0.0,1
+m04-012-05,"Dai Pugh , taking a tearful farewell of","Dai Pugh , taking a tearful farewell of",0.0,0.0,1
+m04-012-06,"Morfydd Owen . Morfydd , who had until","Morfydd Owen . Morfydd , who had until",0.0,0.0,1
+m04-012-07,"recently been Ifor's typist , but was now","recently been Ifor's typist , but was now",0.0,0.0,1
+m04-012-08,returning to her home town as a,returning to her home town as a,0.0,0.0,1
+m04-012-09,fully-fledged schoolteacher .,fully-fledged schoolteacher .,0.0,0.0,1
+m04-019-00,""" But I 'm only going fifteen miles away , """,""" But I'm only going fifteen miles away , """,0.022727272727272728,0.18181818181818182,0
+m04-019-01,"Morfydd was saying . "" Not the end of","Morfydd was saying . "" Not the end of",0.0,0.0,1
+m04-019-02,"the world , is it ? "" "" For me it is , "" Dai","the world , is it ? "" "" For me it is , "" Dai",0.0,0.0,1
+m04-019-03,"said wretchedly , wiping his hands on his","said wretchedly , wiping his hands on his",0.0,0.0,1
+m04-019-04,"overalls preparatory to a last embrace . "" You","overalls preparatory to a last embrace . "" You",0.0,0.0,1
+m04-019-05,will not be remembering a mere garage,will not be unsembering a mere garage,0.08108108108108109,0.14285714285714285,0
+m04-019-06,hand when you are lording it over,hand when you are lording it over,0.0,0.0,1
+m04-019-07,"the Mixed Infants of Llangrwl . ""","the Mixed Infants of Llangrwl . """,0.0,0.0,1
+m04-024-00,""" Silly boy , "" said Morfydd . Though she",""" Eilly boy , "" said Morfydd . Though she",0.024390243902439025,0.1,0
+m04-024-01,"could not help wondering whether , now she","could not help wondering whether , now she",0.0,0.0,1
+m04-024-02,"had qualified as a schoolteacher , poor","had qualified as a school teacher , poor",0.02564102564102564,0.2857142857142857,0
+m04-024-03,little Dai was quite the man for her .,little Dai was quite the man for her .,0.0,0.0,1
+m04-024-04,A nice boy of course . But perhaps in the,A nice boy of course . But perhaps in the,0.0,0.0,1
+m04-024-05,new world she was entering there might,new world she was entering there might,0.0,0.0,1
+m04-024-06,"be boys equally nice , and with far more","be boys equally nice , and with four more",0.05,0.1111111111111111,0
+m04-024-07,to offer . The conductor rang his bell .,to offer . The conductor rang his bell .,0.0,0.0,1
+m04-030-00,""" Good-bye , Dai , "" said Morfydd , smiling from the bottom step .",""" good-bye , win . "" said Holyph , smiling from the bottom step .",0.15151515151515152,0.26666666666666666,0
+m04-030-02,"She was already up the bus steps , and the bus was away . And Morfydd Owen","She was already run there has stops , and there was away . And the eighth ones",0.32432432432432434,0.5294117647058824,0
+m04-030-03,"waving , unkissed , from the window . And Dai , on the pavement , knowing in his","warving , unbiased , from the minders , but their , on the pavement , honouring in",0.2875,0.4444444444444444,0
+m04-030-04,heart that Morfydd was leaving him as surely as she was leaving Dinas .,heart that Malefah was becoming their as surely as she was leaving America .,0.2676056338028169,0.2857142857142857,0
+m04-038-00,"So the bus set out for Llangrwl . But it never reached there ! Somewhere ,","in the bus not out for Shangirah . But it never reached there ! Somewhere ,",0.12162162162162163,0.1875,0
+m04-038-01,"on those fifteen miles of mountain roads , it disappeared from the earthly","on those fifteen miles of mountain roads , it disappeared from the earthly",0.0,0.0,1
+m04-038-02,scene . The first intimation that all was not well came when a,vere . The first intervention that she was not well more when a,0.22580645161290322,0.3076923076923077,0
+m04-038-03,"Mr. Isaiah Roberts , landlord of The Traveller's Joy , rang up the","Mr. Branch Roberts , handbook of Sir. Traveller's boy , sang up the",0.21212121212121213,0.38461538461538464,0
+m04-038-04,Dinas Motor Omnibus Co. to ask what had happened to their,"Dennis Hunter Dravides , her , Her wish that had happened for Edeni",0.5789473684210527,1.0,0
+m04-043-03,"reasonably . "" Start running punctual and where are you ? People get","earonally . "" That running menstrual and close are you ? People get",0.20588235294117646,0.3076923076923077,0
+m04-061-00,""" And what are you going to do about it ? "" Tendentious , Mr. Roberts sounded .",""" And that we you going to do about it ! "" Sendenstein , Mr. Roberts sounded",0.1518987341772152,0.2777777777777778,0
+m04-061-04,and scour the countryside between here and The Traveller's Joy .,and never the countryside between here with the Traveller's joy,0.1875,0.45454545454545453,0
+m04-072-00,The two-twenty to Llangrwl has failed to,The two-twenty to Llangrwl has failed to,0.0,0.0,1
+m04-072-01,"complete her mission . "" Paled , did Dai . For the","complete her mission . "" Pulled , did Dai . For the",0.04,0.08333333333333333,0
+m04-072-02,"two-twenty carried , for him , a cargo more","two-twent , carried , for him , a cargo more",0.046511627906976744,0.2222222222222222,0
+m04-072-03,precious than jewels . Though Mofydd Owen,precious than jewels . Though Mafydd Owen,0.024390243902439025,0.14285714285714285,0
+m04-072-04,"was , as he feared , departed out of his life ,","was , as he feared , departed out of his life ,",0.0,0.0,1
+m04-072-05,"he still loved her dearly . Already , even","he still loved her dearly . Already , even",0.0,0.0,1
+m04-072-06,as with trembling fingers he fastened his,as with trembling fingers he fastened his,0.0,0.0,1
+m04-072-07,"trouser clips , he was seeing her lying in","transer clips , he was seeing her lying in",0.047619047619047616,0.1111111111111111,0
+m04-072-08,"some dreadful ravine , or beset by","some dreadful ravine , or beset by",0.0,0.0,1
+m04-072-09,"robbers , or being whisked off to Emergency","robbers , or being whisked off to Emergency",0.0,0.0,1
+m04-078-00,"But even his imagination , luckily for him ,","But even his imagination , luckily for him ,",0.0,0.0,1
+m04-078-01,did not visualise the awful truth - that,did not visualise the awful truth - that,0.0,0.0,1
+m04-078-02,Morfyyd Owen was already qualifying for,"Morfy , and Owen was already qualifying for",0.1282051282051282,0.5,0
+m04-078-05,Cadwallader when his child mind grasped,Cadwallader when his child mind grasped,0.0,0.0,1
+m04-078-06,the fact that the green earth was falling,the fact that the green earth was failing,0.024390243902439025,0.125,0
+m04-078-07,away at a rate of knots .,away at a rate of kinds .,0.12,0.14285714285714285,0
+m04-081-00,Where indeed ? Megan Thomas spoke sharply,Where indeed ? Megan Thomas spoke sharply,0.0,0.0,1
+m04-081-01,"to the conductor , demanding an explanation .","to the conductor , demanding an explanation .",0.0,0.0,1
+m04-081-02,"But nonplussed , the conductor was . A","But now plussed , the conductor was . It",0.10526315789473684,0.375,0
+m04-081-03,"good man , mind ; knew his job . But out of","good man , mind ; knew his job . But out of",0.0,0.0,1
+m04-081-04,depth in this particular instance . Fingered,depth in this particular instance . Figered,0.022727272727272728,0.14285714285714285,0
+m04-081-05,his ticket-punch nervously . Peered out of,his ticket-punch previously . Record out of,0.19047619047619047,0.2857142857142857,0
+m04-081-06,the window . Went and consulted the driver .,the window . Went and consulted the driver,0.045454545454545456,0.1111111111111111,0
+m04-081-07,""" Where are we going ? "" he echoed Cadwallader .",""" Where are we going ? "" he echoed Cadwalladder .",0.020833333333333332,0.09090909090909091,0
+m04-081-09,""" But something very untoward has",""" But something very untoward has",0.0,0.0,1
+m04-093-00,"Immersed in the Dinas Advertiser , was the","Immersed in the Dinas Advertiser , was the",0.0,0.0,1
+m04-093-01,"Rev. Edwards . Now he put down his paper ,","Rev. Edwards . Now he put down his paper ,",0.0,0.0,1
+m04-093-02,"folded it , and glanced idly out of the","folded it , and glanced idly out of the",0.0,0.0,1
+m04-093-03,"window . Looked again , eyes starting from","window . Looked again , eyes starting from",0.0,0.0,1
+m04-093-04,"his head . "" God bless my immortal soul , ""","his head . "" God bless my immortal soul , """,0.0,0.0,1
+m04-093-05,"he cried . "" Never mind your immortal","he cried . "" Never mind your immortal",0.0,0.0,1
+m04-093-06,"soul , "" said Megan Thomas tartly .","sord , "" said Megan Thomas hardly .",0.11428571428571428,0.25,0
+m04-093-07,""" Here we are traversing the heavens at the",""" Here we are traversing the heavens at the",0.0,0.0,1
+m04-093-08,very moment when we should be,very moment when we should be,0.0,0.0,1
+m04-093-09,running into Llangrwl bus station .,running into Llangrwl bus station .,0.0,0.0,1
+m04-100-00,And no one doing the first thing about,And no one doing the first thing about,0.0,0.0,1
+m04-100-01,"it . "" Stung , the conductor was . "" What you","it . "" Strong , the conductor was . "" What you",0.044444444444444446,0.08333333333333333,0
+m04-100-02,"expect me to do ? "" he inquired , bitter .","expect me to do ? "" he inquired , bitter .",0.0,0.0,1
+m04-100-03,""" Radio Flying Control at London Airport ,",""" Radio Flying Control at London D. import ,",0.09523809523809523,0.25,0
+m04-100-05,"us nowhere , "" boomed the Rev. Edwards .","us nowhere , "" boomed the Rev. Edwards .",0.0,0.0,1
+m04-100-06,""" It 's all very well , "" commented",""" It's all very well , "" commented",0.02857142857142857,0.2222222222222222,0
+m04-100-07,Mr. Hayball from the back seat .,Mr. Hayball from the back seat .,0.0,0.0,1
+m04-107-00,""" But Eth and me wanted to be",""" But Ells and me wanted to be",0.10344827586206896,0.125,0
+m04-107-01,"at the Youth Hostel before dark . ""","at the Youth Hotel before dark . """,0.02857142857142857,0.125,0
+m04-107-02,Morfydd Owen was silent . But she,Morfydd Owen was silent . But she,0.0,0.0,1
+m04-107-03,looked down at the fast-disappearing,looked down at the fast-disappearing,0.0,0.0,1
+m04-107-04,"earth , and it seemed to her that she","earth , and it seemed to her that she",0.0,0.0,1
+m04-107-05,would never see her Dai again . And,would never need here their Dai again . And,0.2571428571428571,0.375,0
+m04-107-06,though half an hour ago she had,though half an hour ago she had,0.0,0.0,1
+m04-107-07,regarded this possibility with,regarded this possibility with,0.0,0.0,1
+m04-107-08,"fortitude , it now filled her with","fortitude , it now filled her with",0.0,0.0,1
+m04-107-09,dismay . Quietly she began to,dismay . Quietly she began to,0.0,0.0,1
+m04-113-00,"Dai , meanwhile , was pedalling","Dai , meanwhile , was recalling",0.06451612903225806,0.16666666666666666,0
+m04-113-01,furiously on the road . Not a sign of,furiously on the road . Not a sign of,0.0,0.0,1
+m04-113-02,the bus . He passed The Traveller's,the bus . He passed The Traveller's,0.0,0.0,1
+m04-113-03,"Joy . At last he caught up Mr. Roberts ,","Joy . At last he caught up Mr. Roberts ,",0.0,0.0,1
+m04-113-04,walking very dogged towards Llangrwl .,walking very dogged towards Llangrwl .,0.0,0.0,1
+m04-113-05,""" Afternoon , Mr. Roberts , "" he called , polite ,",""" Afternoon , Mr. Roberts , "" he called , polite ,",0.0,0.0,1
+m04-113-06,as he shot past . His spirits were rising .,as he shot part . His spirits were rising,0.06976744186046512,0.2,0
+m04-113-07,He had seen no sign of an accident .,He had seen no sign of an accident .,0.0,0.0,1
+m04-113-08,Therefore Mr. Roberts must have been mistaken .,Therefore Mr. Roberts must have been mistaken .,0.0,0.0,1
+m04-113-09,He would find the bus safe and sound in,He would find the bus safe and round in,0.02564102564102564,0.1111111111111111,0
+m04-113-10,"Llangrwl , and his dear Morfydd quietly","Llangrwl , and his dear Morfydd quietly",0.0,0.0,1
+m04-123-00,But disappointment awaited him . A,But disappointment awaited him . A,0.0,0.0,1
+m04-123-01,"restive queue of people in the bus station ,","sentive queue of people in the bus station ,",0.045454545454545456,0.1111111111111111,0
+m04-123-02,waiting to be transported to Dinas . And,waiting to be transported to Dinas . And,0.0,0.0,1
+m04-123-03,"when he went to Morfydd's house , all","when he went to Morfydd's house , all",0.0,0.0,1
+m04-123-04,"he found was Morfydd's mam , working","he found was Morfydd's man , working",0.027777777777777776,0.14285714285714285,0
+m04-123-05,"herself up proper ... Getting dark , now .","herself eye proper ... Getting dark , now",0.11904761904761904,0.2222222222222222,0
+m04-123-06,The conductor switched on the lights .,The conductor switched on the lights .,0.0,0.0,1
+m04-123-07,The beleaguered passengers peered out of,The beleaguised passengers revered out of,0.1,0.3333333333333333,0
+m04-123-08,"the windows . Little to be seen , only a","the windows . Little to be seen , only a",0.0,0.0,1
+m04-123-09,"few lone stars , and the distant earth","few home stars , and the distant earth",0.05263157894736842,0.125,0
+m04-123-10,brooding in her shroud of mist .,brooding in her shroud of mist .,0.0,0.0,1
+m04-131-00,"Megan Thomas sat tight-lipped , nursing","Megan Thomas not tight-lipped , running",0.1282051282051282,0.3333333333333333,0
+m04-131-01,the sleeping Cadwallader . Driver and,the sleeping ladwallader . Driver and,0.02702702702702703,0.16666666666666666,0
+m04-131-02,conductor peered ahead into nothingness .,conductor peeered ahead into nothingness .,0.024390243902439025,0.16666666666666666,0
+m04-131-03,On the back seat Stan Hayball embraced,On the back neat Stan Hayball embraced,0.02631578947368421,0.14285714285714285,0
+m04-131-04,his Eth . Morfydd thought of Dai . The,his Eth. Morfydd thought of Dai's The,0.07894736842105263,0.4444444444444444,0
+m04-131-05,"Rev. Edwards , standing at the front ,","Rev. Edwards , standing at the front ,",0.0,0.0,1
+m04-131-06,"looked at his forlorn flock . "" What","looked at his forlorn flock . "" What",0.0,0.0,1
+m04-131-08,he suggested hopefully .,he suggested hopefully .,0.0,0.0,1
+m04-138-01,sank . If the Welsh found the situation,rank . If the Welsh found the situation,0.02564102564102564,0.125,0
+m04-138-02,"too desperate for singing , then the","too desperate for singing , then the",0.0,0.0,1
+m04-138-03,"situation , he realised , must be desperate","situation , he realised , must be desperate",0.0,0.0,1
+m04-138-04,indeed . But suddenly they were roused,indeal . But suddenly they were roused,0.05263157894736842,0.14285714285714285,0
+m04-138-05,from their lethargy . Something was,from their lethurgy . Something was,0.02857142857142857,0.16666666666666666,0
+m04-138-06,"approaching , faster , faster , a tearing","approaching , faster , faster , a bearing",0.024390243902439025,0.125,0
+m04-138-07,hurrying blur that was past and gone,hurrying blur that was past and gone,0.0,0.0,1
+m04-138-08,"in a moment , followed by a great","in a moment , followed by a great",0.0,0.0,1
+m04-138-09,rush of sound . They waved frantically .,rush of round . They waved frantically .,0.025,0.125,0
+m04-145-00,"But the jet aircraft was already miles away ,","But the jet aircraft was already miles away ,",0.0,0.0,1
+m04-145-01,"swinging down to the darkening earth . "" It","swinging down to the darkening earth . "" It",0.0,0.0,1
+m04-145-02,"passed me at fifty thousand feet , sir . It was","passed me at fifty thousand feet , sir . It was",0.0,0.0,1
+m04-145-03,"climbing steadily . "" Group Captain Llewelyn Jones , Officer","climbing steadily . "" Group Captain Llewelyn Jones , Officer",0.0,0.0,1
+m04-145-04,"Commanding R.A.F. Station , Dinas , looked keenly at the","Commanding R.A.A. Station , Dinne , Hooked keenly at the",0.07142857142857142,0.3,0
+m04-145-05,Flying Officer who had burst so unceremoniously into his,Flying Officer who had burst so unceremoniously into his,0.0,0.0,1
+m04-145-06,"office . "" And what did it look like , Broughtons ? Some","office . "" And what did it look like , Broughtons ? Some",0.0,0.0,1
+m04-152-01,""" Well , actually , sir , it looked like - like a bus .",""" Well , actually , sir , it looked like - like a bus .",0.0,0.0,1
+m04-152-02,"A single-decker , "" he elaborated . Daggers , the","A single-decker , "" he elaborated . Daggers , the",0.0,0.0,1
+m04-152-03,"Group Captain looked . "" Broughtons , "" he said silkily .","Group Captain looked . "" Broughtons , "" he said silly .",0.03508771929824561,0.08333333333333333,0
+m04-152-04,""" Didn't they teach you at Cranwell that buses are",""" Didn't they teach you at Cranwell that basses are",0.04,0.1,0
+m04-152-06,"Buses crawl . "" Very pale , Broughtons was . But","Buses crawl . "" Very pale , Broughtons was . But",0.0,0.0,1
+m04-164-01,"Waving . "" Like gimlets , the Station Commander's eyes .","Waving . "" Like gimlets , the Station Commander's eyes .",0.0,0.0,1
+m04-164-02,""" Did you see the indicator board ? "" "" Yes , sir . "" "" And",""" Did you see the indicator board ? "" "" Yes , sir . "" "" that",0.06779661016949153,0.058823529411764705,0
+m04-164-03,"what did it say ? Mystery Tour ? "" Oh , very caustic , that","what did it say ? Mystery Tour ? "" Oh , very caustic , that",0.0,0.0,1
+m04-164-04,"Group Captain . But Broughtons stood his ground . "" No ,","Group Captain . But Broughtons stood his ground . "" No ,",0.0,0.0,1
+m04-164-06,"back in his chair . "" I see . So you met a bus at","back in his chair . "" I see . So you met a bus at",0.0,0.0,1
+m04-180-00,"All lit up . Full of people waving as you went past . ""","All lit up . Full of people waving as your went past . """,0.01818181818181818,0.07142857142857142,0
+m04-180-01,"Suddenly he crouched forward . "" Broughtons , if I thought","Suddenly he crouched forward . "" Broughtons , if I thought",0.0,0.0,1
+m04-180-03,I 'd have you court-martialled . But I know there,I'd have gone court - mortialled . But I know there,0.14285714285714285,0.6,0
+m04-180-04,"isn't , "" he ended sadly . "" I tried to read the","isn't , "" he ended sadly . "" I tried to read the",0.0,0.0,1
+m04-180-05,"registration number , sir . But it was getting dark . ""","registration number , sir . but it was getting dark . """,0.01818181818181818,0.08333333333333333,0
+m04-180-06,He waited . But his commanding officer appeared to,He waited . But his commanding officer appeared to,0.0,0.0,1
+m04-190-00,"He saluted , and left the presence , very crestfallen ...","He saluted , and left the presence , very crestfallen ... .",0.03508771929824561,0.09090909090909091,0
+m04-190-01,"Time passed . The bus climbed , and went quietly","Time passed . The bus climbed , and went quietly",0.0,0.0,1
+m04-190-02,into orbit . Time passed . The Rev. Edwards' pulpit,into orbit . Time passed . The Rev. Edwards' pulpit,0.0,0.0,1
+m04-190-03,remained empty . And so did the arms of Dai,remained empty . And so did the arms of Dai,0.0,0.0,1
+m04-190-04,"Pugh . How could they be otherwise , when his","Pugh . How could they be otherwise , when his",0.0,0.0,1
+m04-190-05,beloved was circling the Poles at three-and-a-,beloved was circling the Poles at three-and-a-,0.0,0.0,1
+m04-190-06,"quarter-hour intervals , regular as clockwork ?","quarter-hour intervals , regular as clockwork ?",0.0,0.0,1
+m04-190-07,"Time passed . Everyone said , "" Pity about Megan","Time passed . Everyone said , "" Pity about Megan",0.0,0.0,1
+m04-190-09,"it was a pity at all ; as , indeed , they didn't .","it was a pity at all ; as , indeed , they didn't",0.04,0.07142857142857142,0
+m04-200-01,Dinas Advertiser . But the London papers ignored,Dinas Advertiser . But the London papers ignored,0.0,0.0,1
+m04-200-02,the whole affair . Ifor Evans reported his loss,the whole affair . Ifor Evans reported his loss,0.0,0.0,1
+m04-200-04,"a bus , is it . Very careless . "" That was their","a bus , is it . Very careless . "" That was their",0.0,0.0,1
+m04-200-05,"attitude . Now if there 'd been a good old accident ,",attitude . Now if there'd been a good old accident,0.05660377358490566,0.25,0
+m04-200-06,they could have measured up the road and,they could have measured up the road and,0.0,0.0,1
+m04-209-00,But losing a bus ! People were always losing,But losing a bus ! People were always losing,0.0,0.0,1
+m04-209-01,"things . You 'd be surprised , they said . So it","things . You'd be surprised , they said . So it",0.020833333333333332,0.16666666666666666,0
+m04-209-02,"seemed , for a time , that the whole affair would","seemed , for a time , that the whole affair would",0.0,0.0,1
+m04-209-03,be written off as one of those unexplained,be written off as one of those unexplained,0.0,0.0,1
+m04-209-04,"mysteries , like the Marie Celeste . Then things","mysteries , like the Marie Celeste . Then things",0.0,0.0,1
+m04-209-05,began to happen ... But what about the voyagers ?,began to happen ... But what about the voyagers ?,0.0,0.0,1
+m04-216-00,"Well , the Rev. Edwards had taken command . "" Our","Well , the Rev. Edwards had taken command . "" Our",0.0,0.0,1
+m04-216-01,"position , "" he said , "" is somewhat analogous to","position , "" he said , "" is somewhat analogous to",0.0,0.0,1
+m04-216-02,that of a castaway on a desert island . Now,that of a castaway on a desert island . Now,0.0,0.0,1
+m04-216-03,what does such a person do ? He signals,what does such a person do ? He signals,0.0,0.0,1
+m04-216-04,his position by lighting bonfires or hoisting a,his position by lighting bonfires or hoisting a,0.0,0.0,1
+m04-216-05,flag on a palm tree . And he tries to ensure,flag on a palm tree . And he tries to ensure,0.0,0.0,1
+m04-222-00,""" Can't go lighting bonfires on this bus , """,""" Can't go lighting bonfires on this bus , """,0.0,0.0,1
+m04-222-01,"the conductor said firmly . "" Contrary to the","the conductor said firmly . "" Contrary to the",0.0,0.0,1
+m04-222-03,"the minister . "" No , we have another way of signalling","the minister . "" No , we have another way of signalling",0.0,0.0,1
+m04-222-04,our position . The driver must sound his horn,our position . The driver must sound his horn,0.0,0.0,1
+m04-222-05,"continuously . "" Gave him a look , the driver did .","continuously . "" Grave him a look , the driver did",0.058823529411764705,0.16666666666666666,0
+m04-222-06,""" Where you think we are ? "" he asked rudely .",""" Where you think we are ? "" he asked rudely .",0.0,0.0,1
+m04-231-00,""" Do as I say , driver . "" Very stern , the reverend",""" Do of I say , driver . "" Very stern , the revered",0.057692307692307696,0.14285714285714285,0
+m04-231-01,gentleman was . So the driver peep-peeped as,gentleman was . So the driver peep-pepped as,0.022727272727272728,0.125,0
+m04-231-02,"through empty space . "" Thank you , "" the Rev.","through empty space . "" Thank you , "" the Rev.",0.0,0.0,1
+m04-231-03,"Edwards said courteously . "" Secondly , we must","Edwards said controversly . "" Secondly , we must",0.1276595744680851,0.1111111111111111,0
+m04-231-04,"pool and ration our supplies of food , if any . ""","pool and ration our supplies of food , if any . """,0.0,0.0,1
+m04-238-00,""" Now , who has any food ? "" he asked hopefully .",""" Now , who has any food ? "" he asked hopefully .",0.0,0.0,1
+m04-238-02,""" Mr. Price , I think you may be able to help us here , """,""" Mr. Rice , I think you may be able to help us here , """,0.03508771929824561,0.0625,0
+m04-238-03,said the Rev. Edwards . Price shook his head .,said the Rev. Edwards . Price shoot his head .,0.021739130434782608,0.1,0
+m04-238-04,""" Intended for Plas Newydd , this lot is . Paid for ,",""" Intended for Play Newydd , Philot is . Paid for ,",0.07547169811320754,0.23076923076923078,0
+m04-238-05,"too . "" He folded his arms protectively over the basket .","too . "" He folded his arms # so he truly over the last Sub.",0.2631578947368421,0.5,0
+m04-246-00,"Mutinous dog , thought the Rev. Edwards , who hadn't","Mormons dog , thought the Rev. Edwards , who hadn't",0.09615384615384616,0.1,0
+m04-246-01,enjoyed himself so much since reading Treasure,enjoyed himself so much since reading treasure,0.021739130434782608,0.14285714285714285,0
+m04-246-02,"Island . "" What have you got in that basket , Price ? ""","is lunch . "" What have you got in that basketball , Price ? """,0.16363636363636364,0.21428571428571427,0
+m04-246-03,"he roared . Quelled , Mr. Price pulled out a grocery","he moved . Quelled , Mr. Price pulled out a grocery",0.057692307692307696,0.09090909090909091,0
+m04-246-04,"list , pushed his glasses up on his nose , and","list , pushed his glassed up on his more , and",0.06521739130434782,0.18181818181818182,0
+m04-246-05,"began to read . "" Six loaves , four pounds butter ,","began to read . "" Six looms , four pounds better ,",0.0784313725490196,0.16666666666666666,0
+m04-246-06,"two pounds marge , one tin pineapple , one York ham . ""","two pounds range , one tin pineapple , one York ham . """,0.03636363636363636,0.07692307692307693,0
+m04-251-00,""" Then we are saved , "" cried the Rev. Edwards .",""" Then we are saved , "" cried the Rev. Edwards .",0.0,0.0,1
+m04-251-01,"Shyly , Morfydd Owen produced a block of","Shyly , Morfydd Owen produced a block of",0.0,0.0,1
+m06-019-00,"Though your wings and your scars are new ,","Though your wings and your scars are new ,",0.0,0.0,1
+m06-019-01,you may join us . ' ' I am Lily-yo . We three,"you may join us , ' I am Lily-yo . We three",0.06666666666666667,0.15384615384615385,0
+m06-019-02,are humans . You are only flymen . We will,are humans . You are only flymen . We will,0.0,0.0,1
+m06-019-03,not join you . ' The Captives grunted in boredom .,not join your ' The Captives grunted in boredom .,0.04,0.18181818181818182,0
+m06-019-04,The Chief Captive spoke again . ' Always this,The Chief Captive spoke again . ' Always this,0.0,0.0,1
+m06-019-05,talk from you of the Heavy World ! You have,talk from you of the Heavy World ! You have,0.0,0.0,1
+m06-019-06,"joined us . You are flymen , we are human . You","joined us . You are flymen , we are human . You",0.0,0.0,1
+m06-031-00,"' But we - ' ' Stop your stupid talk , woman ! ' ' We are - '","' But we - ' Stop your stupid talk , woman ! ' We are - '",0.06557377049180328,0.10526315789473684,0
+m06-031-01,"' Be silent , woman , and listen , ' Band Appa Bondi said .","' Be silent , woman , and listen , ' Bond Appa Bondi said",0.05084745762711865,0.13333333333333333,0
+m06-031-03,things we will tell you . All who make the journey from,things we will tell you . All who make the journey from,0.0,0.0,1
+m06-031-04,the Heavy World become changed . Some die . Most live,the Heavy world become changed . Some die . Most live,0.018867924528301886,0.09090909090909091,0
+m06-031-05,and grow wings . Between the worlds are many strong,and grow wings . Between the worlds are many strong,0.0,0.0,1
+m06-042-00,"When you come here , when you come to the True","When you come here , when you come to the True",0.0,0.0,1
+m06-042-02,tigerfly is not a tigerfly until it changes . So humans,rigerfly is not a tigerfly until it changes . So humans,0.01818181818181818,0.09090909090909091,0
+m06-042-03,"change . ' ' I cannot know what he says , ' Haris said","change . "" I cannot know what he says , ' Maris said",0.07407407407407407,0.21428571428571427,0
+m06-042-04,"stubbornly , throwing himself down . But Lily-yo and","stubbornly , throwing himself down . But Lily - yo and",0.038461538461538464,0.3333333333333333,0
+m06-048-03,it dies when it changes into a tigerfly . ' ' You are still,it dies when it changes into a tigerfly . ' ' You are still,0.0,0.0,1
+m06-048-04,"young , ' said the Chief Captive . ' You begin newly here .","young , said the Chief Captive . You begin newly here .",0.06779661016949153,0.14285714285714285,0
+m06-048-06,each other . In their flight from the 4wiltmilt they had,each other . In their flight from the twiltmilt they had,0.017857142857142856,0.09090909090909091,0
+m06-048-07,heedlessly thrown down their souls .,heedlessly thrown down their souls .,0.0,0.0,1
+m06-056-00,Haris had trampled on his . It was unthinkable !,Moris had trampled on his . It was unthinkable !,0.041666666666666664,0.1,0
+m06-056-01,' You see . You needed them no more . You are still,You see . You needed them no more . You are still,0.0392156862745098,0.07692307692307693,0
+m06-056-02,young . You may be able to have babies . Some of those,young . You may be able to have babies . Some of those,0.0,0.0,1
+m06-056-03,babies may be born with wings . ' The Captive with,babies may be born with wings . ' The Captive with,0.0,0.0,1
+m06-056-04,"the boneless arms added , ' Some may be born wrong ,","the boneless arms added , ' Some may be born wrong ,",0.0,0.0,1
+m06-056-05,as we are . Some may be born right . ',as we are . Some may be born right . ',0.0,0.0,1
+m06-067-00,' You are too foul to live ! ' Haris growled . ' Why are,' You are too foul to live ! ' Harris growled . ' Why are,0.017857142857142856,0.06666666666666667,0
+m06-067-01,"you not killed ? ' ' Because we know all things , ' the","you not killed ! ' ' Because we know all things , ' the",0.01818181818181818,0.07142857142857142,0
+m06-067-02,Chief Captive said . Suddenly his second head roused,Chief Captive said . Suddenly his second head roused,0.0,0.0,1
+m06-067-03,"itself and declared , ' To be a good shape is not all","itself and declared , ' To be a good shape is not all",0.0,0.0,1
+m06-067-04,in life . To know is also good . Because we cannot move,in life . To know is also good . Because we cannot move,0.0,0.0,1
+m06-067-05,well we can - think . This tribe of the True World,well we can - think . This tribe of the True World,0.0,0.0,1
+m06-076-00,So it lets us rule it . ' Flor and Lily-yo,So it lets us rule it . ' Flor and Lily-yo,0.0,0.0,1
+m06-076-01,muttered together . ' Do you say that you poor,muttered together . ' Do you say that you poor,0.0,0.0,1
+m06-076-03,at last . ' We do . ' ' Then why are you captives ? ',at last . ' We do . ' ' Then why are you captives ? ',0.0,0.0,1
+m06-076-04,"The flyman with ear lobes and thumbs connected ,","The flyman with ear lobes and thumbs connected ,",0.0,0.0,1
+m06-076-05,"making his perpetual little gesture of protest ,","making his perpetual little gesture of protest ,",0.0,0.0,1
+m06-083-00,"' To rule is to serve , woman . Those who bear power","To rule is to serve , woman . those who bear power",0.057692307692307696,0.15384615384615385,0
+m06-083-01,are slaves to it . Only an outcast is free . Because,are slaves to it . Only an outcast is free . Because,0.0,0.0,1
+m06-083-02,"we are Captives , we have the time to talk and","we are Captives , we have the time to talk and",0.0,0.0,1
+m06-083-03,think and plan and know . Those who know,think and plan and know . Those who know,0.0,0.0,1
+m06-083-04,command the knives of others . ' ' No hurt will,"command the knives of others . "" ' No hurt will",0.02127659574468085,0.09090909090909091,0
+m06-083-05,"come to you , Lily-yo , ' Band Appa Bondi added .","come to you , Lily-yo , ' Bond Appa Bondi added",0.061224489795918366,0.16666666666666666,0
+m06-083-06,' You will live among us and enjoy your life free,You will live among us and enjoy your life free,0.04081632653061224,0.09090909090909091,0
+m06-091-00,' No ! ' the Chief Captive said with both mouths .,' No ! ' the Chief Captive said with both months .,0.02,0.08333333333333333,0
+m06-091-01,"' Before she can enjoy , Lily-yo and her companion","Before she can enjoy , Lily-yo and her companion",0.04,0.1,0
+m06-091-02,Flor - this other man creature is plainly useless -,For this other man creature is plainly useless -,0.058823529411764705,0.2,0
+m06-091-03,must help our great plan . ' ' The invasion ? ' Bondi,"must help our great plan . "" The invasion ? "" Bondi",0.07547169811320754,0.23076923076923078,0
+m06-091-06,and its savage life are still fresh in you .,and its savage life are still fresh in you .,0.0,0.0,1
+m06-098-00,We need such memories . So we ask you to go,We need such memories . So we ask you to go,0.0,0.0,1
+m06-098-01,back there on a great plan we have . ' ' Go back ? ',"back there on a great plan we have . "" ' Go back ? '",0.019230769230769232,0.06666666666666667,0
+m06-098-02,gasped Flor . ' Yes . We plan to attack the Heavy,gasped Flor . Yes . We plan to attack the Heavy,0.04081632653061224,0.08333333333333333,0
+m06-098-03,World . You must help to lead our force . ' The long,World . You must help to lead our force . ' The long,0.0,0.0,1
+m06-098-04,"afternoon of eternity wore on , that long golden road","afternoon of eternity were on , that long golden road",0.018867924528301886,0.1,0
+m06-098-05,of an afternoon that would somewhere lead to,of an afternoon that would somewhere lead to,0.0,0.0,1
+m06-106-00,"Motion there was , but motion without event - except","Motion there was , but motion without event - except",0.0,0.0,1
+m06-106-01,for those negligible events that seemed so large to,for those negligible event that seemed so large to,0.0196078431372549,0.1111111111111111,0
+m06-106-02,"the creatures participating in them . For Lily-yo , Flor","the creatures participating in them . For Lily-yo , Flor",0.0,0.0,1
+m06-106-03,and Haris there were many events . Chief of these was,and Harris there were many events . Chief of these was,0.018867924528301886,0.09090909090909091,0
+m06-106-04,that they learned to fly properly . The pains associated,that they learned to fly properly . The pains associated,0.0,0.0,1
+m06-106-05,with their wings soon died away as the wonderful,with their wings soon died away as the wonderful,0.0,0.0,1
+m06-106-06,new flesh and tendon strengthened . To sail up in the,new flesh and tendon strengthened . To sail up in the,0.0,0.0,1
+m06-106-07,light gravity became an increasing delight - the ugly,light gravity became an increasing delight - the ugly,0.0,0.0,1
+m06-106-08,flopping movements of flymen on the Heavy World,flopping movement of flymen on the Heavy world,0.0425531914893617,0.25,0
+n01-000-00,Alastair was a bachelor . All his life he had,Alastair was a bachelor . 1/2 ) his life he had,0.1111111111111111,0.2,0
+n01-000-01,been inclined to regard women as something,been inclined to regard women as something,0.0,0.0,1
+n01-000-02,which must necessarily be subordinated to his,which must necessarily be in bordered to his,0.15555555555555556,0.2857142857142857,0
+n01-000-03,career . Now he realised that he was entrusting not only,career . Now he realised that he was outstanding not only,0.125,0.09090909090909091,0
+n01-000-04,"his own life , but Geoffrey's as well , to a strange girl","his own wife , but Geoffrey's is well , to a change girl",0.08771929824561403,0.23076923076923078,0
+n01-000-05,whom he had never met and on whom after no more,whom he had never met and on whom after no more,0.0,0.0,1
+n01-000-06,than a couple of telephone calls he was,than a couple of telephone calls he was,0.0,0.0,1
+n01-004-00,It was a novel experience . Alastair was,It was a novel experience . Alasker was,0.075,0.125,0
+n01-004-01,quite unable to explain why he should feel,greate unable to explain why he should feel,0.09523809523809523,0.125,0
+n01-004-02,so much confidence in her . Once again,to remain confidence in her . Once again,0.15789473684210525,0.25,0
+n01-004-03,she checked back her instructions . It was,she checked back her instructions . It was,0.0,0.0,1
+n01-004-04,obvious that she did not fail to appreciate the,obvious that she did not feel to appreciate the,0.0425531914893617,0.1111111111111111,0
+n01-004-05,faith which he was placing in her and,faith which he was placing in her and,0.0,0.0,1
+n01-004-06,was prepared to accept the responsibility .,was prepared to accept the responsibility .,0.0,0.0,1
+n01-009-02,evening - and I shall look forward to meeting you,evening - and I shall look forward to unwriting you,0.10204081632653061,0.1,0
+n01-009-03,"both at midnight . "" They might have been","both at midnight . "" They might have been",0.0,0.0,1
+n01-009-04,arranging a supper party . Then she rang off .,arranging a supper party . Then see long of,0.13043478260869565,0.4,0
+n01-009-05,Alastair admitted that never in a not altogether,Masters admitted that never in a not altogether,0.10416666666666667,0.125,0
+n01-009-06,uneventful life had he come across a girl who,uneventful life had he come across a girl who,0.0,0.0,1
+n01-009-07,sounded so charming and appeared to be so,sounded so charming and appeared to be so,0.0,0.0,1
+n01-020-00,For some reason the orderlies had forgotten,For some reason the orderlies had forgotten,0.0,0.0,1
+n01-020-01,to switch on the lights ; there was no colour -,"to switch on the lights , there was no colour-",0.0425531914893617,0.2727272727272727,0
+n01-020-02,physical features were distinguishable solely by,physical features were distinguishedable solely by,0.041666666666666664,0.16666666666666666,0
+n01-020-03,gradations of silvery greyness . Even the snow-,gradations of silvery greyness . Even the snow-,0.0,0.0,1
+n01-020-04,"capped summit of Mont Blanc , seven miles","capped summit of Mount Blanc , seven miles",0.024390243902439025,0.125,0
+n01-020-05,"below , was not recognisable among the host","below , was not recognisable among the host",0.0,0.0,1
+n01-020-06,of lower peaks . The screen of the air-to-air,of lower peaks . The screen of the air-to-air,0.0,0.0,1
+n01-020-07,radar glowed . Occasionally minute spots,radar glowed . Occasionally minute spots,0.0,0.0,1
+n01-020-08,"flickered across its surface , but there was","flickered across its surface , but there was",0.0,0.0,1
+n01-031-00,In the exceptional clarity he was even able to,In the exceptional charity he was even able to,0.021739130434782608,0.1111111111111111,0
+n01-031-01,make a direct comparison between the radar,make a direct comparison between the radar,0.0,0.0,1
+n01-031-02,image and the ground itself . Ahead lay the,image and the ground itself . Ahead bay the,0.023255813953488372,0.1111111111111111,0
+n01-031-03,"Plain of Lombardy ; to the right , Turin ; to the","Plain of Lombardy ; to the right , Turin ; to the",0.0,0.0,1
+n01-031-04,"left , Milan . The directional angle of the","left , Mikan . The directional angle of the",0.023255813953488372,0.1111111111111111,0
+n01-031-05,scanner could be adjusted to cover any,scanner could be adjusted to cover any,0.0,0.0,1
+n01-031-06,particular area within its range . Geoffrey,particular area within its range . Geoffrey,0.0,0.0,1
+n01-031-08,ground immediately ahead .,ground immediately ahead .,0.0,0.0,1
+n01-036-00,"He was able to pick out towns , unrecognisable to the","He was able to pick out towns , unrecognisable to the",0.0,0.0,1
+n01-036-01,"naked eye , obscured by the ground haze which even","naked eye , obscured by the ground haze which even",0.0,0.0,1
+n01-036-02,on the clearest night limited angular vision . He glanced,on the nearest night limited angular vision . He glanced,0.03508771929824561,0.1,0
+n01-036-03,at the speed recorder . It seemed almost incredible that,at the speed recorder . It seemed almost incredible that,0.0,0.0,1
+n01-036-04,the tiny white figure of 8.5 against which the needle,the tiny white figure of 8.5against which the needle,0.018867924528301886,0.2,0
+n01-036-05,was resting could really mean hundreds of knots .,was resting could really mean hundreds of knots .,0.0,0.0,1
+n01-045-00,"Now , as Alastair reduced the thrust , the","Now , as Alastair reduced the thrust , the",0.0,0.0,1
+n01-045-01,pitch changed as the nose of the aircraft,pitch changed as the nose of the aircraft,0.0,0.0,1
+n01-045-02,dipped slightly . The needle of the speed,ripped slightly . The needle of the speed,0.024390243902439025,0.125,0
+n01-045-04,"before coming to rest at 5.0 . "" We 're a bit","before coming to rest at 5.0 . "" We're a bit",0.022222222222222223,0.16666666666666666,0
+n01-045-07,smiled . Alastair talked of running in when,smiled . Vladimir talked of running in when,0.09302325581395349,0.125,0
+n01-045-08,they were still more than four hundred,they were still more than four hundred,0.0,0.0,1
+n01-045-09,miles from their destination .,miles from their destination .,0.0,0.0,1
+n01-052-00,They were nearing Modena . Geoffrey focused the radar scanner,They were nearing Modena . Geoffrey focused the radar scanner,0.0,0.0,1
+n01-052-08,by special helicopter from the Horse Guards,by special helicopter from the Horse Guards,0.0,0.0,1
+n01-057-00,Geoffrey set himself to consider the,Geoffrey and himself to consider the,0.08333333333333333,0.16666666666666666,0
+n01-057-01,movements of the Bentley . It had passed,movements of the Bentley . It had passed,0.0,0.0,1
+n01-057-02,him at the temporary bridge over the,Union and the temporary bridge over the,0.16666666666666666,0.2857142857142857,0
+n01-057-03,Tartaro at a few minutes past ten on the,Tartaro at a few minister past ten on the,0.075,0.1111111111111111,0
+n01-057-04,previous night . He worked out the distance,precious rigid . He worked out the distance,0.09302325581395349,0.25,0
+n01-057-05,on the presumption that its route had been,On the presumption that its route had been,0.023809523809523808,0.125,0
+n01-057-06,through Florence and Rome and then,through Florence and pains and their,0.20588235294117646,0.3333333333333333,0
+n01-057-07,across Italy via Foggia to Barletta .,aeross Italy via Foggia to Marletta .,0.05405405405405406,0.2857142857142857,0
+n01-057-08,It came to just over six hundred,It came to just over six hundred,0.0,0.0,1
+n02-000-00,DARKNESS had descended like a curtain by the,DARKNESS had descended like a certain by the,0.022727272727272728,0.125,0
+n02-000-01,"time they docked at Belleray . And though Guy ,","time they docked at Belleray . And though Guy ,",0.0,0.0,1
+n02-000-02,"made nervous by Beryl's silence , drove at reckless","made nervous by Beryl's silence , drove at reckless",0.0,0.0,1
+n02-000-03,"speed to the Villa , it was quickly evident that","speed to the Villa , it was quickly evident that",0.0,0.0,1
+n02-000-04,the party was over . Piers came strolling out to,the party was over . Piers came strolling out to,0.0,0.0,1
+n02-000-05,"meet the Deanes , and as soon as Guy had","meet the Deanes , and as soon as Guy had",0.0,0.0,1
+n02-000-06,"driven away , invited them casually to come to","driven away , invited them casually to come to",0.0,0.0,1
+n02-004-00,"To Beryl , at least , this was anti-climax with a","To Beryl , at least , this was anti-chimax with a",0.02040816326530612,0.09090909090909091,0
+n02-004-01,vengeance . She had expected to be met with violent,vengeance . She had expected to be met with violent,0.0,0.0,1
+n02-004-02,reproaches - and here he was bland and smiling .,reproaches - and here he was bland and smiling .,0.0,0.0,1
+n02-004-03,But it did not take her long to realise that his mood,But it did not take her long to realise that his mood,0.0,0.0,1
+n02-004-04,was less pleasant than appeared on the surface .,was less pleasant than appeared on the surface .,0.0,0.0,1
+n02-004-05,"He told her nonchalantly , as he led the way to his","He told her non chalantly , as he led the way to his",0.0196078431372549,0.16666666666666666,0
+n02-004-06,"own veranda , that he had taken the liberty of","Oxon Veranda , that he had taken the liberty of",0.08695652173913043,0.2,0
+n02-004-07,asking Jack - as a representative of the Vallin family -,asking Jack - as a representative of the Wallin family -,0.017857142857142856,0.09090909090909091,0
+n02-004-08,to come over and make the presentation in her stead .,to come over and make the presentation in her stood .,0.03773584905660377,0.09090909090909091,0
+n02-009-00,""" I caught him just as he was going to the",""" I caught him just as he was going to the",0.0,0.0,1
+n02-009-02,of fact I 'd asked him last night to deputise,of fact I'd asked him last night to deputies,0.06666666666666667,0.3,0
+n02-009-03,for me and fetch her . He brought her to the party,for me and fetch her . He brought her to the party,0.0,0.0,1
+n02-009-06,said the first thing that came into her head .,said the first thing that came into her head .,0.0,0.0,1
+n02-016-01,"casual tone , "" She 's not returning to her family . She 's","casual tone , "" She's not returning to her family . She's",0.03389830508474576,0.2857142857142857,0
+n02-016-02,"going to live with friends of the bank manager , just","going to live with friends of the bank manager , just",0.0,0.0,1
+n02-016-03,"this side of Belleray . "" Mrs. Deane made a suitable","this side of Belleray . "" Mrs. Deane made a suitable",0.0,0.0,1
+n02-016-04,"comment , but Beryl said nothing . She was trying","comment , but Beryl said nothing . She was trying",0.0,0.0,1
+n02-016-05,to sort things out in her mind . That beneath his,to sort things out in her mind . That beneath his,0.0,0.0,1
+n02-016-06,unnaturally smooth exterior Piers was simmering,unnaturally smooth exterior Piers was simmering,0.0,0.0,1
+n02-016-07,with anger against her she had no doubt .,with anger against her she had no doubt .,0.0,0.0,1
+n02-028-05,"had had a thoroughly good time , and it would take them","had had a thoroughly good time , and it would take them",0.0,0.0,1
+n02-028-06,nearly to next week to settle down again . Meanwhile,nearly to next week to settle down again . Meanwhile,0.0,0.0,1
+n02-028-07,Hubert would have betaken himself and his well-,latest would have between himself and his well-,0.1276595744680851,0.25,0
+n02-033-00,It was all over and done with .,It was all over and done with .,0.0,0.0,1
+n02-033-01,For the time being Beryl was content to let,For the time being Beryl was content to let,0.0,0.0,1
+n02-033-02,"it go at that , but she resolved to have","it go at that , but she resolved to have",0.0,0.0,1
+n02-033-03,it out with Piers when a reasonable,it out with Piers when a reasonably,0.02857142857142857,0.14285714285714285,0
+n02-033-04,opportunity presented itself . He must,opportunity presented itself . He must,0.0,0.0,1
+n02-033-05,learn that he could not treat her,learn that he could not treat her,0.0,0.0,1
+n02-033-06,"with injustice and contempt , ignoring","with in justice and contempt , ignoring",0.02631578947368421,0.3333333333333333,0
+n02-033-07,her explanations as though he were,her explanations as through he were,0.029411764705882353,0.16666666666666666,0
+n02-033-08,"a schoolmaster and she a small ,","a schoolmaster and she a small ,",0.0,0.0,1
+n02-037-00,He gave her no chance of any private,the gave her no chance of any private,0.05555555555555555,0.125,0
+n02-037-01,"conversation that evening , for when","conversation that evening , for when",0.0,0.0,1
+n02-037-02,"Blanche and Jack left , he went with","Blanche and Jack left , he went with",0.0,0.0,1
+n02-037-03,them . But next morning she insisted,them . But next morning she insisted,0.0,0.0,1
+n02-037-04,on his taking her out in the jeep -,on his taking her out in the jeep-,0.02857142857142857,0.2222222222222222,0
+n02-037-05,"to find , if possible , Hubert and his","to find , if possible , thebert and his",0.07894736842105263,0.1111111111111111,0
+n02-037-07,her great disappointment at being,her great disappointment at being,0.0,0.0,1
+n02-037-08,held up in Balicou .,help up in Balicou .,0.05,0.2,0
+n02-040-00,"With an air of resignation he sent Judy , his","With an air of resignation he sent Judy , his",0.0,0.0,1
+n02-040-01,"Boxer , to the back , and made room for her","Boxer , to the back , and made room for her",0.0,0.0,1
+n02-040-02,"beside him . "" Is that all you want to do ? ""","beside him . "" Is that all you want to do ? """,0.0,0.0,1
+n02-040-03,"he asked , letting in the clutch . "" No ; I want","he asked , letting in the church . "" No , I want",0.0625,0.15384615384615385,0
+n02-040-04,to make you understand just what happened,to make you understand just what happened,0.0,0.0,1
+n02-040-05,"about this Balicou trip , "" she returned","about this Balicon trip , "" she returned",0.025,0.125,0
+n02-040-06,"coldly . "" I 'm a little tired of being treated","caldly . "" I'm a little tired of being treated",0.0425531914893617,0.2727272727272727,0
+n02-040-07,"like an ineffective imbecile . ""","like an ineffective imbecile . """,0.0,0.0,1
+n02-045-00,""" And I 'm heartily sick of being constantly called",""" and I'm heartily side of being constantly called",0.0784313725490196,0.4,0
+n02-045-01,"to account for my manners , "" he retorted .","to account for my manners , "" he retorted .",0.0,0.0,1
+n02-045-02,""" What have I done wrong now ? I cover up for",""" What have I done wrong now ? I cover up for",0.0,0.0,1
+n02-045-03,you the best way I can by getting hold of Jack,you the best way I can by getting hold of Jack,0.0,0.0,1
+n02-045-04,"to make the presentation , I run the damned","to make the presentation , Iran the damned",0.046511627906976744,0.2222222222222222,0
+n02-045-05,party to the best of my ability - saying the,party to the best of my ability - saying the,0.0,0.0,1
+n02-045-06,sugary things you ought to have been there,suggery things you ought to have been there,0.047619047619047616,0.125,0
+n02-049-03,"look as though it was only what you expected of me ,","look as though it was only what you expected of me ,",0.0,0.0,1
+n02-054-01,to understand all the whys and,to understand all the whigs and,0.06666666666666667,0.16666666666666666,0
+n02-054-02,"wherefores of your actions , "" he said","wherefores of your actions , "" he said",0.0,0.0,1
+n02-054-03,"stiffly . "" Still less to criticise you . ""","stiffly . "" Still less to criticise you . """,0.0,0.0,1
+n02-054-04,""" Oh , drop that nonsense , Piers !",""" Oh , drop that nonsense , Piers ?",0.02857142857142857,0.1111111111111111,0
+n02-054-05,"Be yourself , "" she exclaimed , with","be yourself , "" she exclaimed , with",0.027777777777777776,0.125,0
+n02-054-06,"mounting exasperation . "" Very well ! "" He","mounting exasperation . "" Very well ? "" the",0.07142857142857142,0.2222222222222222,0
+n02-054-07,brought the jeep to a standstill in a rough,brought the jeep to a standstill in a rough,0.0,0.0,1
+n02-054-08,path fringed and shaded by citrus trees .,path fringed and shaded by citrus trees .,0.0,0.0,1
+n02-054-09,""" If you want my true opinion I 'll give it .",""" If you want up true opinion I'll give it .",0.06666666666666667,0.25,0
+n02-062-00,You made some sort of a protest to Graybury .,You made some sort of a protest to Grapburg .,0.044444444444444446,0.1,0
+n02-062-01,I 'll give you credit for that . But you didn't press,I'll give you credit for that . But you didn't press,0.018867924528301886,0.16666666666666666,0
+n02-062-02,"the matter because , very naturally , you were","the matter because , very naturally , you were",0.0,0.0,1
+n02-062-03,thoroughly enjoying Forrest's company in,thoroughly enjoying Forest's company in,0.025,0.2,0
+n02-062-04,"idyllic surroundings . "" "" How dare you say","idytic surroundings . "" "" How dare you say",0.046511627906976744,0.1111111111111111,0
+n02-062-05,"such a thing ? "" she blazed . "" For goodness'","such a thing ? "" she blazed . "" For goodness",0.022222222222222223,0.09090909090909091,0
+n02-062-06,"sake show a glimmer of reason , "" was his","sake show a glimmer of reason , "" was his",0.0,0.0,1
+n02-062-07,equally indignant rejoinder .,equally indignant rejoinder .,0.0,0.0,1
+n02-082a-01,"She avoided his gaze , and tried to ignore that","She avoided his gaze , and tried to ignore that",0.0,0.0,1
+n02-082a-02,"last impertinent remark . "" With four other people - ""","last impertinent remark . "" With four other people - """,0.0,0.0,1
+n02-082a-03,""" Whom you never once managed to circumvent . """,""" Whom you never once managed to circumvent . """,0.0,0.0,1
+n02-082a-04,"The mockery in his voice had deepened . "" With","The mockery in his voice had deepened . "" With",0.0,0.0,1
+n02-082a-05,"all due deference , Miss Deane - come off it ! ""","all due deference , Miss Deane - come off it ! """,0.0,0.0,1
+n02-082a-06,She met his eyes then .,She met his eyes then .,0.0,0.0,1
+n02-098-01,"slowly , "" If you must drag the truth","slowly , "" If you must drag the truth",0.0,0.0,1
+n02-098-02,"out of me , I must ask you to regard","out of me , I must ask you to regard",0.0,0.0,1
+n02-098-03,"it as confidential . "" "" My dear Beryl ,","it as confidential . "" "" My clear Beryl ,",0.05,0.1,0
+n02-098-04,"don't tell me anything , if you 'd rather","don't tell me anything , if you'd rather",0.024390243902439025,0.2222222222222222,0
+n02-098-05,"not . "" He was clearly startled by her","not . "" He was clearly startled by her",0.0,0.0,1
+n02-098-07,"not I , who started this conversation . ""","not I , who started this conversation . """,0.0,0.0,1
+n02-151-00,Their air of smiling somnolence showed them,Their air of smiling commonplace showed them,0.13953488372093023,0.14285714285714285,0
+n02-151-02,"celebrations , and their friendly welcome","celebrations , and their friendly welcome",0.0,0.0,1
+n02-151-03,"and warm sympathy , as she explained","and warm sympathy , as she explained",0.0,0.0,1
+n02-151-04,"how she had come to miss the party ,","how she had come to mix the party ,",0.05555555555555555,0.1111111111111111,0
+n02-151-05,made her send a complacent glance,made her send a complacent glance,0.0,0.0,1
+n02-151-06,in Piers' direction . What a fuss-box the,in Peers' direction . What a fuss-box the,0.024390243902439025,0.125,0
+n02-151-07,"man was , she thought impatiently ,","man was , she thought impatently ,",0.02857142857142857,0.14285714285714285,0
+n02-151-10,on the estate was a major error :,on the estate was a major error :,0.0,0.0,1
+n02-154-00,"And then she received a jolt . Old Hubert , standing","And then she received a jult . Old Talent , standing",0.09615384615384616,0.18181818181818182,0
+n02-154-01,"beside her , his battered hat in his hand , his","beside her , his battered hat in his hand , his",0.0,0.0,1
+n02-154-02,"toothless mouth stretched in a wide grin , told her","bootdress month stretched in a wide gain , told her",0.09803921568627451,0.3,0
+n02-154-03,"in halting 6patois that "" 3Mistah Piers "" had","in halting 6patois that "" 3 Mistah Piers "" had",0.022222222222222223,0.2222222222222222,0
+n02-154-04,"explained right at the start that "" 3Mis' Beryl ""","complained right at the start that "" 3 His "" Beryl """,0.14285714285714285,0.4,0
+n02-157-00,That it wouldn't be her fault at all . That,That it wouldn't be her fault at all . That,0.0,0.0,1
+n02-157-01,"she was a lady who , like her Uncle Charles ,","the was a lady who , like her uncle Charlie ,",0.08888888888888889,0.2727272727272727,0
+n02-157-02,"took the highest pride in keeping her word . "" I","tach the highest pride in keeping her word . "" I",0.0625,0.09090909090909091,0
+n02-157-03,"could see 3anudder 3t'ing , "" he went on in a","could see Zamader 3/ting , "" he went on in a",0.13333333333333333,0.18181818181818182,0
+n02-157-04,"lower voice , his sunken black eyes twinkling .","lowers voice , his sunken black eyes twinkling",0.06382978723404255,0.2222222222222222,0
+n02-157-05,"3"" He powerful anxious , poor Mistah Piers .","3"" He powerful anxious , pour Mistah Peers .",0.045454545454545456,0.2222222222222222,0
+n02-157-06,We all know how Balicou Island dangerous,We all know how Balicou Island dangerous,0.0,0.0,1
+n02-157-07,"to all kin' o' boats , wid d'ose big , big","to all trial of Scouts , which chose big , big",0.30952380952380953,0.45454545454545453,0
+n02-157-08,rocks in an' out o' de water .,rodas in an ' out of the wooter .,0.26666666666666666,0.75,0
+n03-038-00,He had almost entirely settled back into his old,He had almost entirely settled back into his old,0.0,0.0,1
+n03-038-01,"ways , even to reading law about two hours each","ways , even to reading how about two hours each",0.0425531914893617,0.1,0
+n03-038-02,"day . Though he did not refuse wine , which the","day . Through the did not refuse wine , which , the",0.0851063829787234,0.2727272727272727,0
+n03-038-04,did not act as though he found it necessary,did not act as through her launch it necessary,0.13953488372093023,0.3333333333333333,0
+n03-038-05,except in moderate compliance with his father's,except in moderate compliance with his father's,0.0,0.0,1
+n03-064-00,Around that rounded rocky promontory where the,Around that rounded rocky promontory where the,0.0,0.0,1
+n03-064-03,"triangular sail , and to the judge's frightened eyes , so","triangular rail , and to the judge's frightened eyes , so",0.017543859649122806,0.09090909090909091,0
+n03-064-04,close to the rocks that it would be dashed,close to the rocks that it would be darked,0.047619047619047616,0.1111111111111111,0
+n03-066-00,""" That boy ! That damned fool boy ! What does he mean",' That boy ! That damned fool boy ! What does he mean,0.018867924528301886,0.07692307692307693,0
+n03-066-02,What does time mean when weighed against the life of,What does time mean when weighed against the life of,0.0,0.0,1
+n03-066-03,"two human beings ? "" Not until he was certain that the","two human bearings ? "" Not until he was certain that the",0.037037037037037035,0.08333333333333333,0
+n03-066-04,yawl had rounded the rocky point instead of,yawl had rounded the rocky point instead of,0.0,0.0,1
+n03-066-05,being flung against the huge boulders did the judge,being funny against the huge bandits did the judge,0.1568627450980392,0.2222222222222222,0
+n03-066-06,empty his lungs of stifling air and refill them,employ his wings of six-flag air and refill them,0.19148936170212766,0.3333333333333333,0
+n03-066-07,with part of that howling northwest gale .,with part of that howling northwest gate .,0.023809523809523808,0.125,0
+n03-079-00,"When the wind was on a rampage , as it was","When the wind was on a rampage , as it was",0.0,0.0,1
+n03-079-01,"now , it could kick up a sea-sized commotion","now , it could kick up a sea-sized commotion",0.0,0.0,1
+n03-079-02,where it had a straight blow of eight miles,where it had a straight blow of eight miles,0.0,0.0,1
+n03-079-03,"down the lake . 3"" Big blow , Judge , "" re-","down the lake . 3"" Big blow , Judge , "" re-",0.0,0.0,1
+n03-079-04,marked Willie Kim as the wind billowed,marked Willie Kim as the wind billowed,0.0,0.0,1
+n03-079-05,out and sucked in his baggy black,out and sucked in his baggy black,0.0,0.0,1
+n03-082-00,"3"" Blow like hell . Maybe by and by","3"" Blow like hell . Maybe by and by",0.0,0.0,1
+n03-082-01,"she blow some more . "" "" Hello , Willie , where","she blow some more . "" "" Hello , Willie , where",0.0,0.0,1
+n03-082-02,"did you come from ? "" the judge said in","did you come from ? "" the judge said in",0.0,0.0,1
+n03-082-03,"mild surprise . "" I didn't hear you . Do you","mild surprise . "" I didn't hear you . Do you",0.0,0.0,1
+n03-082-04,see that fool boy of mine out there on,see that fool boy of mine out there on,0.0,0.0,1
+n03-082-05,"the lake ? "" 3"" I see him . You don't need","the lake ? "" 3"" I see him . You don't need",0.0,0.0,1
+n03-082-06,"worry , Judge . Big wind like that can't","worry , Judge . Big wind like that can't",0.0,0.0,1
+n03-091-00,"Bill is good man , and Bueno Buck is raised on lake .","Bill is good man , and Bueno Buck's raised on lake .",0.03773584905660377,0.15384615384615385,0
+n03-091-01,"He no drown , too . Him , his mother throw him into","He no drown , too . Him , his mother throw him into",0.0,0.0,1
+n03-091-02,water to make him swim when he is born .,water to make him swim when he is born .,0.0,0.0,1
+n03-091-03,"Maybe so Bill , he can swim that good , too . ""","Maybe so Bill , he can swim that good , too . """,0.0,0.0,1
+n03-091-04,"The yawl , riding the high waves with an air that","They sawl , riding the high waves with an air that",0.04081632653061224,0.18181818181818182,0
+n03-091-05,"might have made an ocean liner envious , seemed","might have made an ocean liner envious , seemed",0.0,0.0,1
+n03-091-06,prepared to make a safe though violent landing,prepared to make a safe though violent landing,0.0,0.0,1
+n03-097-00,""" My God ! "" the judge cried out . "" The boy",""" Why God ! "" the judge cried out . "" The boy",0.045454545454545456,0.07692307692307693,0
+n03-097-01,is going to try to make a landing on the,is going to try to make a landing on the,0.0,0.0,1
+n03-097-03,"Willie Kim was speechless , only his slant","Willie Kim was speeddress , only his stout",0.14285714285714285,0.25,0
+n03-097-04,black eyes showing any emotion . With a,black eyes choosing any emotion . with a,0.10256410256410256,0.25,0
+n03-097-05,"quick shift of tiller , and at the same time","quick shift of killer , and at the same time",0.022727272727272728,0.1,0
+n03-097-06,jibbing the boom to which he had the,jibbing the boom to which he had the,0.0,0.0,1
+n03-097-07,"stay rope fastened , Bill made the","Stay rope fastened , Bill made the",0.029411764705882353,0.14285714285714285,0
+n03-103-00,It seemed to the frightened judge,It seemed to the frightened judge,0.0,0.0,1
+n03-103-01,as though his son would actually,as though his son would actually,0.0,0.0,1
+n03-103-02,shoot the craft in under the outer,shoot the craft in under the outer,0.0,0.0,1
+n03-103-03,end of the wharf . But by pressing,end of the wharf . But by pressing,0.0,0.0,1
+n03-103-04,the tiller hard over and at the,the titles had over and at the,0.0967741935483871,0.2857142857142857,0
+n03-103-05,same time dropping the small sheet,same time dropping the small sheet,0.0,0.0,1
+n03-103-06,"of wet canvas , Bill cleared the","of wet canvas , Bill cleared the",0.0,0.0,1
+n03-103-07,"corner of the pier by inches , and","courses of the pies by inches , and",0.11764705882352941,0.25,0
+n03-103-08,"with the tiller still hard over , brought","with the titles still hard ones , brought",0.0975609756097561,0.25,0
+n03-103-09,the yawl up against the waves,the yawl up against the waves,0.0,0.0,1
+n03-106-01,""" that was as pretty a piece of seamans-",""" that was a pretty a piece of sedenames-",0.15,0.2222222222222222,0
+n03-106-02,hip as I ever saw . That boy of,hip on Seven van . That boy of,0.22580645161290322,0.4444444444444444,0
+n03-106-03,mine seems to know how to do,mistress seems too know how to do,0.21428571428571427,0.2857142857142857,0
+n03-106-04,"everything , when he wants to . ""","everything , When he wants to ,",0.12121212121212122,0.375,0
+n03-106-05,""" 3Naw , "" disputed Willie . 3"" Just",", 3 Now , "" this quoted Willie , 3 "" Just",0.2777777777777778,0.8888888888888888,0
+n03-106-06,play in damn fine luck this time .,play in dawn the luck this time,0.17647058823529413,0.375,0
+n03-106-07,"He plenty smart though . "" As they",he plenty smart thoughts . ' As they,0.11764705882352941,0.375,0
+n03-106-08,"reached the pier , the judge on legs","reached the pier , the judge , our legs",0.1111111111111111,0.25,0
+n03-106-09,"that were a little unsteady , they","that were a little unsuitedly , three ,",0.23529411764705882,0.42857142857142855,0
+n03-106-10,"found Bueno Buck , now on the","found Serena Buck , now on the",0.13793103448275862,0.14285714285714285,0
+n03-113-01,weren't worried . We 're going to,recent women . We're going to,0.24242424242424243,0.5714285714285714,0
+n03-113-02,drag the boat ashore and turn,drop the boat ashore and town,0.13793103448275862,0.3333333333333333,0
+n03-113-03,her over . She has a foot of,her over . She has a foot of,0.0,0.0,1
+n03-113-04,water in her . I wouldn't be,wrote in her . I wouldn't be,0.10714285714285714,0.14285714285714285,0
+n03-113-05,surprised if we broke all,surprised if we broke all,0.0,0.0,1
+n03-113-06,speed records on the way in .,speed records on the way in,0.06896551724137931,0.14285714285714285,0
+n03-113-07,"Yes sir , I am slightly wet , and","Yes sir , I am slightly wet , and",0.0,0.0,1
+n03-113-08,Buck would be wetter if he,Buck would be better if he,0.038461538461538464,0.16666666666666666,0
+n03-113-09,"had more clothes on . ""","had more clothes on . """,0.0,0.0,1
+n03-120-00,With four doing the job and the waves,With four doing the jobs and the waves,0.02702702702702703,0.125,0
+n03-120-02,dragged out but before it was turned,dragged out but before it was turned,0.0,0.0,1
+n03-120-03,over Bueno Buck reached into the foot,over Bueno Buck reached into the foot,0.0,0.0,1
+n03-120-04,"of water , tossed out a string of silvery","of water , tossed out a string of silvery",0.0,0.0,1
+n03-120-05,"lake trout and said - 3"" Bill , he 's better","lake trout and said - 3"" Bill , he's better",0.022727272727272728,0.18181818181818182,0
+n03-120-06,"man at catch 'em than Injun , Judge .","man at catch 'em than Injun , Judge .",0.0,0.0,1
+n03-120-07,You look . Little one more as fifteen,You look . Little one more as fifteen,0.0,0.0,1
+n03-120-08,"inches . Maybe big one four feet ,","inches . Maybe big one four feet ,",0.0,0.0,1
+n03-126-00,""" By George , that is a beautiful string of fish ! ""","By George , that is a beautiful string of fish ! """,0.038461538461538464,0.07692307692307693,0
+n03-126-01,"exclaimed the judge . "" Toss them on the grass","exclaimed the judge . "" Too them on the grass",0.043478260869565216,0.1,0
+n03-126-03,few moments later the yawl was upside,few moments later the yawil was opposite,0.13513513513513514,0.2857142857142857,0
+n03-126-04,"down , exposing its shallow keel .","down , exposing its shallow keel .",0.0,0.0,1
+n04-000-00,"Bertram's face was grim . "" You think it was the Snort ,","Bertram's face was grim . "" You think it was the snort ,",0.017857142857142856,0.07692307692307693,0
+n04-000-01,"don't you ? "" John gave a short laugh . "" I did , "" he","don't you ? "" John gave a short laugh . "" I did , "" he",0.0,0.0,1
+n04-000-02,"said ; "" but I 'd better stop thinking that now .","said ; "" but I'd better stop thinking that now .",0.02040816326530612,0.16666666666666666,0
+n04-000-03,"Pericles is fitted with an identically similar one . ""","Pericles in fitting with an identically similar one . """,0.07407407407407407,0.2,0
+n04-000-04,""" So there you are , my dear . "" Peggy 's eyes filled",""" So there you are , my dear . "" Peggy's eyes filled",0.018867924528301886,0.14285714285714285,0
+n04-000-05,"with tears . "" It 's so unfair , "" she said .","with tears . "" It's so can fair , "" she said .",0.08888888888888889,0.3076923076923077,0
+n04-009-00,""" That little beast Robbie Munyard spent six",""" That little beast Robbie Munyard spent six",0.0,0.0,1
+n04-009-01,months ashore while Pericles was refitting in the,months ashore with its Pericles was refitting in the,0.10204081632653061,0.25,0
+n04-009-02,dockyard and now that she 's ready for sea he goes,dockyard and more that she's ready for sea he goes,0.08,0.2727272727272727,0
+n04-009-03,sick . Just because he 's an Honourable he can do,sick . Just because he's an Honourable he can do,0.02040816326530612,0.18181818181818182,0
+n04-009-04,"what he likes . Anyway , why pick on you to succeed","what he likef . Anyway , why pick on you to succeed",0.0196078431372549,0.08333333333333333,0
+n04-015-00,A submariner's wife needed to be spared as much,A submariner's wife needed to be spared as much,0.0,0.0,1
+n04-015-01,as possible . Anyway the Parsifal affair was far,as possible . Anyway the Parsifal affair was far,0.0,0.0,1
+n04-015-02,too fresh in both their minds to be a comfortable,too fresh in both their minds to be a comfortable,0.0,0.0,1
+n04-015-04,We can do with the extra money . It 'll just about,We can do with the extra money . It'll just about,0.02,0.16666666666666666,0
+n04-015-05,"pay Jacky's school fees . "" "" What shall we do","pay Jackie's school fees . "" "" What shall we do",0.043478260869565216,0.09090909090909091,0
+n04-015-06,about this house ? - and Jill's school ? - and oh !,about this house ? - and Jill's school ? - and oh !,0.0,0.0,1
+n04-022-00,If I 'd known what it would be like I 'd sooner,If I'd known what it would be like I'd sooner,0.0425531914893617,0.3333333333333333,0
+n04-022-02,"work on Sundays , "" he said . "" They 're worse off than","work on Sundays , "" he said . "" They're worse off than",0.01818181818181818,0.14285714285714285,0
+n04-022-03,submariners . You ought to have married that fat,submariners . You ought to have married that felt,0.041666666666666664,0.1111111111111111,0
+n04-022-04,stockbroker chap and shared him with his three,stockbroker chap and shared him with his three,0.0,0.0,1
+n04-022-05,mistresses . Anyway it might be much worse .,mistresses . Anyway it might be much worse .,0.0,0.0,1
+n04-022-06,Pericles is a Portsmouth boat . She spends longer,Pericles is a Portsmouth boat . She spends longer,0.0,0.0,1
+n04-022-07,in harbour than any other submarine .,in harbour than any other submarine's .,0.05405405405405406,0.14285714285714285,0
+n04-031-00,"Practically a shore job . Cheer up . "" She wiped","Practically a shore job . Cheer up . "" She wiped",0.0,0.0,1
+n04-031-01,"her eyes and reached for her address book . "" I 'll","her eyes and reached for her address book . "" I'll",0.0196078431372549,0.16666666666666666,0
+n04-031-02,write to those agents and try to get a flat in,write to those agents and try to get a flat in,0.0,0.0,1
+n04-031-03,"Alverstoke , "" she said . "" But I don't know what","Alverstoke , "" she said . "" But I don't know what",0.0,0.0,1
+n04-031-05,blessing that Jacky 's off to boarding school .,blessing that Jacky's off to boarding school .,0.02127659574468085,0.2222222222222222,0
+n04-031-06,And all the trouble you 've taken with the,And all the trouble you've taken with the,0.023809523809523808,0.2222222222222222,0
+n04-039-00,"That little beast , Robbie Munyard ! "" Having","that little beast , Robbie Munyard ! "" Having",0.022222222222222223,0.1111111111111111,0
+n04-039-01,said her say Peggy manfully shouldered her,said her say Peggy manfully shouldered her,0.0,0.0,1
+n04-039-03,another home . In the ten years of married life,another home . In the ten years of married life,0.0,0.0,1
+n04-039-04,this had already happened half a dozen times .,this had already happened half a dozen times .,0.0,0.0,1
+n04-039-05,Such is the life of a naval officer's wife .,Such is the life of a naval officer's wife .,0.0,0.0,1
+n04-044-00,John's father had been a naval officer of the old,John's father had been a naval officer of the old,0.0,0.0,1
+n04-044-01,school ; some of his rigid ideas had been passed,school ; some of his rigid ideas had been passed,0.0,0.0,1
+n04-044-02,on to the second generation . One of these was that,on to the second generation . One of these was that,0.0,0.0,1
+n04-044-03,"an officer should join a ship , on taking up a","an officer should join a ship , on taking up a",0.0,0.0,1
+n04-044-04,"new appointment , at nine a.m. precisely , dressed","new appointment , at nine a.m. precisely , dressed",0.0,0.0,1
+n04-044-05,in the modern equivalent of frock-coat and sword .,in the modern equivalent of frock-coat and sword .,0.0,0.0,1
+n04-044-06,It would have been acceptable to all concerned,It would have been acceptable to all concerned,0.0,0.0,1
+n04-044-07,if John had stepped into Fort Blockhouse clad in,if John had stepped into Fort Blockhouse clad in,0.0,0.0,1
+n04-044-08,"plain-clothes on the previous night , but ways","plain-clothes on the previous night , but ways",0.0,0.0,1
+n04-044-09,instilled by martinet parents have a habit of,instilled by martinet parents have a habit of,0.0,0.0,1
+n04-048-01,"famous Portsmouth hostelry , second only in historic","famous Portsmouth hortelny , second only in historic",0.038461538461538464,0.125,0
+n04-048-02,"interest to The George , unhappily destroyed by German","interest to the George , unhappily destroyed by German",0.018518518518518517,0.1111111111111111,0
+n04-048-03,bombs during the last war . Having deposited his,lombs during the last ever . Having deposited this,0.10416666666666667,0.3333333333333333,0
+n04-048-04,baggage and unpacked his overnight-bag he,baggage and unpacked his overnight-log he,0.04878048780487805,0.16666666666666666,0
+n04-048-05,went in search of a drink . The lower bar was,went in search of a drink . The lower bar was,0.0,0.0,1
+n04-048-06,"empty , save for the lady known by all habitue","Empty , gave for the lady Sanoun by all halitude",0.15217391304347827,0.4,0
+n04-048-08,man who was staring moodily into a gin,man who was strong moodily into a gin,0.05263157894736842,0.125,0
+n04-052-01,must have been worth a great deal to the proprietors,must have been worth a great deal to the propriers,0.038461538461538464,0.1,0
+n04-052-02,"of the hotel . She greeted John , however , with less","of the hotel . She greeted John , however , with less",0.0,0.0,1
+n04-052-03,than her usual cordiality and flashed a warning,than has visual cordiality and flashed a warning,0.0851063829787234,0.25,0
+n04-052-04,glance at him . Evidently the other occupant,glance at him . Evidently the other occupant,0.0,0.0,1
+n04-052-05,of the bar was not 6persona grata . If her,of the bar was not Epersona grata . If her,0.023809523809523808,0.1,0
+n04-052-08,"gin ? "" He turned to Seaweed -","gin ? "" He turned to Seaneeed -",0.06666666666666667,0.125,0
+n04-060-00,""" Make it a large one , darling . I know the naval",""" Make it a large one , darling . I know the naval",0.0,0.0,1
+n04-060-01,"habits . ' Drink gin and call each other wallahs ,","halits . "" Drink gin and call each other wallalls ,",0.08,0.2727272727272727,0
+n04-060-03,"from a visit to the Royal Navy . Submarines , what .","from a visit to the Royal Navy . Submarines , what",0.038461538461538464,0.08333333333333333,0
+n04-060-04,"Youngest D.S.C. in the war , what ? Crawled","youngest D.S.C. in the war , what ? Crawled",0.023255813953488372,0.1111111111111111,0
+n04-060-05,inside a submarine casing to defuse a Jerry,inside a submarine casing to defuse a ferry,0.023255813953488372,0.125,0
+n04-060-06,bomb . Should have been a V.C.,bornlr . Should have been a V.C.,0.13333333333333333,0.14285714285714285,0
+n04-068-01,"obviously thirsty . "" John fought back his","alriously thirsty . "" John fought back his",0.07142857142857142,0.125,0
+n04-068-02,inherited desire to snub the man . If he did he,inhabited desire to save the man . If he did be,0.1276595744680851,0.2727272727272727,0
+n04-068-03,would have to leave the bar and either sit in,would have to leave the bar and either sit in,0.0,0.0,1
+n04-068-04,the lounge or return to his bedroom .,the lounge or return to his bedroom .,0.0,0.0,1
+n04-068-05,Seaweed sensed his embarrassment and,Seaweed sensed his embarrassment and,0.0,0.0,1
+n04-068-06,"came to the rescue . "" You haven't introduced","came to the rescue . "" You haven't introduced",0.0,0.0,1
+n04-068-07,"yourself , "" she said with mock severity .","yourself . "" she said with mock severity .",0.023809523809523808,0.1111111111111111,0
+n04-075-03,nature - I assumed that you both knew who I,nature - I assumed that you both becomes who I,0.13953488372093023,0.1,0
+n04-084-02,He held out his hand and John could not do,He held out his hand and John could not do,0.0,0.0,1
+n04-084-04,"Commander , "" he said . "" Now what about that","Commander , "" he said . "" Now what about that",0.0,0.0,1
+n04-084-06,one in return and he was lonely .,one in return and he was lonely .,0.0,0.0,1
+n04-092-03,a Lieutenant-Commander . Perhaps we could,a Lieutenant-Commander . Perhaps we could,0.0,0.0,1
+n04-092-04,"drop the rank - such a mouthful ! "" "" You 're","drop the ranks - such a mouthful ! "" "" You're",0.044444444444444446,0.25,0
+n04-092-06,"his glass . "" Fill it up , darling . Accuracy above","his glass . "" Fill it up , darling . Agency above",0.09803921568627451,0.08333333333333333,0
+n04-092-07,all else . We pride ourselves about accuracy on,all else . We pride ourselves about accuracy on,0.0,0.0,1
+n04-100-01,Check and counter-check - nothing but the truth .,Check and court-check - nothing but the truth .,0.061224489795918366,0.1111111111111111,0
+n04-100-04,"gin with relish . It was his favourite brand ,",gin with relish . He was his favourite brand,0.08695652173913043,0.2,0
+n04-100-05,he was on the verge of a new chapter in,he was on the verge of a new chapter in,0.0,0.0,1
+n04-100-06,"his career , and his companion's attitude was","his career , and his companions attitude was",0.022222222222222223,0.125,0
+n04-107-00,Life at home and in Bath had been a,life at horns and in Bath had been a,0.11428571428571428,0.2222222222222222,0
+n04-107-01,trifle too comfortable and humdrum .,trifle too comfortable and human,0.16666666666666666,0.3333333333333333,0
+n04-107-02,He 'd never before met a pressman and,He'd never before met a pressman and,0.02702702702702703,0.25,0
+n04-107-05,"Bawley . "" The truth is usually very embarra-","Bawley . "" The truth is usually very embarma",0.044444444444444446,0.1111111111111111,0
+n04-114-01,going to take over command of Pericles . Am I,going to take over command of Pericles . Am I,0.0,0.0,1
+n04-114-05,"he said . "" Expense account . You 're a married","he said . "" Expense account . You're a married",0.02127659574468085,0.18181818181818182,0
+n04-114-07,your substance on a complete stranger . Set,your substance on a complete stranger . but,0.046511627906976744,0.125,0
+n04-130-01,"off it , "" said Bawley . "" The proprietor of the Daily","off it , "" said Bawley . "" The proprietor of the Daily",0.0,0.0,1
+n04-130-02,"Courier knows what 's going on . If he doesn't mind ,",Counter honours what's going on . If he does not mind,0.20754716981132076,0.5833333333333334,0
+n04-130-03,"why should you ? "" "" I see . "" John took the","Why should you ? "" "" I see . "" John took the",0.022727272727272728,0.07692307692307693,0
+n04-130-04,refilled glass and looked over the rim at his,refilled glass and looked over the rim at his,0.0,0.0,1
+n04-130-05,"companion . "" You want me to talk , is that it ? ""","companion . "" You want me to talk , is that it ? """,0.0,0.0,1
+n04-139-00,""" You misjudge me , "" said Bawley . "" You have",""" If an unsyridge me , "" said Bawley . "" You have",0.21739130434782608,0.25,0
+n04-139-05,"of course . "" "" On one condition , "" said John .","of course . "" On one condition , "" said John",0.08333333333333333,0.15384615384615385,0
+n04-149-02,we give him the publicity . ' The Honourable,we gave him the publicity . ' The Honourable,0.022727272727272728,0.1111111111111111,0
+n04-149-04,"sort of thing . "" "" You 'll get nothing out of me , ""","sort of Thring . "" "" You'll get nothing out of me . """,0.07547169811320754,0.26666666666666666,0
+n04-156-01,"tell George to bring in the 6carte du jour . ""","tell George to bring in the scarte du jour . """,0.021739130434782608,0.09090909090909091,0
+n04-156-04,host and a splendid raconteur . The evening,host and a splendid racenter . The evening,0.046511627906976744,0.125,0
+n04-156-05,passed all too quickly . As they parted in,passed all too quickly . As they parted in,0.0,0.0,1
+n04-156-06,the vestibule the two men were well,"the vestibule , the two man were well",0.08571428571428572,0.2857142857142857,0
+n04-156-07,disposed towards each other .,disposed towards one another .,0.20689655172413793,0.4,0
+n04-163-02,give me a ring at this number and I 'll,give me a ring at this number and I'll,0.02564102564102564,0.2,0
+n04-163-05,John took it and put it in his pocket .,John took it and put it in his pocket .,0.0,0.0,1
+n04-171-00,Ever been out in a submarine ? I 'll give,Ever been out in a submarine ? I'll give,0.024390243902439025,0.2,0
+n04-171-01,"you a spin round one of these days , if you","you a spin round one of these days , if you",0.0,0.0,1
+n04-171-02,"like . You could write it up . "" Bawley made a face .","like . You could write it up . "" Bawley made a face .",0.0,0.0,1
+n04-171-03,""" Not in Pericles , old man . "" "" Why not ? """,""" Not in Pericles , old man . "" "" Why not ? """,0.0,0.0,1
+n04-171-04,""" Better ask Robbie Munyard . "" "" What 's he been",""" Better ask Robbie Munnyard . "" "" What's he been",0.04081632653061224,0.25,0
+n04-171-05,"saying ? "" John was furious . The little squirt !","saying ? "" John was furious . The little squirt !",0.0,0.0,1
+n04-171-06,To go gassing to a newspaper man !,To go gassing to a newspaper man !,0.0,0.0,1
+n04-183-00,""" Look ! "" he went on earnestly . "" You 're not going",""" Look ! "" he went on earnestly . "" You're not going",0.018867924528301886,0.14285714285714285,0
+n04-183-01,"to write up Pericles in some way or other , are","to write up Pericles in some way or other , are",0.0,0.0,1
+n04-183-02,"you ? "" "" What is there to write up ? "" said","you ? "" What is there to write up ? "" said",0.045454545454545456,0.07692307692307693,0
+n04-183-03,"Bawley . "" There are forty-three submarines in","Bawley . "" There are forty-three submarines in",0.0,0.0,1
+n04-183-04,"the Navy - why should I pick on Pericles ? ""","the Navy - why should I pick on Pericles ? """,0.0,0.0,1
+n04-183-05,"John eyed him steadily . "" It 's the Parcifal",John eyed him steadily . ' It's the Parcifal,0.044444444444444446,0.3,0
+n04-183-06,"business , isn't it ? "" he said quietly .","business , isn't it ? "" he said quietly .",0.0,0.0,1
+n04-190-01,""" more so than ever since I met you . """,""" more so than ever since I met you . """,0.0,0.0,1
+n04-190-02,""" What did Munyard say ? "" "" The Snort - hull",""" What did Munyard say ? "" "" The Snort - hull",0.0,0.0,1
+n04-190-03,"fitting fractured . "" "" Supposing I was to tell you that","fitting fractured . "" "" Lepposing I was to tell you that",0.03571428571428571,0.08333333333333333,0
+n04-190-04,we 've had Pericles' entire Snort equipment removed,we've had Pericles' entire Snort equipment removed,0.0196078431372549,0.25,0
+n04-195-00,""" Munyard didn't tell me that . But I must confess",""" Munyard didn't tell me that . But I must confess",0.0,0.0,1
+n04-195-01,I 'm relieved . But it still doesn't do away,I'm relieved . But it still doesn't do away,0.022727272727272728,0.2,0
+n04-195-02,"with the possibility of faulty design . "" He held","with the possibility of faulty design . "" He held",0.0,0.0,1
+n04-195-03,"out his hand . "" Maybe I will take a trip with you","out his hand . "" Maybe I will take a trip with you",0.0,0.0,1
+n04-195-05,I 'll tell my editor that the story 's a dead bird .,I'll tell my editor that the story's a dead bird,0.07692307692307693,0.38461538461538464,0
+n04-202-00,Glad I met you . Don't forget to give me a ring -,old I met you . Don't forget to give me a ring-,0.061224489795918366,0.23076923076923078,0
+n04-202-01,"any time - knock twice and ask for Bawley , what ? ""","anytime - knock twice and ask for Bawley , what ? """,0.019230769230769232,0.15384615384615385,0
+n04-202-02,""" I don't know when that will be , "" said John .",""" I don't know when that will be , "" said John .",0.0,0.0,1
+n04-202-03,""" I shall be busy for a while , cleaning up after",""" I shall be busy for a while , cleaning up after",0.0,0.0,1
+n04-202-04,"Master bloody Munyard . "" THERE were six submarines ,","Master bloody Munyard . "" THERE were six submarines ,",0.0,0.0,1
+n04-202-05,lying in pairs alongside the jetty at Fort Blockhouse .,lying in pairs alongside the jetly at Ford Blackhouse .,0.05454545454545454,0.3,0
+n04-202-06,Black and grimly businesslike they both looked and,black and grimly businesslike they both looked and,0.02,0.125,0
+n04-202-07,"sounded , for all of them were rumbling as they","sounded , for all of them were rumbling as they",0.0,0.0,1
+n04-202-08,charged their electric batteries .,charged their electric batteries .,0.0,0.0,1
+n04-209-00,A light wind wafted the smoke of diesel exhaust in,A light wind roofred the smoke of diesel exhaust in,0.08,0.1,0
+n04-209-01,through the open windows of the Captain's house . It,through the open windows of the Captain's house . It,0.0,0.0,1
+n04-209-02,pervaded every room but neither Harry nor Madeleine,perraded every room but neither Harry nor Madeleine,0.0196078431372549,0.125,0
+n04-209-03,Turton noticed its existence as they sat in silence over,Turton noticed its existence as they sat in silence over,0.0,0.0,1
+n04-209-04,a substantial breakfast . Although usually a very,a substantial breakfast . Although usually a very,0.0,0.0,1
+n04-209-05,talkative lady Madeleine respected her husband's,bulkative lady Madeleine respected her husband's,0.041666666666666664,0.16666666666666666,0
+n04-209-06,"silences , for she knew they betokened a worry of","silences , for she knew they betakened a worry of",0.02040816326530612,0.1,0
+n04-213-00,There had been many such breakfasts lately since the,There had been many such breakfast's lately since the,0.019230769230769232,0.1111111111111111,0
+n04-213-01,affair of Parsifal . Harry had lost a good deal of weight .,officier of Parsifal . Harry had last a good deal of weight .,0.0847457627118644,0.15384615384615385,0
+n04-213-02,"His normal placid and steady-going manner remained ,","His normal placid and shady-going manner remained ,",0.038461538461538464,0.125,0
+n04-213-03,but she could see that it no longer came naturally .,but she could see that it no longer came naturally .,0.0,0.0,1
+n04-213-04,It is the common lot of all Squadron Senior Officers,It is the common lot of all Squadron Senior Officers,0.0,0.0,1
+n04-213-05,"to experience such catastrophes as the loss of a submarine ,","to experience such catastrophes as the loss of a submarine ,",0.0,0.0,1
+n04-213-06,though in peace time these happenings are few and,though in peace time these happenings are few and,0.0,0.0,1
+n04-218-00,This is the testing time for all . The affair blows up into,This is the testing time for all . The affair blows up into,0.0,0.0,1
+n04-218-01,a national disaster and then when it is all over life,a national disaster and then when it is all over life,0.0,0.0,1
+n04-218-02,must continue as before . During this period the Captain,must continue as before . During this period the Captain,0.0,0.0,1
+n04-218-03,must present an unruffled appearance and carry on as,must present an unruffled appearance and carry on as,0.0,0.0,1
+n04-218-04,if nothing unusual has happened . Harry Turton had,if nothing unusual has happened . Harry Turton had,0.0,0.0,1
+n04-218-05,"written letters to the bereaved , had visited many in the","written letters to the bereaved , had visited many in the",0.0,0.0,1
+n04-218-06,"locality , had been interviewed by the Press , had driven","locality , had been interviewed by the Press , had driven",0.0,0.0,1
+n04-218-07,his surviving submarines a good deal harder than,his surviving submarines a good deal harder than,0.0,0.0,1
+n04-218-08,usual and in fact had applied all the usual specifics,usual and in fact had applied all the usual specifics,0.0,0.0,1
+n06-074-00,He rode down to where I was waiting . I was,be rode down to where I was waiting . I was,0.023255813953488372,0.09090909090909091,0
+n06-074-01,thinking what a skill he had for reading,thinky what a skill he had for reading,0.075,0.125,0
+n06-074-02,"my mind . "" This would be as good a place","my mind . "" This would he as good a place",0.024390243902439025,0.09090909090909091,0
+n06-074-04,"near me . "" Yes , "" I said . "" It 'll be here to-","never me . "" Yes , "" I said . "" It'll be here to-",0.061224489795918366,0.1875,0
+n06-074-05,"morrow as likely as not . "" I paused . "" Miss","marrow as likely as not . "" I paused . "" Miss",0.022222222222222223,0.08333333333333333,0
+n06-074-06,"Jeannie 'll be on that coach , Dan . ""","Jeannie'll be on that coach , Dan . """,0.02631578947368421,0.2,0
+n06-082-00,""" Yes , "" he said . "" I know . "" "" No harm must come",""" Yes , "" he said . "" Hancus . "" "" No harm must come",0.11538461538461539,0.11764705882352941,0
+n06-082-02,men who 'll be after that coach I 'm interested,men who'll be after that coach I'm interceded,0.10638297872340426,0.5,0
+n06-082-03,"in , Johnny . "" "" I know . But if lead starts","in , Johnny . "" I know . But if lead starts",0.044444444444444446,0.07692307692307693,0
+n06-082-05,But I reckon they 'll be too busy shooting at,But I reckon they'll he too being shocking out,0.2222222222222222,0.6,0
+n06-082-06,us to bother with the coach and the folks,us to better with the coach and the falls,0.0975609756097561,0.2222222222222222,0
+n06-092-00,""" Maybe , "" I said . "" But we 've got to remember",""" Maybe , "" I said . "" But we've got to remember",0.02040816326530612,0.14285714285714285,0
+n06-092-01,"that girl all the time , Dan . I feel kind","that girl all the time , Dan . I feel kind",0.0,0.0,1
+n06-092-02,"of responsible for her . "" "" Of course , "" he said ,","of responsible for her . "" "" Of course , "" he said ,",0.0,0.0,1
+n06-092-03,giving me one of his strange looks . Then he,giving me one of his stage talks . Then he,0.11363636363636363,0.2,0
+n06-092-05,and have a look at the mining camp .,and have a lock at the swing camp .,0.1111111111111111,0.2222222222222222,0
+n06-092-07,"working for , as well as the townsfolk and","working for , as well as the townsfolk and",0.0,0.0,1
+n06-100-00,With something of a start I remembered the,with something of a start I remembered the,0.023809523809523808,0.125,0
+n06-100-01,man who 'd brought us into this business .,man who'd brought us into this business .,0.023809523809523808,0.2222222222222222,0
+n06-100-02,""" Maybe you don't know about Appleton ,",""" Maybe you don't know about Appleton ,",0.0,0.0,1
+n06-100-04,I said . I watched him because I was always,I said . I watched him because I was always,0.0,0.0,1
+n06-100-05,fascinated by the way he looked when you,fascinated by the way he looked when you,0.0,0.0,1
+n06-100-06,"tried to surprise him . "" Dead ? "" he said . "" Yes .","tried to surprise him . "" Dead ? "" he said . "" Yes",0.038461538461538464,0.06666666666666667,0
+n06-100-07,Dead . Shuffled out of the deck . Blasted,lead . Shuffled out of the cheek . Biomedical,0.2926829268292683,0.3333333333333333,0
+n06-100-08,down with a shotgun outside the Palace,down with a shotgun outside the Palace,0.0,0.0,1
+n06-111-00,""" Fenton or Somers , "" he said . "" Or the Town",""" Fenton or Somers , "" he said . "" Or the Town",0.0,0.0,1
+n06-111-01,"Marshal , "" I added . His face was fixed ,","Marshal , "" I added - His face was fixed ,",0.023809523809523808,0.09090909090909091,0
+n06-111-04,his horse back off the trail and up the slope,his horse back off the trail and up the slope,0.0,0.0,1
+n06-111-05,leading to the ridge . I followed . From the,reaching to the ridge . I followed # From the,0.09090909090909091,0.2,0
+n06-111-06,top you could see something of the wild hill,top you could see something of the mild hull,0.045454545454545456,0.2222222222222222,0
+n06-111-07,country that lay all round Gilburg Crossing .,country that lay all round gliding crossing .,0.15555555555555556,0.25,0
+n06-119-00,The air was fresh and clear and you,The air was fresh and clear and you,0.0,0.0,1
+n06-119-01,could see far over west and north for many,could see far west and north for many,0.11904761904761904,0.1111111111111111,0
+n06-119-02,miles . The real high country of the Rockies,makes . The real high county of the Rockies,0.06818181818181818,0.2222222222222222,0
+n06-119-03,lifted up in the distance like a pale water-,lifted up in the distance like a pale water-,0.0,0.0,1
+n06-119-04,colour drawing . Between us and that lay,colour drawing . Between us and that long,0.075,0.125,0
+n06-119-05,"a vast stretch of hills , canyons , buttes and","a vast sketch of hills , canyons , butles and",0.06521739130434782,0.2,0
+n06-123-01,"said Dan . "" If we head west we ought to","said Dan . "" If we had west we ought to",0.025,0.09090909090909091,0
+n06-123-02,"cut the trail leading from Gilburg to the north . ""","cut the trail leading from Gilby to the north . """,0.058823529411764705,0.09090909090909091,0
+n06-123-03,"So we swung west , making slow going over","So we swung west , making slow going over",0.0,0.0,1
+n06-123-04,"rough country , sliding on shale , climbing down","rough country , sliding on whole , climbing down",0.041666666666666664,0.1111111111111111,0
+n06-123-05,"into draws , circling a big mesa by a","with draws , circling a big subset by a",0.21621621621621623,0.2222222222222222,0
+n06-123-06,"four or five mile valley , sandy-floored . It","four or five mile walking , sandy-flawed . It",0.17777777777777778,0.2222222222222222,0
+n06-123-07,got hotter as the day wore on and we rested,gift battler as the day more on and we rocked,0.20930232558139536,0.4,0
+n06-123-08,gratefully by a small creek where we watered,gratefully by a small scale where he watered,0.11363636363636363,0.25,0
+n06-123-09,the horses and drank enough to cure our,the horses and drank enough to cure over,0.05128205128205128,0.125,0
+n06-128-00,An hour's riding brought us to a trail that,the hour's richy brought us to a trail that,0.16279069767441862,0.2222222222222222,0
+n06-128-02,We turned north into it and after about four,We turned north into it and after about four,0.0,0.0,1
+n06-128-03,miles it led into a small canyon which,miles it led into a small canyon which,0.0,0.0,1
+n06-128-04,opened out into a wide shallow draw .,opened out into a wide shallow draw .,0.0,0.0,1
+n06-128-05,Here in a dried-up creek-bed we found,Here is a dried-up creek-head we formed,0.16216216216216217,0.42857142857142855,0
+n06-128-06,the miners at work . They were scattered,the miners at work . They were collected,0.15,0.125,0
+n06-128-07,over a fairly wide area working singly or,over a fairly wide area working surgery or,0.0975609756097561,0.125,0
+n06-133-01,of the diggings there was a roughly-built,of the Wiggins there was a roughly small,0.17073170731707318,0.42857142857142855,0
+n06-133-02,shack and as we got near someone inside bawled,shack and as we got new someone in jail banked,0.1956521739130435,0.4444444444444444,0
+n06-133-03,"out , "" If you come any closer , I 'll sure blow","and , If you come any closer , I'll sure blow",0.125,0.3076923076923077,0
+n06-133-04,"your whiskers off . "" "" Take it easy , mister , "" I sang","your ministers off . "" "" Take it easy , murder , "" Wang",0.17857142857142858,0.26666666666666666,0
+n06-133-06,got no whiskers so as you can see . Just you,get no missiles so as you can see . Just you,0.1590909090909091,0.18181818181818182,0
+n06-133-07,go and tell Nick Dowd we 've come to talk,go and tell Nick Dowd we've come to talk,0.024390243902439025,0.2,0
+n06-133-08,"to him about what happened last night . ""","to him about what happened last enjoy . """,0.12195121951219512,0.1111111111111111,0
+n06-140-01,"whistle then , loud and shrill . The gun barrel","whistle then , land and thrill . The gun barrel",0.06382978723404255,0.2,0
+n06-140-02,peeking out through a hole in the shack never,packing out through a hole in the shack never,0.044444444444444446,0.1111111111111111,0
+n06-140-03,"wavered . We sat our horses , waiting . "" Looks as","wavered . We sat our horses , waiting . "" looks as",0.02,0.08333333333333333,0
+n06-140-04,"though they 're expecting trouble , "" I said . "" Where","though they're expecting trouble , "" I said . "" Where",0.018518518518518517,0.16666666666666666,0
+n06-140-06,"observed Dan , shifting about in his saddle . He","observed Dan , briefly about in his middle . He",0.1875,0.2,0
+n06-148-00,I saw several men running down towards,I saw several men running down towards,0.0,0.0,1
+n06-148-02,As the nearest of them came round the,As the nearest of them came round the,0.0,0.0,1
+n06-148-03,"shack , his rifle at the ready , I saw it was Nick","shack , his rifle at the ready , I saw it was Nick",0.0,0.0,1
+n06-148-04,"Dowd , still wearing his blue check shirt . He","Dowd , still wearing his blue check shirt . He",0.0,0.0,1
+n06-148-06,"come 2a-calling , "" I said . "" Can't see no reason","come 2a-calling , "" I said . "" Can't see no reason",0.0,0.0,1
+n06-148-07,"for calling , "" he said . "" Still long as you 're here","for calling , "" he said . "" Still long as you're here",0.018518518518518517,0.14285714285714285,0
+n06-148-08,you may as well stay a while .,you may as well stay a while .,0.0,0.0,1
+n06-156-01,one of the miners who 'd come along with,one of the miners who'd come along with,0.025,0.2222222222222222,0
+n06-156-02,Nick Dowd took our horses off to water .,Nick Dowd took our horses off the water .,0.05,0.1111111111111111,0
+n06-156-03,We followed Nick Dowd into the shack .,We followed Nick Dowd into the shack .,0.0,0.0,1
+n06-156-04,They 'd rigged up a stove of sorts and on it,They'd rigged up a stove of sorts and on it,0.022727272727272728,0.18181818181818182,0
+n06-156-05,a huge blackened coffee-pot steamed . Other,a huge blackened coffee-pot steamed . Other,0.0,0.0,1
+n06-156-06,miners followed in at our heels . Nick Dowd,miners followed in at our heels . Nick Dowd,0.0,0.0,1
+n06-156-07,found us a couple of boxes to sit on .,found us a couple of boxes to sit on .,0.0,0.0,1
+n06-163-00,A small man in bib overalls and a battered,A small man in bib overalls and a battered,0.0,0.0,1
+n06-163-01,"Derby hat fussed around the stove . "" 2Ain't","Derby hat fussed around the stove . "" 2Ain't",0.0,0.0,1
+n06-163-03,"comforts , "" said Dowd . He introduced the men","comforts , "" said Dowd . He introduced the men",0.0,0.0,1
+n06-163-04,"who 'd come in as Roper Smith , Shorty , Mick","who'd come in as Roper Smith , Shorty , Mick",0.022222222222222223,0.18181818181818182,0
+n06-163-06,the little hombre in big overalls . Very soon he,the little hombre in big overalls . Very soon he,0.0,0.0,1
+n06-163-07,had tin mugs filled with hot black coffee,had tin mugs filled with hot black coffee,0.0,0.0,1
+n06-163-08,sweetened with molasses for all and for us,sweetened with molasses for all and for us,0.0,0.0,1
+n06-169-02,"as of now , apart from a few sacks of gold","as of now , apart from a few sacks of gold",0.0,0.0,1
+n06-169-03,"dust . "" He winked at his partners . They all","dust . "" He winked at his partners . They all",0.0,0.0,1
+n06-169-05,we 'd finished and I 'd rolled a cigarette,we'd finished and I'd rolled a cigarette,0.047619047619047616,0.4444444444444444,0
+n06-169-07,you came in that 2somep'n happened last,you came in that 2somep'n happened last,0.0,0.0,1
+n06-175-01,"After you 'd left the meeting , mister "" - I","After you'd left the meeting , mister "" - I",0.022727272727272728,0.18181818181818182,0
+n06-175-03,down William Appleton outside the Palace,down William Appleton outside the Palace,0.0,0.0,1
+n06-175-04,"with a shotgun . "" I paused and watched my","with a shotgun . "" I paused and watched my",0.0,0.0,1
+n06-175-05,words affect them in their different ways .,words affect them in their different ways .,0.0,0.0,1
+n06-175-07,""" It 2jest about leaves everything wide open",""" It 2jest about leaves everything wide open",0.0,0.0,1
+n06-175-08,"for Mr. Pell and his bunch , "" observed","for Mr. Pell and his bunch , "" observed",0.0,0.0,1
+n06-182-00,The rest of the men there said nothing but,The rest of the men there said nothing but,0.0,0.0,1
+n06-182-01,you could see they were hard hit . They were,you could see they were hard it . They were,0.022727272727272728,0.1,0
+n06-182-02,simple men who knew a lot maybe about,simple men who knew a lot maybe about,0.0,0.0,1
+n06-182-03,digging for gold but were babes in arms,digging for gold but were babes in arms,0.0,0.0,1
+n06-182-04,when it came to dealing with owlhooters and,when it came to dealing with owlhooters and,0.0,0.0,1
+n06-182-05,desperadoes like Pell and Fenton and the,desperadoes like Pell and Fenton and the,0.0,0.0,1
+n06-182-06,"rest . "" I guess we 'd better hold onto the gold","rest . "" I guess we'd better hold onto the gold",0.020833333333333332,0.16666666666666666,0
+n06-182-07,"right 2hyar , Nick , "" said the Sodbuster .","right 2hyar , Nick , "" said the Sodbuster .",0.0,0.0,1
+n06-186-01,"better . "" Surprisingly Dan Maffrey came in at","better . "" Surprisingly Dan Maffrey came in at",0.0,0.0,1
+n06-186-03,sure asking for trouble . They 'll be on your,sure asking for trouble . They'll be on your,0.022222222222222223,0.2,0
+n06-186-04,necks before you can say ' knife ' . It wouldn't,necks before you can say ' knife ' . It wouldn't,0.0,0.0,1
+n06-186-06,at gun point either . They 've done it before,at gun point either . They've done it before,0.022222222222222223,0.2,0
+n06-186-07,"and got away with it . ""","and got away with it . """,0.0,0.0,1
+n06-194-00,""" You 're 2durned tootin' , mister , "" said the man",""" You're Zdurned tootin' , mister , "" said the man",0.0392156862745098,0.25,0
+n06-194-01,"called Roper Smith . "" We 've got five rifles among","called Roper Smith . "" We've got five rifles among",0.0196078431372549,0.18181818181818182,0
+n06-194-02,us and a few six-shooters . But most of us,us and a few six-shooters . But most of us,0.0,0.0,1
+n06-194-03,2ain't 2eddicated in shootin' . It 'd be a,2ain't 2eddicated in shootin' . It'd be a,0.023809523809523808,0.2222222222222222,0
+n06-194-05,"on getting your gold to the bank , then we 'll","on getting your gold to the bank , then we'll",0.021739130434782608,0.18181818181818182,0
+n06-201-01,with Dan Maffrey's aim to avenge himself,with Dan Maffrey's aim to avenge himself,0.0,0.0,1
+n06-201-02,on the Fenton bunch but still it was a,our the Fenton bunch but still it was a,0.05263157894736842,0.1111111111111111,0
+n06-201-03,"handsome offer so I chimed in too . "" That","handsome offer so I chimed in too . "" That",0.0,0.0,1
+n06-201-05,"and hold up the stage , it 'll be a couple or","and hold up the stage , it'll be a couple or",0.022222222222222223,0.16666666666666666,0
+n06-201-06,"three of them , no more . I reckon we can deal","three of them , no more . I reckon we can deal",0.0,0.0,1
+p01-147-00,Mr. Copthorne knew a way round by the side,Mr. Copthorne knew a way round by the side,0.0,0.0,1
+p01-147-01,of the church where there was a small open,of the church where there was a small open,0.0,0.0,1
+p01-147-02,outbuilding where the grave digger kept his spades,outbuilding where the grave digers kept his spades,0.04,0.125,0
+p01-147-03,and forks and tidying up implements . It might,and forks and tidying up implements . but might,0.043478260869565216,0.1111111111111111,0
+p01-147-04,"be open . It was . He entered , and seated himself","be open . It was . He entered , and seated himself",0.0,0.0,1
+p01-147-05,in a huddle upon an upturned wheelbarrow .,in a shmiddle upon an captured wheelbarrow .,0.14285714285714285,0.25,0
+p01-147-06,His curious headgear fell off . Strange things,this curious headgear fell off . Strange things,0.043478260869565216,0.125,0
+p01-147-07,were going on in his bewildered brain . When,were going on in his bewildered brain . When,0.0,0.0,1
+p01-147-08,a man was drowning and towards his last,a man was drowning and towards his last,0.0,0.0,1
+p01-147-09,gasp it was scientifically supposed his whole,gasp it was scientifically supposed his whole,0.0,0.0,1
+p01-147-10,life came up before him in some cinematic,life came up before him in some cinematic,0.0,0.0,1
+p01-155-01,"outbuilding , but this was happening to him now . He","out building , but this was happening to him now . He",0.019230769230769232,0.18181818181818182,0
+p01-155-02,"saw himself as a sulky , ugly , malformed , repressed","saw himself as a smile , ugly , malformed , repressed",0.07547169811320754,0.09090909090909091,0
+p01-155-03,"boy , then a young youth . He saw himself refusing","boy , then a young youth . He saw himself refusing",0.0,0.0,1
+p01-155-04,baptism according to the sect his parents belonged to .,bapticism according to the sect his parents belonged to,0.07272727272727272,0.2,0
+p01-155-06,"on , his leaping mind flashed pictures of chi-","on , his leaping wind flashed pictures of chi-",0.021739130434782608,0.1111111111111111,0
+p01-155-07,"canery and corruption , the growth of the dea-","canary and corruption , the growth of the idea -",0.06521739130434782,0.3333333333333333,0
+p01-155-08,dly decadence and absorption in debase-,ally decadence and absorption in defense-,0.1282051282051282,0.3333333333333333,0
+p01-155-09,ment and Satanic debauchery .,ment and Satanic debanchey .,0.06896551724137931,0.2,0
+p01-168-00,"He didn't know what to make of it , but it","the didn't know what to make of it , but it",0.047619047619047616,0.09090909090909091,0
+p01-168-01,was Mr. Copthorne all right . Perhaps he had,was Mr. Copthorne all right . Perhaps he had,0.0,0.0,1
+p01-168-02,been attending some kind of fancy dress do,been attending some kind of fancy dress do,0.0,0.0,1
+p01-168-03,"in London . Very strange his eyes looked . Mad ,","in London . Very strange his eyes looked . Mad ,",0.0,0.0,1
+p01-168-04,"hunted eyes , as if the poor fellow had rocks in","hunted eyes , as if the poor fellow had rocks in",0.0,0.0,1
+p01-168-05,"his head , so the verger described afterwards .","his head , so the veryever disturbed afterwards .",0.14893617021276595,0.2222222222222222,0
+p01-174-00,""" Yes . I travelled down from London",""" Yes . I travelled down from London",0.0,0.0,1
+p01-174-01,"as the dawn was breaking , and","as the dawn was breaking , and",0.0,0.0,1
+p01-174-06,"led the way in . "" The stained glass","led the way in . "" The stained glass",0.0,0.0,1
+p02-000-00,There were few passengers on the plane and Gavin was,There were few passengers on the plane and Gavin was,0.0,0.0,1
+p02-000-01,"quickly through the customs . "" Gay ! "" "" Gavin ! "" The girl","quickly through the customs . "" Gray ! "" "" Gavin ! "" The girl",0.016666666666666666,0.06666666666666667,0
+p02-000-02,and her luggage had disappeared and they were alone,and her luggage had disappeared and they were alone,0.0,0.0,1
+p02-000-03,together . The porter brought Gavin's bag out to the,together . The porter brought Gavin's bag out to the,0.0,0.0,1
+p02-000-05,"hand and smiled . "" I want to check up on the","hand and smiled . "" I want to check up on the",0.0,0.0,1
+p02-008-00,Gay went out to the waiting,Gay went out to the waiting,0.0,0.0,1
+p02-008-01,"taxi , and then found that in","taxi , and then found that is",0.034482758620689655,0.14285714285714285,0
+p02-008-02,the excitement of meeting,the excitement of meeting,0.0,0.0,1
+p02-008-03,Gavin she had left her sun-,Gavin she had left her sum-,0.037037037037037035,0.16666666666666666,0
+p02-008-04,glasses on the veranda . She,glasses on the verauda . She,0.03571428571428571,0.16666666666666666,0
+p02-008-05,went quickly back to fetch them .,wentquickly back to fetch them,0.09090909090909091,0.42857142857142855,0
+p02-008-06,Gavin and the girl who had got,Gavin and the girl who had got,0.0,0.0,1
+p02-008-07,off the plane with him were talking .,off the plane with him were talking,0.05405405405405406,0.125,0
+p02-008-08,He was writing something in his,He was writing something in his,0.0,0.0,1
+p02-008-09,"pocket-book , with a sick feeling","pocket-book , with a side feeling",0.06060606060606061,0.16666666666666666,0
+p02-008-10,of despair Gay knew that of course,"of despair in Gay , knew that of course",0.14705882352941177,0.2857142857142857,0
+p02-017-02,"miserable , shy , who had sat at the little","miserable , shy , who had sat at the little",0.0,0.0,1
+p02-017-03,table for the first time a few days ago .,table for the first time a few days ago .,0.0,0.0,1
+p02-017-04,Gavin raised his glass to her and smiled,Gavin raised his glass to her and smiled,0.0,0.0,1
+p02-017-05,"and Gay's heart turned over . "" I 'd like","and Gay's heart turned over . "" I'd like",0.024390243902439025,0.2,0
+p02-017-06,"to do that . "" Gavin drained his glass","to do that . "" Gavin drained his glass",0.0,0.0,1
+p02-022-00,""" And then we 'll go for a stroll along the",""" And then we'll be go for a small along the",0.16279069767441862,0.2727272727272727,0
+p02-022-01,"beach . A moon like this mustn't be wasted . ""","leach . A man like this mustn't be washed . """,0.08695652173913043,0.2727272727272727,0
+p02-022-02,He gestured towards the bay where the full,He gestured towards the bay where the full,0.0,0.0,1
+p02-022-03,"moon was just rising over the rocks , then","moon was just rising over the rocks , then",0.0,0.0,1
+p02-022-04,laid his hand on hers . Gay smiled at him,David Luis blamed on Nero . Glory reunited out him,0.4878048780487805,0.7,0
+p02-022-07,"only , yet remembering for a second the","only , yet remembering for a second time",0.05128205128205128,0.125,0
+p02-022-08,kisses she had seen him giving Elaine .,kisses due had been him giving Elaine .,0.07692307692307693,0.25,0
+p02-027-00,"All that was part of the past , she would put it behind her . She","All that was part of the past , she would put it behind her . She",0.0,0.0,1
+p02-027-01,"would never be jealous again , would even take Larry's advice and","would never be jealous again , would even take busy's advice and",0.06153846153846154,0.08333333333333333,0
+p02-027-02,"look the other way if need be . "" I say ! "" Gavin was looking over her","book the other way if need be . "" I say . "" Gavin was looking over her",0.02857142857142857,0.1111111111111111,0
+p02-027-03,"shoulder . "" That 's a pretty girl ! "" Gay glanced behind her , "" Isn't she","shoulder . That's a pretty girl ! "" Gay glanced behind her , "" Don't she",0.06666666666666667,0.2222222222222222,0
+p02-069-00,"Gay , a little puzzled , went through","Gay , a little puzzled , went through",0.0,0.0,1
+p02-069-01,to the bar . Doc and Lilyan were,to the bar . Doc and Lilyan well,0.0625,0.125,0
+p02-069-02,sitting just inside having coffee .,sitting just inside having coffee .,0.0,0.0,1
+p02-069-03,""" Come and join us and bring your",""" Come and join us and being your",0.030303030303030304,0.125,0
+p02-069-05,"Lilyan remonstrated . "" They want to be","tilyam demonstrated . "" They want to be",0.07692307692307693,0.25,0
+p02-069-08,tonight so come and join us if you,tonight so come and join us if you,0.0,0.0,1
+p02-076-00,Gay thanked him and walked out on to,Gay thanked him and walked out over to,0.08333333333333333,0.125,0
+p02-076-01,the terrace thinking that perhaps Gavin,the terrace thinking that perhaps Gavin,0.0,0.0,1
+p02-076-02,had bought a drink and taken it outside .,had bought a drink and taken it outside,0.04878048780487805,0.1111111111111111,0
+p02-076-03,"She looked round scanning the tables ,",the looked round scanning the tables,0.07894736842105263,0.2857142857142857,0
+p02-076-04,"then caught her breath , a cold hand","their caught her breath , a cold hand",0.05555555555555555,0.125,0
+p02-076-05,seeming to clutch her heart . Gavin was,seeming to dental her heart . Gavin was,0.1282051282051282,0.125,0
+p02-076-06,seated at a small table in a shadowy,seaked at a small table in a shadowy,0.027777777777777776,0.125,0
+p02-076-07,corner talking animatedly to Simone .,correct talking animately to live one .,0.21621621621621623,0.6666666666666666,0
+p02-076-08,As Gay watched he offered the girl a,as gay watched in different the girl a,0.2222222222222222,0.5,0
+p02-076-09,"cigarette and lit it , his hands cupping","cigarette and kit it , his hands supping",0.05,0.25,0
+p02-081-00,"Gay stood irresolute for a moment , half","Gay stood irresolute for a moment , keep",0.1,0.125,0
+p02-081-01,decided to go back and join Lilyan and,decided to go back and join Libyan and,0.02631578947368421,0.125,0
+p02-081-02,"Doc , while she wanted to do no more than","000 , while she wanted to do no more than",0.07317073170731707,0.1,0
+p02-081-03,"run upstairs to her room , knowing that","new upstairs to her room , launching that",0.20512820512820512,0.25,0
+p02-081-04,Gavin although he had told her that he,Govins although he had told her that he,0.05263157894736842,0.125,0
+p02-081-05,"loved her , was already flirting with a girl","loved her , was already flirting with a girl",0.0,0.0,1
+p02-081-06,that he had only met a few minutes before .,that he had only met a few minutes before .,0.0,0.0,1
+p02-081-08,"but she turned away , giving a little","but she turned away , giving a little",0.0,0.0,1
+p02-081-09,"gesture of hopelessness , knowing that her","gesteats of hopelessness , launching that her",0.21428571428571427,0.2857142857142857,0
+p02-090-00,The others were all dancing and,The others were all dancing and,0.0,0.0,1
+p02-090-01,as Gay drew out a chair and sat,as gay drew out a chair and sat,0.03225806451612903,0.125,0
+p02-090-02,"down Gavin , without a word , swept","down Gavin , without a word , swept",0.0,0.0,1
+p02-090-03,"Simone on to the floor . "" It doesn't mean","Simone on to the floor . "" It doesn't mean",0.0,0.0,1
+p02-090-04,"anything , "" Gay told herself desperately ,","anything , "" Gay told herself desperately ,",0.0,0.0,1
+p02-090-06,view and remembering the advice,view and remembering the advice,0.0,0.0,1
+p02-090-07,"that Larry had given her , while she","that Larry had given her , while she",0.0,0.0,1
+p02-090-08,felt wretched beyond words .,felt wretched beyond words,0.07142857142857142,0.2,0
+p02-101-00,His behaviour was not only boorish and in the worst of,His behaviour was not only baerish and the worst of,0.09259259259259259,0.18181818181818182,0
+p02-101-01,taste but it was unkind beyond words . She fumbled,taste but it was unkind beyond words . She fumbled,0.0,0.0,1
+p02-101-02,with the cigarette packet which lay on the table,with the cigarette jacket which lay on the table,0.020833333333333332,0.1111111111111111,0
+p02-101-03,not wanting to smoke but needing some action,not wanting to smoke but needing come action,0.022727272727272728,0.125,0
+p02-101-04,"to help her control her feelings . "" Come and","to help her control her feelings . "" Some and",0.022222222222222223,0.1,0
+p02-101-06,"lifeline and Gay got up quickly , mana-","lifeline and Gay got up quickly , mono-",0.05128205128205128,0.125,0
+p02-105-00,As he swung her on to the floor Gay saw Gavin,As he swung her on to the floor Gay saw Gavin,0.0,0.0,1
+p02-105-01,and Simone go through the doorway that led,and Simone go through the doorway that led,0.0,0.0,1
+p02-105-02,down to the beach . Gay closed her eyes for a,down to the beach . Gay closed her eyes for a,0.0,0.0,1
+p02-105-03,moment in disgust . She was fully aware that Gavin,moment in disgust . She was fully aware that Gavin,0.0,0.0,1
+p02-105-04,"would make love to the French girl on the sands ,","would make love to the French girl on the sanat ,",0.04081632653061224,0.09090909090909091,0
+p02-105-05,and no doubt he would come back soon and,and no doubt he would come back soon and,0.0,0.0,1
+p02-105-06,after Simone had left expect her to accept his,after Simone had left expect her to accept his,0.0,0.0,1
+p02-105-07,kisses on the way back to the hotel .,kisses on the way back to the hotel .,0.0,0.0,1
+p02-109-03,"heart out over ? "" Doc nodded towards the door . "" You","heart out over ? "" Doc nodded towards the door . "" You",0.0,0.0,1
+p02-109-04,"may consider him a man , I would say he was a","may consider him a man , I would say he was a",0.0,0.0,1
+p02-109-06,"weakly , "" you don't know Gavin . "" "" I 've only met him","weekly , "" you don't know Gavin . "" I've only met him",0.07142857142857142,0.26666666666666666,0
+p02-109-07,today but I think I can safely say that I know,today but I think I can safely say that I know,0.0,0.0,1
+p02-109-08,"him a great deal better than you do . ""","him a great deal better than you do . """,0.0,0.0,1
+p02-115-00,"Doc gave her hand a shake . "" Wake up","Doc gave her hand a shake . "" Wake up",0.0,0.0,1
+p02-115-01,"Gay , and don't even contemplate throwing","Gay , and don't even contemplate throwing",0.0,0.0,1
+p02-115-02,yourself away on a chap like that . You 're a,"yourself away on a chap like that , You're a",0.044444444444444446,0.2727272727272727,0
+p02-115-03,"fine girl , intelligent , and pretty , and I had","fine girl , intelligent , and pretty , and I had",0.0,0.0,1
+p02-115-04,thought you were sensible too . Don't,thought you were sensible too . Don't,0.0,0.0,1
+p02-115-05,make a fool of yourself over someone,make a fool of yourself over someone,0.0,0.0,1
+p02-115-06,who doesn't care two jots for your feelings .,who doesn't care two jobs for your feelings .,0.022222222222222223,0.1111111111111111,0
+p02-115-07,If he behaves like this now what is your,If he behaves like this now what is your,0.0,0.0,1
+p02-115-08,married life going to be like ?,married life going to be like ?,0.0,0.0,1
+p02-121-00,"Hell . "" Doc answered for her . "" Just Hell . Never able to","Hell . "" Doc answered for her . "" Just Hell . Never able to",0.0,0.0,1
+p02-121-01,trust him out of your sight and having to put on,trust him out of your sight and having to put on,0.0,0.0,1
+p02-127-00,"Gay nodded . "" I know that you 're right Doc , I think","Gay nodded . "" I know that you're right Doc , I think",0.018518518518518517,0.14285714285714285,0
+p02-127-03,"be the same , if you know what I mean . "" "" You sound","be the same , if you know what I mean . "" You sound",0.03773584905660377,0.06666666666666667,0
+p02-127-05,I 'm glad you 're beginning to see that you 're wasting,I'm glad you're beginning to see that you're wasting,0.05454545454545454,0.5,0
+p02-131-00,Now let him go and you won't have to wait,Now let him go and you won't have to wait,0.0,0.0,1
+p02-131-01,long for the right man for you to come,long for the right man for you to come,0.0,0.0,1
+p02-131-02,along . If I was thirty years younger and weren't,along . If I was thirty years younger and weren't,0.0,0.0,1
+p02-131-03,married to the sweetest wife in the world,married to the sweetest wife in the world,0.0,0.0,1
+p02-131-04,"I 'd marry you myself . "" Gay laughed , Doc was","'d marry you myself . "" Gay laughed , Doc was",0.0425531914893617,0.08333333333333333,0
+p02-131-05,so kind and nice and she hoped that one,so kind and nice and she hoped that one,0.0,0.0,1
+p02-131-06,day she would be able to see the situation,day she would be able to see the situation,0.0,0.0,1
+p02-131-07,as it obviously appeared to everyone else .,as it obviously appeared to everyone else,0.046511627906976744,0.125,0
+p02-135-00,Doc asked Lilyan to dance and once,Dox asked Siilyan to dance and once,0.08823529411764706,0.2857142857142857,0
+p02-135-01,again Gay found herself alone at the table,again Gay found herself alone at the table,0.0,0.0,1
+p02-135-02,"feeling self-conscious and awkward , sure that","feeling self-conscious and awkward , since that",0.06521739130434782,0.14285714285714285,0
+p02-135-03,people were talking about the way Gavin,people were talking about the way Gavin,0.0,0.0,1
+p02-135-04,was behaving since they had seen them,was behaving since they had seen them,0.0,0.0,1
+p02-135-05,dining together . She opened her bag,shining together . She opened her bag,0.05555555555555555,0.14285714285714285,0
+p02-135-06,to get out her compact and saw Grace's,to get out her compact and saw Grace's,0.0,0.0,1
+p02-135-07,"letter . She drew it out and opened it ,","letter . She drew it only and opened it ,",0.075,0.1,0
+p02-135-08,glad to be able to occupy herself .,glack to be able to occupy herself .,0.05714285714285714,0.125,0
+p02-139-00,""" So glad that you are having such a lovely time , dearie , """,""" So glad that you are having such a lovely time , deceive , """,0.04918032786885246,0.06666666666666667,0
+p02-139-02,and have been over to sit with her father and do what,and have been over to sit with her father and do what,0.0,0.0,1
+p02-139-03,I can for him so that she can get out to do her shopping .,I can for him so that she can get out to do her shopping,0.034482758620689655,0.06666666666666667,0
+p02-139-04,He 's getting on well but is pretty helpless still with his,He's getting on well but is pretty helpless stuff with his,0.06779661016949153,0.25,0
+p02-144-01,"and going to marry a foreigner ... ""","and going to marry a foreigner ... . """,0.05555555555555555,0.125,0
+p02-144-03,"it back in her bag . Elaine was engaged ,","it back in her bag . Elaine was engaged ,",0.0,0.0,1
+p02-144-04,to the man she had spent so much time,to the man she had spent so much time,0.0,0.0,1
+p02-144-05,with at her party . That was why,with at her party . That was why,0.0,0.0,1
+p02-144-06,Gavin had come back to her .,Gavin had come back to her .,0.0,0.0,1
+p02-144-07,"Everything was quite clear now , and to","Everything was quite clear now , and to",0.0,0.0,1
+p02-144-08,"her own surprise Gay felt no heartbreak ,","her own surprise Gay felt no heartbreak ,",0.0,0.0,1
+p02-144-09,rather a sense of relief now that she,rather a sense of relief now that she,0.0,0.0,1
+p02-144-10,knew why Gavin had come to see,known why Gavin had come to see,0.06666666666666667,0.14285714285714285,0
+p02-150-06,"understand , knowing that Gay was as much ashamed","understand , knowing that Gay was as much ashamed",0.0,0.0,1
+p02-150-07,for Gavin at the way he was behaving as she,For Gavin at the way he was Behaving as she,0.046511627906976744,0.2,0
+p02-155-00,""" I made it myself , "" Gay tried to speak",""" I made it myself , "" Gay tried to speak",0.0,0.0,1
+p03-004-00,Diana Wills often sat on the brand,Diana Wills often sat on the brand,0.0,0.0,1
+p03-004-01,new seat outside the hospital,new seat outside the hospital,0.0,0.0,1
+p03-004-02,gates and thought vagrant,gates and thought vagrant,0.0,0.0,1
+p03-004-03,thoughts . At one time she had,thoughts . At one time she had,0.0,0.0,1
+p03-004-04,watched the workmen constructing,watched the workmen constructing,0.0,0.0,1
+p03-004-06,to put St. John's Casualty Department,to put St. John's Casualty Department,0.0,0.0,1
+p03-004-07,"out of operation - in theory , at","out of operation - in theory , at",0.0,0.0,1
+p03-004-08,least . She would think of her-,least . She would think of her-,0.0,0.0,1
+p03-004-09,self as a stranger in these parts,self as a stranger in these parts,0.0,0.0,1
+p03-009-02,"man of the road his freedom of decision , and","man of the road his freedom of decisions , and",0.022222222222222223,0.1,0
+p03-009-03,wishing life would sometimes allow serious-minded,wishing life would sometimes allow serious-minded,0.0,0.0,1
+p03-009-04,women doctors to blow a feather and follow its,women doctors to blow a feather and follow its,0.0,0.0,1
+p03-009-05,"airy directions accordingly . "" If I were needing a","airy directions accordingly . "" If I were needing a",0.0,0.0,1
+p03-009-06,"job I 'd go to London , of course , "" she went on .","job I'd go to London , of course , "" she went on .",0.0196078431372549,0.13333333333333333,0
+p03-012-00,""" There are all sorts of wonder-",""" There are all sorts of wonder-",0.0,0.0,1
+p03-012-01,ful jobs in London and I could,full jobs in London and I could,0.03333333333333333,0.14285714285714285,0
+p03-012-03,one has to know something about fishing,one has to know something about fishing,0.0,0.0,1
+p03-012-04,and in Liverpool they 'd want sea-farers .,and in Liverpool they'd want sea-farers .,0.023809523809523808,0.25,0
+p03-012-05,I don't think I 'd go to Edinburgh un-,I don't think I'd go to Edinburgh in-,0.05263157894736842,0.3333333333333333,0
+p03-012-06,less I was a Scot and wanting to get,less I was a Scot and wanting to get,0.0,0.0,1
+p03-012-07,"home , or perhaps a student studying to","home , or perhaps a student studying to",0.0,0.0,1
+p03-012-08,"be a doctor , and I already know","be a doctor , and I already know",0.0,0.0,1
+p03-023-00,"She was engaged to Nigel , had been for two years .","She was engaged to Nigel , had been for two years",0.0392156862745098,0.08333333333333333,0
+p03-023-01,"Sometimes they talked on the theme of "" when we get married "" ,","Sometimes they talked on the theme of "" when we get married "" ,",0.0,0.0,1
+p03-023-02,"and then all was wonderful , and perhaps it had only been","and then all was wonderful , and perhaps it had only been",0.0,0.0,1
+p03-023-03,"a slip of the tongue when Nigel had said , only last","a slip of the tongue when Nigel had said , only last",0.0,0.0,1
+p03-027-02,"word shouted into her very soul a horn of warning , and","word shunted into her very soul a horn of warring , and",0.05454545454545454,0.16666666666666666,0
+p03-027-03,"with it was coupled a disembodied fragment of information ,","with it was coupled a disembodied fragment of information ,",0.0,0.0,1
+p03-027-05,seen in Farlingham on an occasion he had sworn he had,been in Fortingham on an occasion he had sworn he had,0.05660377358490566,0.18181818181818182,0
+p03-027-06,been standing in for Luke Parsons at his surgery in,been standing in for Luke Parsons at his surgery in,0.0,0.0,1
+p03-029-00,Now Nigel had every right to go where he,How Nigel had every right to go where he,0.025,0.1111111111111111,0
+p03-029-02,when she was not free ; this much they had,when she was not free ; this much they had,0.0,0.0,1
+p03-029-03,conceded one to the other . They rarely,conceded one to the other . They rarely,0.0,0.0,1
+p03-029-04,"found they were off duty together , and","found they were off duty together , and",0.0,0.0,1
+p03-029-05,the situation would have been intolerable,the situation would have been intolerable,0.0,0.0,1
+p03-029-07,about their relationship . So when Nigel,about their relationship . So when Nigel,0.0,0.0,1
+p03-029-08,had told her about taking Luke's,had told her about taking Luke's,0.0,0.0,1
+p03-029-09,"evening surgery she had said ,","evening surgery she had said ,",0.0,0.0,1
+p03-033-01,"he shrugged diffidently , "" I like the work . One gets plenty","He launched differently , "" I like the work , one gets pseudo",0.2459016393442623,0.46153846153846156,0
+p03-033-02,"of variety and it 's a change . "" Nigel was the hospital's","of matters and it is a chance . "" Nice was the hospital's",0.15517241379310345,0.3076923076923077,0
+p03-033-03,"Junior Medical Officer . "" You won't be free about nine , I","Prince Marian officer . "" You Won't be free about nine , I",0.2033898305084746,0.3076923076923077,0
+p03-033-04,"suppose , to meet me for supper somewhere ? "" she had","Surname , is met at the ROH Superior Adventure ? "" THE WHO",0.6037735849056604,0.8333333333333334,0
+p03-040-00,""" Hardly likely , my sweet . Luke's surgery goes on for",""" Hardly likely , my sweet . Luke's surgery goes on for",0.0,0.0,1
+p03-040-01,"hours . If they get in before eight-thirty , even","hours . If they get in before eight-thirty , even",0.0,0.0,1
+p03-040-02,"though they 're standing on one another's toes ,","though they've standing on one another's toes ,",0.041666666666666664,0.2222222222222222,0
+p03-040-04,"I 'll give you a ring , O.K. ? "" O.K. , "" she had","I'll give you a ring ... . K. ? "" O.K. , "" she had",0.12244897959183673,0.3333333333333333,0
+p03-040-05,replied readily . So how could Nigel have,replied readily . So how could Nigel have,0.0,0.0,1
+p03-040-06,"been at the Load of Trouble roadhouse ,","been at the Lord of Trouble road house ,",0.05128205128205128,0.375,0
+p03-047-00,""" No , "" she told Phil Gubbins , a junior",""" No , "" she told Phil Gubbins , a junior",0.0,0.0,1
+p03-047-02,"my lad . "" "" It was Nigel's car , anyway .","my lad . "" It was Nigel's car , anyway .",0.047619047619047616,0.08333333333333333,0
+p03-047-03,"NUF 121 . "" "" He probably loaned his car","NUF 121 . "" . He probably loaned his car",0.025,0.1,0
+p03-047-04,"to somebody , Phil . He 's always doing that . ""","to somebody , Phil . He's always doing that . """,0.020833333333333332,0.16666666666666666,0
+p03-047-05,"Young Gubbins shrugged . "" I didn't see his","Young Gubbins struggled . "" I didn't see his",0.046511627906976744,0.1111111111111111,0
+p03-047-06,"face , Di , but it certainly looked like","face , Di , but it certainly looked like",0.0,0.0,1
+p03-047-07,Nigel from the back . D.j. and all .,Nigel from the back . D. ) - and all .,0.1111111111111111,0.3333333333333333,0
+p03-047-08,Of course such as I couldn't afford,Of course such as I couldn't afford,0.0,0.0,1
+p03-047-09,"to go into the Load of Trouble . ""","to go into the head of trouble . """,0.08823529411764706,0.2222222222222222,0
+p03-057-00,""" Neither can Nigel , "" smiled Diana .",""" Neither can Nigel , "" smiled Diana .",0.0,0.0,1
+p03-057-01,""" He 's saving up to get married . Remember ? """,""" He's saving up to get married . Remember ? """,0.02127659574468085,0.16666666666666666,0
+p03-057-02,""" I remember , "" quipped the houseman ,",""" I remember , "" quipped the houseman ,",0.0,0.0,1
+p03-057-03,"meaning no offence , "" but does he ?","meaning no offence , "" but does he ?",0.0,0.0,1
+p03-057-04,"That blonde was something . "" "" Anybody","That blonde was something . "" "" Anybody",0.0,0.0,1
+p03-057-05,"I know ? "" she smiled . "" I think so .","I know ? "" she smiled . "" I think so .",0.0,0.0,1
+p03-057-08,""" No , "" Di said immediately . "" It isn't at",""" No , "" Di said immediately . "" It isn't at",0.0,0.0,1
+p03-069-00,But after that slight slip of the tongue on Nigel's part she had,But after that slight slip of the tongue on Nigel's part she had,0.0,0.0,1
+p03-069-01,"realised it was important enough for her to have remembered , and it","realised it was important enough for her to have remembered , and it",0.0,0.0,1
+p03-069-02,was as though a red mist veiled her usually clear sight and,was as though a red mist veiled her usually clear sight and,0.0,0.0,1
+p03-069-03,made her think there was an abyss immediately ahead .,made her think there was an abyss immediately ahead .,0.0,0.0,1
+p03-069-04,""" Nigel , "" she had besought him , "" you know that evening",""" Nigel , "" she had brought him , "" you know that evening",0.034482758620689655,0.07142857142857142,0
+p03-069-05,you took Luke Parson's surgery and there was a woman,you took Luke Parson's surgery and there was a woman,0.0,0.0,1
+p03-069-06,"with a cyst on her ear ... ? ""","with a cyst on her ear ... ? """,0.0,0.0,1
+p03-072-00,""" 5Ye-es ? "" he lowered his eyes and kissed her on the",""" 5 ye-e. 2 "" he lowered his eyes and kissed her on the",0.07407407407407407,0.23076923076923078,0
+p03-072-01,"mouth , an act of devotion he didn't over-indulge .","month , an act of devotion he didn't over-indulge .",0.0196078431372549,0.1,0
+p03-072-02,""" What about it , my sweet ? "" "" Well , "" she laughed",""" What about it , my sweet ? "" "" Well , "" she laughed",0.0,0.0,1
+p03-072-03,"suddenly in an upsurging of relief , "" that stupid","suddenly in an upsurging of relief , "" that stupid",0.0,0.0,1
+p03-072-04,Gubbins boy thought he saw you at the Load of Trouble .,Gubbins boy thought he saw you at the head of Trouble .,0.03636363636363636,0.08333333333333333,0
+p03-072-05,"With a blonde , too . Imagine ! "" Nigel was frowning . He","With a blonde , too . Imagine ! "" Nigel was frowning . He",0.0,0.0,1
+p03-072-06,looked distinguished when he frowned ; boyishly,looked distinguished when he frowned ; bayishly,0.02127659574468085,0.14285714285714285,0
+p03-080-01,Though Diana knew the name of every,Though Diana knew the name of every,0.0,0.0,1
+p03-080-02,"member of the staff , distinguished or not ,","meisaber of the staff , distinguished or not ,",0.06818181818181818,0.1111111111111111,0
+p03-080-03,Nigel often had to think hard to sort,Nigel often had to think hard to sort,0.0,0.0,1
+p03-080-05,"he now demanded . "" What was he","he now descended . "" What was he",0.0967741935483871,0.125,0
+p03-087-00,""" Oh , he wasn't . His motor-bike had",""" Oh , he wasn't . this motor-bike had",0.05405405405405406,0.1111111111111111,0
+p03-087-01,broken down outside and he noticed,broken down outside and he noticed,0.0,0.0,1
+p03-087-02,your car and then you dancing with,your car and then you dancing with,0.0,0.0,1
+p03-087-03,"this blonde . "" "" Really ? "" Nigel cocked","this blonde . "" "" Really ? "" Nigel cocked",0.0,0.0,1
+p03-087-04,"one eyebrow . "" Actually she was brunette","one eyebrow . "" Actually she was brunette",0.0,0.0,1
+p03-087-05,at the roots and I had a redhead on,at the roots and I had a redhead on,0.0,0.0,1
+p03-087-06,the other arm . He would have told,the other arm . He would have told,0.0,0.0,1
+p03-087-07,"you this , too ? "" "" No , "" she laughed .","you this , too ? "" No , "" she laughed .",0.04878048780487805,0.07692307692307693,0
+p03-087-08,""" He didn't actually see you . Because",""" He didn't actually see you . Because",0.0,0.0,1
+p03-087-09,it was your car I suppose he,it was your car I suppose he,0.0,0.0,1
+p03-087-10,"presumed it was you , all dressed up in","presumed it was you , all dressed up in",0.0,0.0,1
+p03-096-00,""" My white or my black ? "" Nigel enquired .",""" My white or my black ? "" Nigel enquired .",0.0,0.0,1
+p03-096-01,""" Now I wonder which I wore at that",""" Now I wonder which I wore at that",0.0,0.0,1
+p03-096-02,"particular surgery ? "" "" You are a fool ,","particular surgery ? "" "" You are a fool ,",0.0,0.0,1
+p03-096-03,"darling , "" Di said happily . "" I shall take","darling , "" Di said happily . "" I shall take",0.0,0.0,1
+p03-096-04,great pleasure in telling that young man,great pleasure in telling that young man,0.0,0.0,1
+p03-096-05,exactly what you were doing that,exactly what you were doing that,0.0,0.0,1
+p03-096-06,"evening . "" "" No , don't , "" he said , after","evening . "" "" No , don't , "" he said , after",0.0,0.0,1
+p03-096-07,"kissing her again . "" I rather like to have","kissing her again . "" I rather like to have",0.0,0.0,1
+p03-096-08,the housemen think of me as a,the housemen think of me as a,0.0,0.0,1
+p03-103-00,"I 'm such a dull fellow , really . "" "" Dull ? "" She","I'm such a dull fellow , really . "" "" Dull ? "" She",0.0196078431372549,0.13333333333333333,0
+p03-103-01,couldn't believe it . Self-deprecation,couldn't believe it . Self-deprecation,0.0,0.0,1
+p03-103-02,was not one of Nigel's usual attributes .,was not one of Nigel's usual attributes .,0.0,0.0,1
+p03-103-03,""" You need your holiday , darling . I only",""" You need your holiday , darling . I only",0.0,0.0,1
+p03-103-04,"wish I could go with you ! "" "" Doctor","wish I could go with you ! "" "" Doctor",0.0,0.0,1
+p03-103-07,"I suppose ? "" she enquired archly .","I suppose ? "" she enquired archly .",0.0,0.0,1
+p03-112-00,""" No , it wouldn't ! "" he almost snapped ,",""" No , it wouldn't ! "" he almost snapped ,",0.0,0.0,1
+p03-112-01,"surprising her . "" You sounded like some-","surprising her . "" You sounded like some-",0.0,0.0,1
+p03-112-02,body else for a moment there . It doesn't,body else for a moment there . It doesn't,0.0,0.0,1
+p03-112-03,"become you to behave like a - a tart , Di . ""","become you to behave like a - a tart , Di . """,0.0,0.0,1
+p03-112-04,""" Nigel - ! "" she gasped . "" I didn't mean to",""" Nigel - ! "" she grasped . "" I didn't mean to",0.022222222222222223,0.07692307692307693,0
+p03-112-05,behave like anything of the kind . I,behave like anything of the kind . I,0.0,0.0,1
+p03-112-07,miserable enough my having to take my,miserable enough my having to take my,0.0,0.0,1
+p03-112-08,leave in the autumn without you,leave in the autumn without you,0.0,0.0,1
+p03-112-09,trying to be bright and gay about it .,trying to be bright and gay about it .,0.0,0.0,1
+p03-121-01,at this time of year ? I can't ask you up because it 's,at this time of year ? I can't ask you up because it's,0.01818181818181818,0.14285714285714285,0
+p03-121-03,"don't keep hinting , then . You wish you could","don't keep hinting , then . You wish you could",0.0,0.0,1
+p03-121-04,come with me ; you hope I 'll miss you ; you,come with me ; you hope I'll miss you ; you,0.022727272727272728,0.16666666666666666,0
+p03-121-05,can't imagine the hospital without me for,can't imagine the hospital without me for,0.0,0.0,1
+p03-135-00,"Her figure was small and exquisite , like a schoolgirl's still , and","Her figure was small and exquisite , like a schoolgirl's still , and",0.0,0.0,1
+p03-135-01,"he admired her legs , which the male sex were inclined to","he admired her legs , which the male sex were inclined to",0.0,0.0,1
+p03-135-02,"regard first . "" I would mind if you didn't "" he told her","regard first . "" I would mind if you didn't "" he told her",0.0,0.0,1
+p03-135-03,"grimly , and tugged her fiercely into his arms . "" You 're","grimly , and tugged her fiercely into his arms . "" You're",0.017241379310344827,0.15384615384615385,0
+p03-135-04,"right , pet . I do need this leave . I 'm bad-tempered and","night , pet . I do need this leave . I'm bad-tempered and",0.034482758620689655,0.21428571428571427,0
+p03-135-05,broody and going out with brash blondes . I don't deserve,broady and going out with brash blondies . I don't deserve,0.03508771929824561,0.18181818181818182,0
+p03-142-01,make all the waiting worth while . When we 're,make all the waiting worth while . When we're,0.021739130434782608,0.2,0
+p03-142-02,"married we won't have these explosions of emotion ,","married we won't have these explosions of emotion ,",0.0,0.0,1
+p03-142-03,"will we ? "" "" No , "" he eyed her strangely . "" I wish we","will we ? "" "" No , "" he eyed her strangely . "" I wish we",0.0,0.0,1
+p03-142-04,"were married , Di . Like a patient wishes his operation","were married , Di . Like a patient wishes his operation",0.0,0.0,1
+p03-142-05,"was over . "" Again her laughter trilled . "" Marriage","was over . "" Again her laughter trilled . "" Marriage",0.0,0.0,1
+p03-142-06,"isn't as bad as an operation , Nigel ! ""","But as bad as an operation , Nigel !",0.15,0.2,0
+p03-151-02,that particular problem isn't looming at,that particular problems isn't looming at,0.025,0.16666666666666666,0
+p03-151-03,"the moment , thank God ! "" Problem ... ?","the moment , thank God ! "" Problem ... ?",0.0,0.0,1
+p03-151-04,"looming ... ? "" Are we discussing a marriage","looming ... ? "" Are we discussing a marriage",0.0,0.0,1
+p03-151-06,"he could be serious . "" Surely marrying","he could be serious . "" Surely marrying",0.0,0.0,1
+p03-151-07,me isn't going to be all that bad ?,me isn't going to be all that bad ?,0.0,0.0,1
+p03-158-01,"your ring back . "" She loosened the half-hoop of","your ring back . "" She loosened the half-hoop of",0.0,0.0,1
+p03-158-02,diamonds on her left hand third finger and held it,diamonds on her left hand third finger and held it,0.0,0.0,1
+p03-158-03,"out to him , still playfully . Without a glimmer","out to him , still playfully . Without a glimmer",0.0,0.0,1
+p03-158-04,"of amusement in his own eyes , however , he took","of amusement in his own eyes , however , he took",0.0,0.0,1
+p03-158-05,"it , looking moodily beyond her . "" Perhaps it 's as","it , looking mooding beyond her . "" Perhaps it's as",0.057692307692307696,0.25,0
+p03-158-06,"well if you don't wear it for a bit , Di , "" he","well if you don't wear it for a bit , Di , "" he",0.0,0.0,1
+p03-163-04,"about serious things like engagements . ""","about serious things like engagements . """,0.0,0.0,1
+p03-163-05,""" Don't be such a baby ! "" They were going",""" Don't be such a baby ! "" They were going",0.0,0.0,1
+p03-173-00,"Almost in desperation she appealed , "" Will you meet","Almost in desperation she appealed , "" Will you meet",0.0,0.0,1
+p03-173-01,"me at the gate , four o'clock tomorrow ? "" "" Why ? "" he","me at the gate , four d'clock tomorrow ? "" "" Why ? "" he",0.01818181818181818,0.06666666666666667,0
+p03-173-04,"he told her , and suddenly seized her in an embrace","he told her , and suddenly seized her in an embrace",0.0,0.0,1
+p03-173-05,"which really hurt . "" Without your ring it 's just like","which really hurt . "" Without your ring it's just like",0.01818181818181818,0.16666666666666666,0
+p03-173-07,"and kissed her again , somewhat startled to","and kissed her again , somewhat startled to",0.0,0.0,1
+p03-181-01,"what you 'd get , "" she flashed at him , and","what you'd get , "" she flashed at him , and",0.022727272727272728,0.16666666666666666,0
+p03-181-02,"so had left him , on her dignity and not","so had left him , on her dignity and not",0.0,0.0,1
+p03-181-03,seeing the look of admiration and revelation,seeing the look of admiration and revelation,0.0,0.0,1
+p03-181-04,which had followed her slim young figure,which had followed her slim young figure,0.0,0.0,1
+p03-181-07,then regarded the ring which he retrieved,Attken regarded the ring which he retrieved,0.07317073170731707,0.14285714285714285,0
+p03-181-09,with some bitterness .,with some bitterness .,0.0,0.0,1
+p03-185-00,Thus had they parted the previous evening and now,Thus had they parted the previous evening and now,0.0,0.0,1
+p03-185-01,Diana was trailing up the gravelled drive to the hospital,Diana was trailing up the gravelled drive to the hospital,0.0,0.0,1
+p03-185-02,alone . Of course one couldn't say for certain when a,alone . Of course one couldn't say for certain when a,0.0,0.0,1
+p03-185-03,doctor would be free during the day ; tea was served,doctor would be free during the day ; tea was served,0.0,0.0,1
+p03-185-04,from four until five-thirty in the residents' common-,from four until five-thirty in the residents' common-,0.0,0.0,1
+p03-185-05,"room , which proved the elasticity of medical commitments .","room , which proved the elasticity of medical commitments .",0.0,0.0,1
+p03-185-06,"Something had cropped up which required Nigel's attention ,","Something had cropped up which required Nigel's attention ,",0.0,0.0,1
+p03-189-00,Sentence Database P03-189,instance Database # # P. 3-189,0.4,1.6666666666666667,0
+p03-189-01,"They often had such a rendezvous , for","They often had such a remologacies , for",0.23684210526315788,0.125,0
+p03-189-02,"there was just time to smoke a cigarette ,",there was just time to smoke a cigarette,0.047619047619047616,0.1111111111111111,0
+p03-189-03,"if one walked slowly , between road and","if one walked slowly , between road and",0.0,0.0,1
+p06-030-02,words . ' I wonder you dared trust,"words . "" I wonder you dared trust",0.029411764705882353,0.125,0
+p06-030-04,' Well ! At least I know the truth .,Well . ' At least I know the truth,0.19444444444444445,0.4,0
+p06-030-08,you are satisfied . ',"you are rats "" pedal .",0.42857142857142855,0.8,0
+p06-042-00,"And as he spoke , the thought","And as he spoke , the thought",0.0,0.0,1
+p06-042-03,vulsion that was homicidal .,vordation that was homicidal .,0.17857142857142858,0.2,0
+p06-042-05,tied . He dare not precipitate,tied . The dare not precipitate,0.06666666666666667,0.16666666666666666,0
+p06-042-06,what might well be another,what might well be an other,0.038461538461538464,0.4,0
+p06-042-09,"mantle , and said with such","mantle , and said with such",0.0,0.0,1
+p06-047-00,' I will leave you the necessary pre-,I will leave you there cessory pre-,0.16216216216216217,0.375,0
+p06-047-05,his fountain-pen from his,his fountain-pen from his,0.0,0.0,1
+p06-047-07,"his # prescription pad , and","his # # # if pressure script on paid , and",0.5357142857142857,1.1666666666666667,0
+p06-047-08,"# scribble on it . Then ,","still # trouble on it . Then ,",0.4,0.2857142857142857,0
+p06-047-09,"with a gesture she knew so well ,","with a gesture she knew so well ,",0.0,0.0,1
+p06-047-10,he tore off the leaflet and,the tone off the leaflet and,0.07407407407407407,0.3333333333333333,0
+p06-052-01,with a deadly finality . Watching,with a deadly finality . Watching,0.0,0.0,1
+p06-052-02,"him go , unable to speak , she","him go , unable to speak , she",0.0,0.0,1
+p06-052-03,felt that part of her was leaving,felt that part of her was leaving,0.0,0.0,1
+p06-052-04,him . She couldn't hate him ...,him . She couldn't hate him ... .,0.06451612903225806,0.14285714285714285,0
+p06-052-07,nation . Now there was no-,nation . Now there was no-,0.0,0.0,1
+p06-052-08,thing - not even friendship .,thing - not even friendship .,0.0,0.0,1
+p06-058-00,She went back to Philip . But,the went back to Philip . But,0.034482758620689655,0.14285714285714285,0
+p06-058-01,all she could hear were Nicholas's,all she could hear were Nicholas's,0.0,0.0,1
+p06-058-04,Love . She revolted against,dove . She revolted against,0.037037037037037035,0.2,0
+p06-058-05,"the word . Nicholas , Philip ...","the word . Nicholas , Philip . """,0.0625,0.2857142857142857,0
+p06-058-06,"where was happiness , or","where was happiness , or",0.0,0.0,1
+p06-058-07,peace of mind ? Philip put out,peace of mind ? Philip put out,0.0,0.0,1
+p06-058-08,a hand and grasped hers .,a hand and grasped her .,0.04,0.16666666666666666,0
+p06-058-09,He needed her . She would find,He needed her . She would find,0.0,0.0,1
+p06-058-10,solace in that fact at least .,volume in that fact at least .,0.1,0.14285714285714285,0
+p06-069-00,She had her truth . How much had built,She had best with . Horsemuch had built,0.23684210526315788,0.4444444444444444,0
+p06-069-01,"up from that first ideal , and how","up from that first ideal , and how",0.0,0.0,1
+p06-069-05,"hell lying there , knowing she was","hell laying there , known , she was",0.11764705882352941,0.42857142857142855,0
+p06-069-08,said instinctively : ' I told him,"said unsort inatively : "" It told him",0.21212121212121213,0.5714285714285714,0
+p06-069-09,I knew he was responsible for,I knew he gives responsible for,0.13793103448275862,0.16666666666666666,0
+p06-088-00,Her eyes darkened in torment . ' Are,Hereyes darkened in torment . Are,0.08333333333333333,0.375,0
+p06-088-02,"' Good heavens , darling , why on earth","Good heavens , darling , why one earth",0.07692307692307693,0.2222222222222222,0
+p06-088-04,"her word . There was enough evidence ,","her word . There was enough evidence ,",0.0,0.0,1
+p06-088-05,no matter how one might want to,in a matter how one might want to,0.0967741935483871,0.2857142857142857,0
+p06-088-07,touched him after the cold wind,touched him after the cold wind,0.0,0.0,1
+p06-088-08,of suspense . ' It will be interesting,"of suspense . "" It will be interesting",0.02631578947368421,0.125,0
+p06-096-04,will matter most . ' Strange how just,will matter most . ' Strange how just,0.0,0.0,1
+p06-096-05,then Philip was so certain that Nicholas,then Philip was so certain that Nicholas,0.0,0.0,1
+p06-096-06,would never betray him . He loved,would never betray him . He loved,0.0,0.0,1
+p06-096-07,Sandra too deeply to ruin her,Sandra too too deeply to ruin her,0.13793103448275862,0.16666666666666666,0
+p06-096-08,future happiness . Had ever circum-,future happiness . Had ever Sir cum-,0.05714285714285714,0.3333333333333333,0
+p06-104-00,He was better ; he had made a,He was better ; he had made a,0.0,0.0,1
+p06-104-01,miraculous recovery and Sandra would,moreculosis recovery and Sandra would,0.1111111111111111,0.2,0
+p06-104-02,"soon be his wife . The Devil , he thought ,","soon being wife . The Devil , he thought ,",0.09302325581395349,0.18181818181818182,0
+p06-104-03,certainly looked after his own .,certainly looked after his own,0.0625,0.16666666666666666,0
+p06-104-04,Something in Sandra's attitude struck,Something in Sandra's attitude struck,0.0,0.0,1
+p06-104-08,"patronizing word , ' she replied . ' I despise",patronizing word ; she replied . ' Ideppite,0.13043478260869565,0.4,0

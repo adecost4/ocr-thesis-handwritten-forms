@@ -1,0 +1,11 @@
+sample,ground_truth,prediction,cer,wer,exact
+m01-049-00,He rose from his breakfast-nook bench,He rose from his breakfast-nook bench,0.0,0.0,1
+m01-049-06,"Then , abruptly , he drew himself up","Then , abruptly , he drew himself up",0.0,0.0,1
+m01-060-03,"transcendent event , the exalted desire of all","transcendent event , the exalted desire of all",0.0,0.0,1
+m01-060-04,mankind through all ages ! The Kingdom of the,mankind through all ages ! The Kingdom of the,0.0,0.0,1
+m01-060-06,upward and shook his head slowly from,upward and shook his head slowly from,0.0,0.0,1
+m01-079-01,abroad ; and no pedestrian to cross his path nor to wait,abroad ; and no pedestrian to cross his path nor to wait,0.0,0.0,1
+m01-079-02,at an intersection for the light to change . At his,at an intersection for the light to change . At his,0.0,0.0,1
+m01-079-03,apartment he garaged his car and then stood,apartment he garaged his car and then stood,0.0,0.0,1
+m01-084-01,Steve awakened early and switched on,Steve awakened early and switched on,0.0,0.0,1
+m01-084-03,The set lighted-up but gave only a low,The set lighted-up but gave only a low,0.0,0.0,1
