@@ -4,9 +4,9 @@
 
 This repository contains my Master's thesis research on **Handwritten Text Recognition (HTR) for structured documents**, particularly fixed-template forms such as banking and government forms.
 
-The research investigates whether structural information available in fixed-template forms—such as field location, field type, and expected content—can improve handwritten text recognition compared with general-purpose HTR approaches.
+The research investigates whether structural information available in fixed-template forms—such as field location, field type, expected content, and document layout—can improve handwritten text recognition compared with general-purpose HTR approaches.
 
-> 🚧 **Active Research — 2026–2027**
+> 🚧 **Active Research — 2026–2027**  
 > The research methodology, experiments, and hypotheses are evolving as the thesis progresses.
 
 ---
@@ -21,17 +21,21 @@ Beyond developing a functional OCR/HTR system, the thesis aims to identify and e
 
 ## Current Research Questions
 
-* How well do pretrained HTR models such as TrOCR generalize to structured forms?
-* How does Transformer-based recognition compare with CRNN-based approaches?
-* How much does image preprocessing affect handwriting recognition accuracy?
-* Can fixed-template information improve field-level recognition?
-* Can field-specific constraints reduce recognition errors?
+Current research questions include:
 
-These questions will be refined based on literature review, baseline experiments, and error analysis.
+- How well does pretrained TrOCR perform on offline handwritten text?
+- What types of errors dominate pretrained TrOCR recognition failures?
+- How do Transformer-based HTR approaches differ from CNN/RNN/CTC approaches?
+- Does controlled image preprocessing improve TrOCR recognition accuracy?
+- Can fixed-template information improve field-level recognition?
+- Can field-specific constraints reduce recognition errors?
+- Can layout and field context improve Exact Match accuracy for structured handwritten fields?
+
+These questions are being refined through literature review, baseline experiments, systematic error analysis, and controlled experiments.
 
 ---
 
-## Proposed Pipeline
+## Proposed Thesis Pipeline
 
 ```text
 Scanned / Photographed Form
@@ -40,157 +44,444 @@ Scanned / Photographed Form
      Template Alignment
             |
             v
-      Field Extraction
+       Field Extraction
             |
             v
-Handwritten Text Recognition
-      (CRNN / TrOCR)
+ Handwritten Text Recognition
             |
             v
-  Field-aware Processing
+   Field-Aware Processing
             |
             v
-     Structured Output
+      Structured Output
 ```
+
+The current experiments focus on establishing and understanding the **handwriting-recognition component** before introducing template and field information.
 
 ---
 
-## Current Implementation
+# Current Research Status
 
-### TrOCR Beginner Project
+The project has progressed from basic TrOCR inference to a reproducible IAM handwriting-recognition baseline and systematic error analysis.
 
-The first implementation milestone is a beginner-friendly **TrOCR inference pipeline** using Microsoft's pretrained handwritten TrOCR model.
-
-Current implementation includes:
-
-* Loading Microsoft's pretrained `trocr-base-handwritten` model
-* Loading handwritten images using a CSV manifest
-* Running image-to-text inference
-* Testing recognition on clean and real-world handwriting
-* Using Google Colab for GPU-based experimentation
-* Establishing the project structure for future IAM experiments and fine-tuning
-
-Project:
+Current progression:
 
 ```text
-trocr_beginner_project/
-├── data/
-│   ├── sample/
-│   │   ├── images/
-│   │   └── sample.csv
-│   └── processed/
-├── notebooks/
-│   └── 01_trocr_beginner.ipynb
-├── src/
-├── requirements.txt
-└── README.md
+Basic TrOCR Inference
+        ↓
+IAM Dataset Preparation
+        ↓
+CER / WER / Exact Match
+        ↓
+EXP002 — TrOCR IAM Baseline
+        ↓
+Systematic Error Analysis
+        ↓
+EXP003 — Controlled Preprocessing   ← CURRENT
+        ↓
+Template Alignment
+        ↓
+Field Extraction
+        ↓
+Field-Aware Recognition
+        ↓
+Structured Output
 ```
 
-This starter implementation serves as the foundation for the upcoming **TrOCR baseline evaluation on IAM and structured handwritten form data**.
+---
+
+# EXP002 — Pretrained TrOCR Baseline
+
+The first formal baseline experiment evaluates:
+
+```text
+microsoft/trocr-base-handwritten
+```
+
+on the IAM Handwriting Database without additional IAM-specific fine-tuning or image preprocessing.
+
+After filtering IAM line annotations marked with segmentation errors, the usable writer-independent splits contained:
+
+| Split | Usable Lines |
+|---|---:|
+| Training | 5,419 |
+| Validation | 1,539 |
+| Test | 1,480 |
+
+The complete usable test set was evaluated.
+
+## EXP002 Results
+
+| Metric | Result |
+|---|---:|
+| Test Samples | **1,480** |
+| Average CER | **3.33%** |
+| Average WER | **8.63%** |
+| Exact Matches | **842 / 1,480** |
+| Exact Match Rate | **56.89%** |
+| Non-Exact Predictions | **638** |
+
+This result is used as the fixed pretrained TrOCR baseline for future experiments.
 
 ---
 
-## Technologies
+# EXP002 — Systematic Error Analysis
 
-### Currently Using
+The 638 non-exact predictions were used as the population for systematic error analysis.
 
-* Python
-* PyTorch
-* Hugging Face Transformers
-* TrOCR
-* Google Colab
-* Pandas
-* NumPy
-* Jupyter Notebooks
+A reproducible diagnostic sample of **125 predictions** was manually reviewed:
 
-### Planned / In Progress
+```text
+50 highest-CER failures
++
+50 random non-exact failures
++
+25 low-CER non-exact failures
+=
+125 manually reviewed predictions
+```
 
-* OpenCV
-* CRNN + LSTM
-* CTC Loss
-* IAM Handwriting Database
-* CER / WER evaluation
-* Template alignment
-* Field extraction
+## Error Categories
 
----
+| Error Category | Count | % of Reviewed Samples |
+|---|---:|---:|
+| Word substitution | 72 | 57.6% |
+| Character substitution | 62 | 49.6% |
+| Punctuation | 24 | 19.2% |
+| Spacing | 21 | 16.8% |
+| Capitalization | 1 | 0.8% |
 
-## Research Progress
+Multiple categories could be assigned to one prediction, so percentages do not sum to 100%.
 
-### Completed
+### Main Observations
 
-* [x] Thesis research direction established
-* [x] Research environment setup
-* [x] GitHub research repository
-* [x] Google Colab environment
-* [x] Pretrained TrOCR model setup
-* [x] First TrOCR inference pipeline
-* [x] CSV-based sample dataset loading
-* [x] Initial experiments on clean handwriting
-* [x] Initial experiments on real-world handwriting
-* [x] Initial thesis research plan
+- Word substitutions dominated the highest-CER failures.
+- Character substitutions were common across all diagnostic groups.
+- Low-CER but non-exact predictions frequently contained small character or spacing differences.
+- 68% of the 50 highest-CER samples were manually classified as difficult handwriting.
+- Many recognition failures occurred on images that appeared visually good.
+- A low aggregate CER does not necessarily imply high Exact Match accuracy.
 
-### Currently Working On
+This distinction is particularly important for structured fields such as:
 
-* [ ] HTR literature review
-* [ ] Understanding TrOCR architecture
-* [ ] IAM dataset exploration
-* [ ] TrOCR baseline evaluation
-* [ ] OpenCV preprocessing experiments
-* [ ] CER and WER implementation
-* [ ] Documenting baseline failure cases
+```text
+Student ID
+Account Number
+Date
+Phone Number
+Name
+```
 
-### Upcoming
+where even a single incorrect character may make the extracted value incorrect.
 
-* [ ] CNN / RNN / LSTM foundations
-* [ ] CRNN + CTC baseline
-* [ ] CRNN vs TrOCR comparison
-* [ ] Fixed-template form alignment
-* [ ] Field extraction pipeline
-* [ ] Structured-form dataset experiments
-* [ ] Candidate research hypothesis evaluation
-* [ ] Proposed thesis contribution
+> The 125 samples form a targeted diagnostic sample and are not a representative random sample of all 638 failures.
 
 ---
 
-## Evaluation
+# EXP003 — Controlled Image Preprocessing
 
-The primary evaluation metrics currently planned are:
+EXP003 is currently in progress.
 
-* **Character Error Rate (CER)**
-* **Word Error Rate (WER)**
-* **Exact Field Accuracy**
+## Research Question
 
-The evaluation strategy may evolve depending on the final research hypothesis.
+> **Does controlled image preprocessing improve pretrained TrOCR recognition accuracy on IAM handwriting?**
+
+Candidate preprocessing conditions include:
+
+```text
+Original
+Grayscale
+Otsu thresholding
+CLAHE contrast enhancement
+Denoising
+Deskewing
+```
+
+Preprocessing approaches will first be developed and compared using the **IAM validation split**.
+
+A reproducible development subset will be used for initial experiments before evaluating promising methods on the full validation set.
+
+The selected method will then be evaluated once on the held-out IAM test set.
+
+The final comparison will use the fixed EXP002 baseline:
+
+```text
+CER         3.33%
+WER         8.63%
+Exact Match 56.89%
+```
 
 ---
 
-## Research Roadmap
+# Literature Review
 
-| Period       | Research Focus                                            |
-| ------------ | --------------------------------------------------------- |
-| Aug–Sep 2026 | Literature review, HTR foundations, TrOCR/CRNN baselines  |
-| Oct–Nov 2026 | Structured forms, template alignment and field extraction |
-| Nov–Dec 2026 | Research hypothesis and preliminary experiments           |
-| Jan–Mar 2027 | Main experiments, evaluation and error analysis           |
-| Mar–May 2027 | Thesis writing, publication, demo and defense             |
+## Paper 01 — TrOCR
+
+**TrOCR: Transformer-Based Optical Character Recognition with Pre-trained Models**
+
+Key architecture:
+
+```text
+Image
+ ↓
+Transformer Image Encoder
+ ↓
+Autoregressive Transformer Decoder
+ ↓
+Text
+```
+
+Provides the pretrained recognition architecture used for EXP002.
 
 ---
 
-## Repository Structure
+## Paper 02 — CRNN
+
+**An End-to-End Trainable Neural Network for Image-based Sequence Recognition and Its Application to Scene Text Recognition**
+
+Key architecture:
+
+```text
+CNN
+ ↓
+BiLSTM
+ ↓
+CTC
+ ↓
+Text
+```
+
+Provides an important CNN/RNN/CTC baseline architecture for sequence recognition.
+
+---
+
+## Paper 03 — FUNSD
+
+**FUNSD: A Dataset for Form Understanding in Noisy Scanned Documents**
+
+Introduces document-understanding concepts beyond OCR:
+
+- spatial layout
+- semantic entities
+- question-answer relationships
+- entity linking
+- noisy scanned forms
+
+FUNSD is relevant to the structured-form component of the thesis.
+
+---
+
+## Paper 04 — HTR-VT
+
+**HTR-VT: Handwritten Text Recognition with Vision Transformer**
+
+Key architecture:
+
+```text
+Handwritten Image
+        ↓
+CNN / ResNet-18
+        ↓
+Transformer Encoder
+        ↓
+CTC
+        ↓
+Text
+```
+
+Important concepts studied:
+
+- data-efficient Transformer HTR
+- CNN local feature extraction
+- Transformer contextual modeling
+- span feature masking
+- Sharpness-Aware Minimization (SAM)
+- CTC decoding
+- encoder-only Transformer recognition
+
+HTR-VT provides an important alternative to TrOCR because it demonstrates that Transformer-based HTR does not necessarily require an autoregressive Transformer decoder or large-scale external pretraining.
+
+---
+
+# Architecture Progression
+
+The literature currently provides three useful recognition paradigms:
+
+```text
+CRNN
+CNN → BiLSTM → CTC
+        │
+        ▼
+HTR-VT
+CNN → Transformer Encoder → CTC
+        │
+        ▼
+TrOCR
+Transformer Encoder → Transformer Decoder
+```
+
+FUNSD extends the research beyond recognition toward:
+
+```text
+OCR
+ ↓
+Layout
+ ↓
+Entities
+ ↓
+Relationships
+ ↓
+Form Understanding
+```
+
+Together, these papers support the progression toward structured handwritten-form recognition.
+
+---
+
+# Evaluation Metrics
+
+Current experiments use:
+
+### Character Error Rate
+
+```text
+CER
+```
+
+Measures character-level transcription errors.
+
+### Word Error Rate
+
+```text
+WER
+```
+
+Measures word-level transcription errors.
+
+### Exact Match / Field Accuracy
+
+```text
+1 = complete prediction matches ground truth
+0 = mismatch
+```
+
+Exact Match is especially important for structured forms because a prediction can have low CER while still containing an incorrect field value.
+
+---
+
+# Technologies
+
+## Currently Using
+
+- Python
+- PyTorch
+- Hugging Face Transformers
+- TrOCR
+- OpenCV
+- Pandas
+- NumPy
+- Matplotlib
+- JiWER
+- Pillow
+- Jupyter Notebook
+- VS Code
+- Git / GitHub
+
+## Research Components
+
+- IAM Handwriting Database
+- CER / WER / Exact Match
+- systematic OCR error analysis
+- image preprocessing
+- Transformer-based HTR
+- CTC-based HTR
+- document understanding
+
+## Planned
+
+- Template alignment
+- Field extraction
+- Structured-form dataset experiments
+- Field-aware recognition
+- Layout-aware recognition
+- Model adaptation / fine-tuning
+
+---
+
+# Research Progress
+
+## Completed
+
+- [x] Thesis research direction established
+- [x] Research environment setup
+- [x] GitHub research repository
+- [x] Pretrained TrOCR inference pipeline
+- [x] CSV-based handwriting loading
+- [x] IAM dataset study
+- [x] IAM data preparation
+- [x] IAM manifest generation
+- [x] Writer-independent IAM split generation
+- [x] CER implementation
+- [x] WER implementation
+- [x] Exact Match implementation
+- [x] Metric testing
+- [x] EXP002 N=20 exploratory evaluation
+- [x] EXP002 N=50 exploratory evaluation
+- [x] EXP002 N=100 exploratory evaluation
+- [x] EXP002 full IAM test-set evaluation
+- [x] EXP002 systematic error analysis
+- [x] 125-sample manual error review
+- [x] Error-category tables and figures
+- [x] TrOCR paper review
+- [x] CRNN paper review
+- [x] FUNSD paper review
+- [x] HTR-VT paper review
+
+## Currently Working On
+
+- [ ] EXP003 controlled preprocessing
+- [ ] OpenCV preprocessing experiments
+- [ ] Validation-set preprocessing comparison
+- [ ] Continued literature review
+
+## Upcoming
+
+- [ ] Complete EXP003
+- [ ] Template/document alignment
+- [ ] Field extraction pipeline
+- [ ] Structured handwritten-form experiments
+- [ ] Field-aware recognition
+- [ ] Layout-aware recognition
+- [ ] IAM-specific model adaptation / fine-tuning
+- [ ] Candidate research hypothesis evaluation
+- [ ] Final thesis contribution
+
+---
+
+# Repository Structure
 
 ```text
 ocr-thesis-handwritten-forms/
 │
-├── trocr_beginner_project/  # First TrOCR implementation
-├── notebooks/               # Research notebooks and experiments
-├── src/                     # Reusable Python modules
-├── experiments/             # Experiment configurations and results
-├── literature/              # Literature review and paper notes
-├── docs/                    # Thesis plans and weekly research notes
-├── data/                    # Dataset instructions / metadata
-├── results/                 # Metrics, tables and figures
-├── requirements.txt
+├── papers/
+│   ├── 01_trocr.md
+│   ├── 02_crnn.md
+│   ├── 03_funsd.md
+│   └── 04_htr_vt.md
+│
+├── docs/
+│
+├── notebooks/
+│
+├── trocr_beginner_project/
+│   ├── data/
+│   ├── notebooks/
+│   ├── experiments/
+│   ├── outputs/
+│   ├── results/
+│   ├── src/
+│   └── tests/
+│
 └── README.md
 ```
 
@@ -198,46 +489,120 @@ ocr-thesis-handwritten-forms/
 
 ---
 
-## Experiment Tracking
+# Experiment Tracking
 
-Experiments will be documented with:
+Each experiment is documented with:
 
-* Research question / hypothesis
-* Dataset
-* Model and configuration
-* Preprocessing
-* Baseline
-* CER / WER / field accuracy
-* Observations
-* Failure cases
-* Conclusion
-* Next experiment
+- Research question / hypothesis
+- Dataset
+- Model and configuration
+- Data preparation
+- Preprocessing
+- Evaluation protocol
+- CER / WER / Exact Match
+- Results
+- Error analysis
+- Limitations
+- Conclusion
+- Next experiment
+
+Current experiment progression:
+
+```text
+EXP002
+Pretrained TrOCR on IAM
+        ↓
+Systematic Error Analysis
+        ↓
+EXP003
+Controlled Image Preprocessing
+        ↓
+Future
+Template Alignment / Field Extraction
+```
 
 ---
 
-## Research Hypothesis Development
+# Research Hypothesis Development
 
 The final thesis hypothesis has not yet been fixed.
 
 Current candidate directions include:
 
-1. **Field-aware recognition** — using field type or expected content to reduce recognition errors.
-2. **Template-aware recognition** — exploiting known form structure during extraction/recognition.
-3. **Preprocessing and robustness** — improving recognition under scan noise, skew, perspective distortion, or background interference.
-4. **Domain adaptation** — adapting pretrained handwriting models to structured-form handwriting with limited labeled data.
+1. **Field-aware recognition** — using field type, expected character set, expected format, or other field constraints to reduce recognition errors.
 
-The final hypothesis will be selected based on literature review, baseline experiments, and systematic error analysis.
+2. **Template-aware recognition** — exploiting known fixed-form structure during field extraction and recognition.
 
----
+3. **Preprocessing and robustness** — measuring whether targeted preprocessing improves recognition under image degradation.
 
-## Current Focus
+4. **Model adaptation** — adapting pretrained handwriting models to structured-form handwriting.
 
-**September 2026**
+5. **Recognition architecture** — investigating differences between autoregressive recognition and encoder+CTC approaches.
 
-> Establish a reproducible TrOCR baseline, study HTR literature and IAM, implement CER/WER evaluation, and identify meaningful baseline failure cases that may lead to a testable research hypothesis.
+The final hypothesis will be selected based on literature review and controlled experimental evidence.
 
 ---
 
-## Disclaimer
+# Current Focus
 
-This repository contains ongoing academic research as part of a Master's thesis. Results and conclusions should be considered preliminary until the research is completed.
+**October 2026**
+
+> Complete EXP003 controlled preprocessing, preserve EXP002 as the fixed recognition baseline, and begin moving from general handwritten-line recognition toward template alignment and structured field extraction.
+
+---
+
+# Research Roadmap
+
+| Period | Research Focus |
+|---|---|
+| Aug–Sep 2026 | HTR foundations, TrOCR, CRNN, IAM |
+| Oct 2026 | IAM baseline, systematic error analysis, preprocessing |
+| Oct–Nov 2026 | Template alignment and field extraction |
+| Nov–Dec 2026 | Structured-form experiments and hypothesis development |
+| Jan–Mar 2027 | Main experiments and evaluation |
+| Mar–May 2027 | Thesis writing, publication, demo and defense |
+
+---
+
+# Dataset Reference
+
+## IAM Handwriting Database
+
+The IAM Handwriting Database is used for offline handwritten-text recognition experiments.
+
+The dataset contains scanned English handwriting with form-, line-, and word-level annotations.
+
+Official dataset:
+
+https://fki.tic.heia-fr.ch/databases/iam-handwriting-database
+
+The IAM dataset itself is **not distributed through this repository**.
+
+Users must obtain IAM separately and comply with the dataset's license and usage requirements.
+
+---
+
+# Reproducibility
+
+The repository tracks:
+
+- source code
+- experiment notebooks
+- experiment definitions
+- metric implementations
+- small result files
+- error-analysis annotations
+- figures
+- literature notes
+
+Large research datasets such as IAM are intentionally excluded from Git.
+
+Local IAM manifests can be regenerated using the provided preparation scripts.
+
+---
+
+# Disclaimer
+
+This repository contains ongoing academic research as part of a Master's thesis.
+
+Results, hypotheses, and conclusions should be considered preliminary until the research is completed.

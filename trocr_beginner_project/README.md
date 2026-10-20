@@ -1,324 +1,3 @@
-# TrOCR Beginner Project
-
-A beginner-friendly research project for learning and evaluating **Handwritten Text Recognition (HTR)** using Microsoft's **TrOCR** model.
-
-This project is part of my Master's thesis research on **Transformer-based OCR for structured handwritten forms**.
-
----
-
-## Project Goals
-
-This project explores the progression from basic OCR inference toward reproducible handwritten-text recognition experiments and, eventually, structured handwritten-form understanding.
-
-The project currently demonstrates:
-
-- Running inference with a pretrained TrOCR model
-- Loading handwriting images using CSV manifests
-- Preparing the IAM Handwriting Database
-- Evaluating OCR using CER, WER, and Exact Match
-- Running reproducible OCR experiments
-- Performing error analysis on model predictions
-- Preparing for IAM-specific TrOCR fine-tuning
-- Studying OCR and document-understanding literature
-
----
-
-## Project Structure
-
-```text
-trocr_beginner_project/
-│
-├── data/
-│   ├── sample/
-│   │   ├── images/
-│   │   └── sample.csv
-│   │
-│   └── iam/
-│       ├── ascii/
-│       ├── lines/
-│       ├── xml/
-│       ├── splits/
-│       ├── iam_sample.csv
-│       ├── train.csv
-│       ├── validation.csv
-│       └── test.csv
-│
-├── notebooks/
-│   ├── 01_trocr_beginner.ipynb
-│   └── 02_iam_evaluation.ipynb
-│
-├── experiments/
-│   └── EXP002_iam_trocr_baseline.md
-│
-├── outputs/
-│   └── exp002/
-│       ├── n20/
-│       ├── n50/
-│       ├── n100/
-│       └── iam_test/
-│
-├── src/
-│   ├── __init__.py
-│   ├── create_iam_sample.py
-│   ├── create_iam_splits.py
-│   ├── data_utils.py
-│   ├── dataset.py
-│   ├── evaluate.py
-│   ├── metrics.py
-│   └── train.py
-│
-├── tests/
-│   ├── __init__.py
-│   └── test_metrics.py
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
-
-> The IAM dataset is stored locally and is excluded from Git using `.gitignore`.
-
----
-
-## Prerequisites
-
-- Python 3.9 or newer
-- Python 3.11 recommended
-- pip
-- Git
-- VS Code, Jupyter Notebook, or JupyterLab
-
----
-
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/<username>/<repository>.git
-cd <repository>/trocr_beginner_project
-```
-
-### Create a Virtual Environment
-
-macOS / Linux:
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
-Windows:
-
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-```
-
-Install the dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Notebook 01 — TrOCR Beginner
-
-Open:
-
-```text
-notebooks/01_trocr_beginner.ipynb
-```
-
-This notebook introduces the basic TrOCR inference pipeline:
-
-```text
-Handwritten Image
-        ↓
-TrOCR Processor
-        ↓
-Pretrained TrOCR
-        ↓
-Recognized Text
-```
-
-It demonstrates:
-
-- loading sample images
-- loading pretrained TrOCR
-- running inference
-- generating text predictions
-- working with CSV manifests
-
----
-
-## IAM Handwriting Database
-
-The IAM Handwriting Database is used as the primary handwriting-recognition dataset.
-
-The full IAM dataset is **not included in this Git repository**.
-
-After downloading IAM locally, the expected structure is:
-
-```text
-data/iam/
-├── ascii/
-├── lines/
-├── xml/
-└── splits/
-```
-
-The dataset is converted into CSV manifests for experimentation.
-
-### Generate IAM Manifest
-
-Run:
-
-```bash
-python3 -m src.create_iam_sample
-```
-
-This generates:
-
-```text
-data/iam/iam_sample.csv
-```
-
-The manifest contains:
-
-```text
-id
-image
-text
-```
-
-where:
-
-- `id` identifies the IAM text line
-- `image` points to the corresponding line image
-- `text` contains the ground-truth transcription
-
----
-
-## IAM Dataset Splits
-
-For reproducible evaluation and future fine-tuning, IAM is separated into writer-independent training, validation, and test sets.
-
-The target files are:
-
-```text
-data/iam/train.csv
-data/iam/validation.csv
-data/iam/test.csv
-```
-
-Generate them using:
-
-```bash
-python3 -m src.create_iam_splits
-```
-
-These files are generated locally and are not committed to GitHub with the IAM dataset.
-
----
-
-## Notebook 02 — IAM Evaluation
-
-Open:
-
-```text
-notebooks/02_iam_evaluation.ipynb
-```
-
-This notebook evaluates:
-
-```text
-microsoft/trocr-base-handwritten
-```
-
-on IAM handwritten text-line images.
-
-The evaluation pipeline is:
-
-```text
-IAM Line Image
-        ↓
-TrOCR Processor
-        ↓
-Pretrained TrOCR
-        ↓
-Text Prediction
-        ↓
-Ground Truth Comparison
-        ↓
-CER / WER / Exact Match
-```
-
-No additional IAM-specific fine-tuning is performed in the baseline experiment.
-
----
-
-## Evaluation Metrics
-
-### Character Error Rate (CER)
-
-Measures character-level transcription errors.
-
-Lower is better.
-
-```text
-CER = 0
-```
-
-indicates a perfect character-level prediction.
-
-### Word Error Rate (WER)
-
-Measures word-level transcription errors.
-
-Lower is better.
-
-```text
-WER = 0
-```
-
-indicates a perfect word-level prediction.
-
-### Exact Match
-
-Measures whether the complete prediction exactly matches the ground truth.
-
-```text
-1 = exact match
-0 = mismatch
-```
-
-Exact Match is particularly relevant for structured forms where fields such as IDs, dates, names, and numerical values may require completely correct transcription.
-
----
-
-## Running the Metric Tests
-
-Run:
-
-```bash
-python3 -m tests.test_metrics
-```
-
-Example:
-
-```text
-Reference : hello world
-Prediction: hallo world
-
-CER : 0.0909
-WER : 0.5
-Exact Match : 0
-```
-
----
-
 # Experiments
 
 ## EXP002 — Pretrained TrOCR on IAM
@@ -329,9 +8,9 @@ EXP002 evaluates:
 microsoft/trocr-base-handwritten
 ```
 
-on IAM handwritten text lines without additional fine-tuning.
+on IAM handwritten text lines without additional IAM-specific fine-tuning or image preprocessing.
 
-The experiment began with progressively larger exploratory subsets:
+The experiment progressed through:
 
 ```text
 N=20
@@ -339,7 +18,11 @@ N=20
 N=50
   ↓
 N=100
+  ↓
+Writer-independent IAM test evaluation
 ```
+
+---
 
 ### Exploratory Results
 
@@ -349,47 +32,65 @@ N=100
 | 50 | 1.08% | 2.81% | 86% |
 | 100 | 1.15% | 3.68% | 81% |
 
-The N=50 and N=100 CER values were relatively similar, while the smaller N=20 evaluation was more sensitive to individual recognition errors.
+These runs were used to validate the evaluation pipeline.
 
-These results are **exploratory pipeline-validation results**.
-
-They use the first N usable entries in the generated IAM manifest and should **not be interpreted as official IAM benchmark results**.
+They should not be interpreted as the final IAM baseline because they use convenience subsets of the IAM manifest.
 
 ---
 
-## EXP002 — Next Stage
+## EXP002 — Formal IAM Test Evaluation
 
-The exploratory evaluation is complete:
+After validating the pipeline, the corrected IAM manifest and writer-independent split definitions were used.
 
-```text
-N=20   ✓
-N=50   ✓
-N=100  ✓
-```
-
-The next stage evaluates pretrained TrOCR on an established writer-independent IAM test split.
+The IAM line annotations contained:
 
 ```text
-IAM
-│
-├── train.csv
-├── validation.csv
-└── test.csv
-        │
-        ▼
-Pretrained TrOCR
-        │
-        ▼
-All Valid Test Lines
-        │
-        ├── CER
-        ├── WER
-        └── Exact Match
+Total annotations: 13,353
+status=ok:          11,344
+status=err:          2,009
+Missing images:          0
 ```
 
-The resulting test-set metrics will become the final pretrained baseline for EXP002.
+Only samples marked:
 
-Detailed experimental documentation is available in:
+```text
+status=ok
+```
+
+were retained.
+
+The generated usable splits contained:
+
+| Split | Defined | Usable |
+|---|---:|---:|
+| Train | 6,161 | 5,419 |
+| Validation | 1,840 | 1,539 |
+| Test | 1,861 | 1,480 |
+
+All excluded split IDs were verified to correspond to `status=err`.
+
+No unexpected `status=ok` IDs were missing.
+
+Form-level overlap checks also passed between the generated training, validation, and test sets.
+
+---
+
+### Final EXP002 Baseline
+
+The complete usable test set was evaluated:
+
+```text
+Samples:      1,480
+CER:          3.33%
+WER:          8.63%
+Exact Match:  56.89%
+Exact:        842 / 1,480
+Non-exact:    638
+```
+
+This is the fixed pretrained TrOCR baseline for subsequent experiments.
+
+Detailed documentation:
 
 ```text
 experiments/EXP002_iam_trocr_baseline.md
@@ -397,30 +98,213 @@ experiments/EXP002_iam_trocr_baseline.md
 
 ---
 
-## Experiment Outputs
+# EXP002 — Systematic Error Analysis
 
-Experiment results are stored separately to preserve each run.
+The 638 non-exact predictions were used for systematic error analysis.
+
+A reproducible diagnostic sample was created:
+
+```text
+50 highest-CER errors
++
+50 random non-exact errors
++
+25 low-CER non-exact errors
+=
+125 manually reviewed samples
+```
+
+The manually reviewed fields include:
+
+```text
+id
+ground_truth
+prediction
+cer
+wer
+selection_group
+error_category
+image_quality
+handwriting_difficulty
+notes
+```
+
+### Error Categories
+
+| Error Category | Count | % of Reviewed Samples |
+|---|---:|---:|
+| Word substitution | 72 | 57.6% |
+| Character substitution | 62 | 49.6% |
+| Punctuation | 24 | 19.2% |
+| Spacing | 21 | 16.8% |
+| Capitalization | 1 | 0.8% |
+
+Multiple categories may occur in one prediction.
+
+The diagnostic sample deliberately oversamples high- and low-CER cases, so these percentages should not be interpreted as prevalence estimates across all 638 failures.
+
+### Main Findings
+
+- Word substitutions dominated severe high-CER failures.
+- Character substitutions were common across the diagnostic sample.
+- Low-CER failures frequently involved small character or spacing differences.
+- 68% of the 50 highest-CER samples were manually classified as difficult handwriting.
+- Many recognition failures occurred on images that appeared visually good.
+- CER alone does not fully describe whether an entire field or line is correct.
+
+Detailed documentation:
+
+```text
+experiments/EXP002_error_analysis.md
+```
+
+Notebook:
+
+```text
+notebooks/03_exp002_error_analysis.ipynb
+```
+
+Results:
+
+```text
+results/exp002/
+├── exp002_error_analysis.csv
+├── error_category_summary.csv
+└── figures/
+    ├── exp002_error_categories.png
+    ├── exp002_categories_by_group.png
+    └── exp002_handwriting_difficulty.png
+```
+
+---
+
+# EXP003 — Controlled Image Preprocessing
+
+EXP003 is currently in progress.
+
+## Research Question
+
+> Does controlled image preprocessing improve pretrained TrOCR recognition accuracy on IAM handwriting?
+
+Candidate preprocessing conditions include:
+
+```text
+Original
+Grayscale
+Otsu thresholding
+CLAHE contrast enhancement
+Denoising
+Deskewing
+```
+
+The experiment uses the IAM validation split for development and preprocessing selection.
+
+Initial development will use a reproducible:
+
+```text
+N = 100
+random_state = 42
+```
+
+validation subset.
+
+The same images will be evaluated under each preprocessing condition.
+
+Metrics:
+
+```text
+CER
+WER
+Exact Match
+```
+
+The workflow is:
+
+```text
+IAM Validation Set
+        ↓
+Reproducible DEV100
+        ↓
+Original Baseline
+        ↓
+Controlled Preprocessing Conditions
+        ↓
+CER / WER / Exact Match Comparison
+        ↓
+Select Promising Method
+        ↓
+Full Validation Evaluation
+        ↓
+Freeze Method
+        ↓
+Held-Out IAM Test Evaluation
+        ↓
+Compare with EXP002
+```
+
+The EXP002 held-out test result remains fixed:
+
+```text
+CER:         3.33%
+WER:         8.63%
+Exact Match: 56.89%
+```
+
+The test set should not be repeatedly used to select preprocessing parameters.
+
+Planned implementation:
+
+```text
+notebooks/04_exp003_preprocessing.ipynb
+src/preprocessing.py
+experiments/EXP003_preprocessing.md
+outputs/exp003/
+```
+
+---
+
+# Experiment Outputs
+
+Experiment outputs are stored separately to preserve reproducibility.
 
 ```text
 outputs/
-└── exp002/
-    ├── n20/
-    │   ├── predictions.csv
-    │   ├── best_predictions.csv
-    │   ├── worst_predictions.csv
-    │   └── summary.json
-    │
-    ├── n50/
-    │   └── ...
-    │
-    ├── n100/
-    │   └── ...
-    │
-    └── iam_test/
-        └── ...
+├── exp002/
+│   ├── n20/
+│   ├── n50/
+│   ├── n100/
+│   └── iam_test/
+│
+└── exp003/
+    └── dev100/
 ```
 
-This prevents later experiments from overwriting earlier results.
+EXP002 output files include:
+
+```text
+predictions.csv
+best_predictions.csv
+worst_predictions.csv
+summary.json
+```
+
+Analyzed research results are stored separately:
+
+```text
+results/
+└── exp002/
+    ├── exp002_error_analysis.csv
+    ├── error_category_summary.csv
+    └── figures/
+```
+
+This distinction is intentional:
+
+```text
+outputs = raw experiment outputs
+
+results = analyzed research findings
+```
 
 ---
 
@@ -428,44 +312,57 @@ This prevents later experiments from overwriting earlier results.
 
 ### Completed
 
-- Pretrained TrOCR inference
-- CSV-based image loading
-- CER implementation
-- WER implementation
-- Exact Match implementation
-- OCR metrics testing
-- IAM dataset study
-- IAM data preparation
-- IAM CSV manifest generation
-- TrOCR IAM evaluation pipeline
-- EXP002 N=20 evaluation
-- EXP002 N=50 evaluation
-- EXP002 N=100 evaluation
-- Initial OCR error analysis
-- TrOCR literature review
-- CRNN literature review
-- FUNSD literature review
+- [x] Pretrained TrOCR inference
+- [x] CSV-based image loading
+- [x] CER implementation
+- [x] WER implementation
+- [x] Exact Match implementation
+- [x] OCR metric testing
+- [x] IAM dataset study
+- [x] IAM data preparation
+- [x] IAM CSV manifest generation
+- [x] IAM writer-independent split generation
+- [x] Split coverage diagnostics
+- [x] Split overlap checks
+- [x] EXP002 N=20 evaluation
+- [x] EXP002 N=50 evaluation
+- [x] EXP002 N=100 evaluation
+- [x] EXP002 full IAM test evaluation
+- [x] EXP002 systematic error analysis
+- [x] 125-sample manual review
+- [x] Error-category summary
+- [x] Error-analysis figures
+- [x] TrOCR literature review
+- [x] CRNN literature review
+- [x] FUNSD literature review
+- [x] HTR-VT literature review
 
 ### In Progress
 
-- IAM writer-independent split preparation
-- Full IAM test-set evaluation for EXP002
+- [ ] EXP003 controlled image preprocessing
+- [ ] OpenCV preprocessing implementation
+- [ ] DEV100 validation baseline
+- [ ] Validation preprocessing comparison
 
 ### Next Steps
 
-- Complete the EXP002 IAM test-set baseline
-- Fine-tune TrOCR using IAM training data
-- Compare pretrained and IAM-fine-tuned TrOCR
-- Investigate structured handwritten forms
-- Explore layout-aware recognition
-- Explore field-aware recognition
-- Investigate template information
+- [ ] Complete EXP003 development experiments
+- [ ] Select promising preprocessing method
+- [ ] Evaluate selected method on full validation set
+- [ ] Evaluate frozen preprocessing method on held-out test set
+- [ ] Compare EXP003 against EXP002
+- [ ] Investigate template/document alignment
+- [ ] Build field extraction pipeline
+- [ ] Investigate structured handwritten forms
+- [ ] Explore field-aware recognition
+- [ ] Explore layout-aware recognition
+- [ ] Investigate IAM-specific model adaptation / fine-tuning
 
 ---
 
 ## Research Progression
 
-The project currently follows this progression:
+The project now follows:
 
 ```text
 Basic TrOCR Inference
@@ -477,188 +374,27 @@ OCR Evaluation Metrics
 IAM Dataset Preparation
         │
         ▼
-Pretrained TrOCR Baseline
+EXP002 TrOCR Baseline
         │
         ▼
-Writer-Independent IAM Evaluation
+Systematic Error Analysis
         │
         ▼
-IAM Fine-Tuning
+EXP003 Controlled Preprocessing
         │
         ▼
-Structured Handwritten Forms
+Template Alignment
         │
         ▼
-Layout + Field Context
+Field Extraction
+        │
+        ▼
+Field / Layout Context
         │
         ▼
 Structured Output
 ```
 
----
+The purpose of EXP003 is not to assume preprocessing improves OCR.
 
-## Thesis Motivation
-
-Standard handwritten text recognition asks:
-
-> What text is written in this image?
-
-The final thesis problem goes further and considers structured handwritten forms.
-
-A future system may need to perform:
-
-```text
-Structured Form
-       ↓
-Text / Field Detection
-       ↓
-Handwriting Recognition
-       ↓
-Spatial Layout Understanding
-       ↓
-Field Classification
-       ↓
-Relationship Understanding
-       ↓
-Structured Output
-```
-
-This project therefore combines concepts from:
-
-- Handwritten Text Recognition
-- Transformer-based OCR
-- Document Understanding
-- Form Understanding
-- Layout Analysis
-- Structured Information Extraction
-
----
-
-## Literature Review
-
-### Paper 01 — TrOCR
-
-**TrOCR: Transformer-Based Optical Character Recognition with Pre-trained Models**
-
-Introduces an end-to-end Transformer-based OCR architecture using a pretrained image Transformer encoder and text Transformer decoder.
-
----
-
-### Paper 02 — CRNN
-
-**An End-to-End Trainable Neural Network for Image-based Sequence Recognition and Its Application to Scene Text Recognition**
-
-Introduces the classic:
-
-```text
-CNN → BiLSTM → CTC
-```
-
-architecture for image-based sequence recognition.
-
----
-
-### Paper 03 — FUNSD
-
-**FUNSD: A Dataset for Form Understanding in Noisy Scanned Documents**
-
-Introduces form understanding beyond OCR, including:
-
-- spatial layout
-- semantic entities
-- question-answer relationships
-- entity linking
-- noisy scanned documents
-
-Together, these papers provide the progression:
-
-```text
-CRNN
-CNN + RNN + CTC
-        ↓
-TrOCR
-Transformer OCR
-        ↓
-FUNSD
-Form Understanding
-        ↓
-Structured Handwritten Forms
-```
-
----
-
-## Datasets
-
-### IAM Handwriting Database
-
-Used for:
-
-- offline handwritten text recognition
-- line-level OCR evaluation
-- future TrOCR fine-tuning
-
-### FUNSD
-
-Studied for:
-
-- form understanding
-- spatial layout
-- semantic entities
-- entity relationships
-
-IAM and FUNSD address complementary parts of the thesis problem:
-
-```text
-IAM
- │
- └── Handwriting Recognition
-             │
-             ▼
-        Thesis Problem
-             ▲
-             │
-FUNSD
- │
- └── Form Understanding
-```
-
----
-
-## Reproducibility
-
-The repository tracks:
-
-- source code
-- notebooks
-- experiment definitions
-- evaluation metrics
-- small experiment result files
-
-Large datasets such as IAM are intentionally excluded from Git.
-
-The dataset can be downloaded separately and the local manifests regenerated using the provided preparation scripts.
-
----
-
-## License
-
-This repository is intended for educational and research purposes.
-
-External datasets and pretrained models remain subject to their respective licenses and terms of use.
-
-## Dataset Reference
-
-### IAM Handwriting Database
-
-The IAM Handwriting Database is used for offline handwritten text recognition experiments in this project.
-
-The dataset contains scanned handwritten English documents with form-, line-, and word-level annotations.
-
-Official dataset:
-
-https://fki.tic.heia-fr.ch/databases/iam-handwriting-database
-
-If you use the IAM dataset, please refer to the citation and usage requirements provided by the dataset authors on the official IAM website.
-
-> The IAM dataset itself is not distributed through this repository.  
-> Users must obtain the dataset separately and comply with its license and usage terms.
+Instead, it tests whether controlled transformations produce measurable improvement relative to an unchanged baseline.

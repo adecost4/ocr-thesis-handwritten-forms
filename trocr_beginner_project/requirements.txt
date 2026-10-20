@@ -11,3 +11,4 @@ Pillow
 jiwer
 scikit-learn
 tqdm
+opencv-python
