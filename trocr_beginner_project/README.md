@@ -180,85 +180,206 @@ results/exp002/
 
 # EXP003 — Controlled Image Preprocessing
 
-EXP003 is currently in progress.
+EXP003 evaluates whether conventional image preprocessing improves pretrained TrOCR recognition performance.
 
 ## Research Question
 
 > Does controlled image preprocessing improve pretrained TrOCR recognition accuracy on IAM handwriting?
 
-Candidate preprocessing conditions include:
+---
 
-```text
-Original
-Grayscale
-Otsu thresholding
-CLAHE contrast enhancement
-Denoising
-Deskewing
-```
+## Experimental Protocol
 
-The experiment uses the IAM validation split for development and preprocessing selection.
+Preprocessing development uses the IAM validation split.
 
-Initial development will use a reproducible:
+A reproducible DEV100 subset was created using:
 
 ```text
 N = 100
 random_state = 42
 ```
 
-validation subset.
-
-The same images will be evaluated under each preprocessing condition.
-
-Metrics:
-
-```text
-CER
-WER
-Exact Match
-```
-
 The workflow is:
 
 ```text
-IAM Validation Set
+IAM Validation
         ↓
-Reproducible DEV100
+DEV100
+        ↓
+Visual Analysis
         ↓
 Original Baseline
         ↓
-Controlled Preprocessing Conditions
+Grayscale / Otsu / CLAHE / Denoising
         ↓
-CER / WER / Exact Match Comparison
+Aggregate Comparison
         ↓
-Select Promising Method
+Paired Sample-Level Analysis
         ↓
-Full Validation Evaluation
+Select Candidate
         ↓
-Freeze Method
+Full Validation
         ↓
-Held-Out IAM Test Evaluation
+Freeze Decision
         ↓
-Compare with EXP002
+Held-Out Test
 ```
 
-The EXP002 held-out test result remains fixed:
+The test set is not used for preprocessing selection.
+
+---
+
+## DEV100 Control
+
+Original images:
 
 ```text
-CER:         3.33%
-WER:         8.63%
-Exact Match: 56.89%
+Samples:       100
+CER:           2.61%
+WER:           7.27%
+Exact Match:   62%
+Exact:         62 / 100
 ```
 
-The test set should not be repeatedly used to select preprocessing parameters.
+---
 
-Planned implementation:
+## DEV100 Controlled Comparison
+
+| Condition | CER | WER | Exact Match |
+|---|---:|---:|---:|
+| Original | 2.61% | 7.27% | 62% |
+| Grayscale | 2.61% | 7.27% | 62% |
+| **Otsu Threshold** | **2.49%** | **6.94%** | **68%** |
+| CLAHE | 3.08% | 8.62% | 59% |
+| Denoising | 2.79% | 7.55% | 62% |
+
+---
+
+## Paired DEV100 Analysis
+
+| Condition | Improved | Unchanged | Worsened | Recovered Exact | Lost Exact | Net Exact |
+|---|---:|---:|---:|---:|---:|---:|
+| Grayscale | 0 | 100 | 0 | 0 | 0 | 0 |
+| Otsu Threshold | 13 | 77 | 10 | 8 | 2 | **+6** |
+| CLAHE | 5 | 85 | 10 | 2 | 5 | -3 |
+| Denoising | 5 | 92 | 3 | 1 | 1 | 0 |
+
+Otsu Exact Match transitions:
 
 ```text
-notebooks/04_exp003_preprocessing.ipynb
-src/preprocessing.py
+Original exact:       62
+Original non-exact:   38
+
+Stayed exact:         60
+Recovered exact:       8
+Lost exact:            2
+Stayed non-exact:     30
+
+Otsu exact:            68
+Net Exact Gain:        +6
+```
+
+---
+
+## Current EXP003 Decision
+
+Otsu thresholding is the only tested method that:
+
+- reduced CER,
+- reduced WER,
+- increased Exact Match,
+- and produced a positive paired Exact Match gain.
+
+However:
+
+```text
+CER improved: 13
+CER worsened: 10
+```
+
+so Otsu is not universally beneficial.
+
+Current decision:
+
+```text
+Grayscale       → stop
+Otsu            → advance
+CLAHE           → stop under current configuration
+Denoising       → stop under current configuration
+```
+
+---
+
+## Next Stage
+
+Evaluate:
+
+```text
+Original
+vs.
+Otsu Thresholding
+```
+
+on the complete:
+
+```text
+IAM Validation
+N = 1,539
+```
+
+Then perform:
+
+```text
+aggregate comparison
++
+paired sample-level analysis
+```
+
+before freezing the preprocessing decision.
+
+Only the frozen preprocessing configuration will be evaluated on the held-out:
+
+```text
+IAM Test
+N = 1,480
+```
+
+---
+
+## EXP003 Files
+
+```text
+notebooks/
+└── 04_exp003_preprocessing.ipynb
+
+src/
+└── preprocessing.py
+
+experiments/
+└── EXP003_preprocessing.md
+
+outputs/
+└── exp003/
+    ├── validation_dev100.csv
+    └── dev100/
+        ├── original.csv
+        ├── grayscale.csv
+        ├── otsu.csv
+        ├── clahe.csv
+        ├── denoise.csv
+        ├── comparison.csv
+        └── paired_analysis/
+            ├── grayscale_paired.csv
+            ├── otsu_threshold_paired.csv
+            ├── clahe_paired.csv
+            ├── denoising_paired.csv
+            └── paired_summary.csv
+```
+
+Detailed methodology and interpretation:
+
+```text
 experiments/EXP003_preprocessing.md
-outputs/exp003/
 ```
 
 ---
@@ -308,55 +429,38 @@ results = analyzed research findings
 
 ---
 
-## Current Progress
+### EXP003 Completed So Far
 
-### Completed
-
-- [x] Pretrained TrOCR inference
-- [x] CSV-based image loading
-- [x] CER implementation
-- [x] WER implementation
-- [x] Exact Match implementation
-- [x] OCR metric testing
-- [x] IAM dataset study
-- [x] IAM data preparation
-- [x] IAM CSV manifest generation
-- [x] IAM writer-independent split generation
-- [x] Split coverage diagnostics
-- [x] Split overlap checks
-- [x] EXP002 N=20 evaluation
-- [x] EXP002 N=50 evaluation
-- [x] EXP002 N=100 evaluation
-- [x] EXP002 full IAM test evaluation
-- [x] EXP002 systematic error analysis
-- [x] 125-sample manual review
-- [x] Error-category summary
-- [x] Error-analysis figures
-- [x] TrOCR literature review
-- [x] CRNN literature review
-- [x] FUNSD literature review
-- [x] HTR-VT literature review
+- [x] OpenCV preprocessing implementation
+- [x] Reproducible DEV100 selection
+- [x] Visual preprocessing comparison
+- [x] Original DEV100 TrOCR baseline
+- [x] Grayscale DEV100 evaluation
+- [x] Otsu DEV100 evaluation
+- [x] CLAHE DEV100 evaluation
+- [x] Denoising DEV100 evaluation
+- [x] Aggregate CER / WER / Exact Match comparison
+- [x] Paired sample-level comparison
+- [x] Exact Match transition analysis
+- [x] Otsu selected as full-validation candidate
 
 ### In Progress
 
-- [ ] EXP003 controlled image preprocessing
-- [ ] OpenCV preprocessing implementation
-- [ ] DEV100 validation baseline
-- [ ] Validation preprocessing comparison
+- [ ] Inspect representative Otsu recoveries and regressions
+- [ ] Full-validation Original evaluation
+- [ ] Full-validation Otsu evaluation
+- [ ] Full-validation paired analysis
 
 ### Next Steps
 
-- [ ] Complete EXP003 development experiments
-- [ ] Select promising preprocessing method
-- [ ] Evaluate selected method on full validation set
-- [ ] Evaluate frozen preprocessing method on held-out test set
-- [ ] Compare EXP003 against EXP002
-- [ ] Investigate template/document alignment
-- [ ] Build field extraction pipeline
-- [ ] Investigate structured handwritten forms
-- [ ] Explore field-aware recognition
-- [ ] Explore layout-aware recognition
-- [ ] Investigate IAM-specific model adaptation / fine-tuning
+- [ ] Freeze EXP003 preprocessing decision
+- [ ] Evaluate frozen configuration on held-out IAM test set
+- [ ] Complete EXP003 documentation
+- [ ] Begin template/document alignment
+- [ ] Build structured field extraction pipeline
+- [ ] Investigate field-aware recognition
+- [ ] Evaluate field-specific constraints
+- [ ] Develop final thesis hypothesis/contribution
 
 ---
 

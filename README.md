@@ -180,36 +180,154 @@ where even a single incorrect character may make the extracted value incorrect.
 
 # EXP003 — Controlled Image Preprocessing
 
-EXP003 is currently in progress.
+EXP003 investigates whether conventional image preprocessing improves recognition performance from pretrained TrOCR.
 
 ## Research Question
 
 > **Does controlled image preprocessing improve pretrained TrOCR recognition accuracy on IAM handwriting?**
 
-Candidate preprocessing conditions include:
+The experiment follows a validation-first protocol so that preprocessing decisions are not repeatedly optimized against the held-out IAM test set.
+
+```text
+IAM Validation Split
+        ↓
+Reproducible DEV100
+        ↓
+Visual Preprocessing Analysis
+        ↓
+Original Control
+        ↓
+Controlled Preprocessing Comparison
+        ↓
+Paired Sample-Level Analysis
+        ↓
+Full Validation Evaluation
+        ↓
+Freeze Preprocessing Decision
+        ↓
+Held-Out Test Evaluation
+```
+
+---
+
+## DEV100 Experimental Setup
+
+A reproducible development subset was selected from the IAM validation split:
+
+```text
+N = 100
+random_state = 42
+```
+
+The following conditions were evaluated on exactly the same samples:
 
 ```text
 Original
 Grayscale
-Otsu thresholding
-CLAHE contrast enhancement
+Otsu Thresholding
+CLAHE Contrast Enhancement
 Denoising
-Deskewing
 ```
 
-Preprocessing approaches will first be developed and compared using the **IAM validation split**.
+The TrOCR model, processor, decoding procedure, metrics, and sample IDs remained unchanged across conditions.
 
-A reproducible development subset will be used for initial experiments before evaluating promising methods on the full validation set.
+---
 
-The selected method will then be evaluated once on the held-out IAM test set.
+## Visual Preprocessing Analysis
 
-The final comparison will use the fixed EXP002 baseline:
+Ten DEV100 samples were visually inspected before OCR evaluation.
+
+General observations:
+
+- Original IAM images were generally clean and readable.
+- Grayscale produced almost no visible change.
+- Otsu produced the strongest foreground/background separation.
+- CLAHE sometimes strengthened faint handwriting but also amplified background variations.
+- Denoising produced relatively subtle changes.
+
+No preprocessing method was selected based only on visual appearance.
+
+---
+
+## DEV100 Results
+
+| Condition | CER | WER | Exact Match |
+|---|---:|---:|---:|
+| Original | **2.61%** | **7.27%** | **62%** |
+| Grayscale | 2.61% | 7.27% | 62% |
+| **Otsu Threshold** | **2.49%** | **6.94%** | **68%** |
+| CLAHE | 3.08% | 8.62% | 59% |
+| Denoising | 2.79% | 7.55% | 62% |
+
+Otsu thresholding was the only tested condition to improve CER, WER, and Exact Match simultaneously.
+
+---
+
+## Paired Sample-Level Analysis
+
+Aggregate metrics were followed by a paired comparison against the Original prediction for every DEV100 sample.
+
+| Condition | Improved CER | Unchanged | Worsened | Recovered Exact | Lost Exact | Net Exact |
+|---|---:|---:|---:|---:|---:|---:|
+| Grayscale | 0 | 100 | 0 | 0 | 0 | 0 |
+| **Otsu Threshold** | **13** | 77 | 10 | **8** | 2 | **+6** |
+| CLAHE | 5 | 85 | 10 | 2 | 5 | -3 |
+| Denoising | 5 | 92 | 3 | 1 | 1 | 0 |
+
+For Otsu:
+
+```text
+Original Exact:       62
+Recovered Exact:       8
+Lost Exact:            2
+Final Otsu Exact:      68
+
+Net Exact Gain:        +6
+```
+
+The paired analysis shows that Otsu's improvement was not only an aggregate metric effect.
+
+Eight previously incorrect predictions became exactly correct, while two previously correct predictions became incorrect.
+
+However, Otsu also worsened CER for 10 samples.
+
+Therefore, the current conclusion is:
+
+> **Otsu thresholding is a promising preprocessing candidate, but it is not universally beneficial and requires evaluation on the complete IAM validation split.**
+
+---
+
+## Current EXP003 Decision
+
+| Method | Current Decision |
+|---|---|
+| Grayscale | Do not advance |
+| **Otsu Threshold** | **Advance to full validation** |
+| CLAHE | Do not advance under current configuration |
+| Denoising | Do not advance under current configuration |
+
+The next stage will compare:
+
+```text
+Complete IAM Validation Split
+N = 1,539
+
+Original
+   vs.
+Otsu Thresholding
+```
+
+The held-out IAM test set remains untouched during preprocessing selection.
+
+The fixed EXP002 test baseline remains:
 
 ```text
 CER         3.33%
 WER         8.63%
 Exact Match 56.89%
 ```
+
+EXP003 is therefore still **in progress**.
 
 ---
 
@@ -416,18 +534,10 @@ Exact Match is especially important for structured forms because a prediction ca
 - [x] Research environment setup
 - [x] GitHub research repository
 - [x] Pretrained TrOCR inference pipeline
-- [x] CSV-based handwriting loading
-- [x] IAM dataset study
-- [x] IAM data preparation
-- [x] IAM manifest generation
-- [x] Writer-independent IAM split generation
-- [x] CER implementation
-- [x] WER implementation
-- [x] Exact Match implementation
-- [x] Metric testing
-- [x] EXP002 N=20 exploratory evaluation
-- [x] EXP002 N=50 exploratory evaluation
-- [x] EXP002 N=100 exploratory evaluation
+- [x] IAM dataset study and preparation
+- [x] IAM writer-independent split generation
+- [x] CER / WER / Exact Match implementation
+- [x] EXP002 exploratory N=20 / N=50 / N=100 evaluations
 - [x] EXP002 full IAM test-set evaluation
 - [x] EXP002 systematic error analysis
 - [x] 125-sample manual error review
@@ -436,24 +546,36 @@ Exact Match is especially important for structured forms because a prediction ca
 - [x] CRNN paper review
 - [x] FUNSD paper review
 - [x] HTR-VT paper review
+- [x] EXP003 DEV100 dataset preparation
+- [x] EXP003 visual preprocessing study
+- [x] EXP003 Original DEV100 baseline
+- [x] Grayscale DEV100 evaluation
+- [x] Otsu DEV100 evaluation
+- [x] CLAHE DEV100 evaluation
+- [x] Denoising DEV100 evaluation
+- [x] EXP003 aggregate preprocessing comparison
+- [x] EXP003 paired sample-level analysis
+- [x] Otsu Exact Match transition analysis
 
 ## Currently Working On
 
-- [ ] EXP003 controlled preprocessing
-- [ ] OpenCV preprocessing experiments
-- [ ] Validation-set preprocessing comparison
-- [ ] Continued literature review
+- [ ] Inspect representative Otsu recoveries and regressions
+- [ ] Original vs Otsu full IAM validation evaluation
+- [ ] EXP003 full-validation paired analysis
+- [ ] Finalize EXP003 preprocessing decision
+- [ ] Continue EXP003 documentation
 
 ## Upcoming
 
+- [ ] Evaluate frozen EXP003 configuration on held-out IAM test set
 - [ ] Complete EXP003
 - [ ] Template/document alignment
-- [ ] Field extraction pipeline
+- [ ] Structured field extraction pipeline
 - [ ] Structured handwritten-form experiments
 - [ ] Field-aware recognition
+- [ ] Field-specific validation and constraints
 - [ ] Layout-aware recognition
-- [ ] IAM-specific model adaptation / fine-tuning
-- [ ] Candidate research hypothesis evaluation
+- [ ] Candidate thesis hypothesis evaluation
 - [ ] Final thesis contribution
 
 ---
@@ -545,9 +667,36 @@ The final hypothesis will be selected based on literature review and controlled 
 
 # Current Focus
 
-**October 2026**
+**November 2026**
 
-> Complete EXP003 controlled preprocessing, preserve EXP002 as the fixed recognition baseline, and begin moving from general handwritten-line recognition toward template alignment and structured field extraction.
+> Complete EXP003 by validating the promising Otsu preprocessing result on the complete IAM validation split, then transition from general handwritten-line recognition toward template alignment, structured field extraction, and field-aware recognition.
+
+The current research progression is:
+
+```text
+EXP002
+General HTR Baseline
+        ✓
+        ↓
+Systematic Error Analysis
+        ✓
+        ↓
+EXP003
+Controlled Preprocessing
+        ← CURRENT
+        ↓
+Template Alignment
+        ↓
+Field Extraction
+        ↓
+Field-Aware Recognition
+        ↓
+Structured Output
+```
+
+Following feedback from the thesis midterm review, the remaining work will increasingly focus on clearly identifying and evaluating the thesis contribution beyond the use of an existing HTR model.
+
+The baseline and preprocessing experiments provide the experimental foundation for that contribution.
 
 ---
 

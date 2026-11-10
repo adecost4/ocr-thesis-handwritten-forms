@@ -1,0 +1,5 @@
+Condition,Improved CER,Unchanged CER,Worsened CER,Recovered Exact,Lost Exact,Net Exact Gain
+Grayscale,0,100,0,0,0,0
+Otsu Threshold,13,77,10,8,2,6
+CLAHE,5,85,10,2,5,-3
+Denoising,5,92,3,1,1,0
