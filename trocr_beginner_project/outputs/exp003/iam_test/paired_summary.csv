@@ -1,0 +1,2 @@
+Condition,Improved CER,Unchanged CER,Worsened CER,Recovered Exact,Lost Exact,Net Exact Gain
+Otsu Threshold,251,1117,112,114,39,75

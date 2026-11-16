@@ -2,7 +2,7 @@
 
 ## Status
 
-**IN PROGRESS**
+**COMPLETE**
 
 Current progress:
 
@@ -11,11 +11,10 @@ Visual preprocessing study                 ✓
 DEV100 Original baseline                   ✓
 DEV100 preprocessing comparison            ✓
 DEV100 paired sample-level analysis        ✓
-Representative recovery/regression review  NEXT
-Full IAM validation evaluation             NEXT
-Final preprocessing decision               PENDING
-Held-out IAM test evaluation               PENDING
-Final EXP003 conclusion                     PENDING
+Full IAM validation evaluation             ✓
+Final preprocessing decision               ✓
+Held-out IAM test evaluation               ✓
+Final EXP003 conclusion                     ✓
 ```
 
 ---
@@ -883,374 +882,203 @@ It does not establish that other CLAHE, denoising, or preprocessing parameteriza
 
 # Stage 5 — Full IAM Validation Evaluation
 
-## Status
-
-**NEXT**
-
-The next stage will evaluate:
-
-```text
-Complete IAM Validation Split
-N = 1,539
-```
-
-under two conditions:
-
-```text
-Original
-   vs.
-Otsu Thresholding
-```
-
-The same:
-
-- TrOCR model,
-- processor,
-- decoding procedure,
-- CER implementation,
-- WER implementation,
-- and Exact Match implementation
-
-will be used.
-
----
-
-# Stage 5 Research Question
+## Research Question
 
 > Does the promising Otsu improvement observed on DEV100 generalize to the complete IAM validation split?
 
----
+Otsu was evaluated against the Original condition on all **1,539 usable IAM validation lines**.
 
-# Stage 5 Metrics
+## Full Validation Results
 
-The following will be compared:
+| Condition | Samples | CER | WER | Exact Match | Exact Predictions |
+|---|---:|---:|---:|---:|---:|
+| Original | 1,539 | 3.22% | 8.24% | 58.48% | 900 |
+| Otsu Threshold | 1,539 | **2.58%** | **6.96%** | **64.07%** | **986** |
 
-```text
-CER
-WER
-Exact Match
-Improved CER samples
-Unchanged CER samples
-Worsened CER samples
-Recovered Exact Matches
-Lost Exact Matches
-```
+Compared with Original, Otsu reduced CER by 0.64 percentage points, reduced WER by 1.28 percentage points, and increased Exact Match by approximately 5.59 percentage points.
 
----
-
-# Stage 5 Results
-
-**TBD**
-
-| Condition | Samples | CER | WER | Exact Match |
-|---|---:|---:|---:|---:|
-| Original | 1,539 | TBD | TBD | TBD |
-| Otsu Threshold | 1,539 | TBD | TBD | TBD |
-
----
-
-# Stage 5 Paired Analysis
-
-**TBD**
+## Full Validation Paired Analysis
 
 | Measure | Result |
 |---|---:|
-| Improved CER | TBD |
-| Unchanged CER | TBD |
-| Worsened CER | TBD |
-| Recovered Exact | TBD |
-| Lost Exact | TBD |
-| Net Exact Gain | TBD |
+| Improved CER | 285 |
+| Unchanged CER | 1,131 |
+| Worsened CER | 123 |
+| Recovered Exact | 139 |
+| Lost Exact | 53 |
+| Net Exact Gain | **+86** |
+
+Exact-Match transitions were:
+
+```text
+Original exact:       900
+Original non-exact:   639
+Stayed exact:         847
+Recovered exact:      139
+Lost exact:            53
+Stayed non-exact:     500
+Final Otsu exact:     986
+Net Exact Gain:       +86
+```
+
+The transition integrity check passed. The full-validation result reproduced the direction observed on DEV100: Otsu improved CER, WER, and Exact Match.
+
+## Stage 5 Decision
+
+Based only on validation evidence, **Otsu thresholding was selected and frozen** as the EXP003 preprocessing configuration. No further preprocessing selection or parameter tuning was performed before held-out test evaluation.
 
 ---
 
-# Held-Out Test Evaluation
+# Stage 6 — Held-Out IAM Test Evaluation
 
-## Status
+## Research Question
 
-**PENDING**
+> Does the validation-selected Otsu preprocessing improvement generalize to unseen held-out IAM test data?
 
-The IAM test set remains untouched during preprocessing development.
+The frozen Otsu configuration was evaluated once on the complete usable IAM test split containing **1,480 lines** and compared with the fixed EXP002 Original baseline.
 
-The final EXP003 preprocessing configuration will be selected using validation data.
+## Held-Out Test Results
 
-Only after the decision is frozen will the selected configuration be evaluated on:
+| Condition | Samples | CER | WER | Exact Match | Exact Predictions |
+|---|---:|---:|---:|---:|---:|
+| Original / EXP002 | 1,480 | 3.33% | 8.63% | 56.89% | 842 |
+| Otsu Threshold | 1,480 | **2.57%** | **7.39%** | **61.96%** | **917** |
+
+Compared with the fixed EXP002 baseline, Otsu:
+
+- reduced CER from 3.33% to 2.57%,
+- reduced WER from 8.63% to 7.39%,
+- increased Exact Match from 56.89% to 61.96%,
+- and produced **75 additional exact predictions**.
+
+## Held-Out Paired Analysis
+
+| Measure | Result |
+|---|---:|
+| Improved CER | 251 |
+| Unchanged CER | 1,117 |
+| Worsened CER | 112 |
+| Recovered Exact | 114 |
+| Lost Exact | 39 |
+| Net Exact Gain | **+75** |
+
+Exact-Match transitions were:
 
 ```text
-IAM Test
-N = 1,480
+Original exact:       842
+Original non-exact:   638
+Stayed exact:         803
+Recovered exact:      114
+Lost exact:            39
+Stayed non-exact:     524
+Final Otsu exact:     917
+Net Exact Gain:       +75
 ```
 
-The result will then be compared with the fixed EXP002 baseline:
+The transition integrity check passed.
+
+---
+
+# Cross-Stage Result Summary
+
+| Dataset | Original CER | Otsu CER | Original WER | Otsu WER | Original Exact | Otsu Exact |
+|---|---:|---:|---:|---:|---:|---:|
+| DEV100 | 2.61% | **2.49%** | 7.27% | **6.94%** | 62.00% | **68.00%** |
+| Full Validation | 3.22% | **2.58%** | 8.24% | **6.96%** | 58.48% | **64.07%** |
+| Held-Out Test | 3.33% | **2.57%** | 8.63% | **7.39%** | 56.89% | **61.96%** |
+
+The direction of improvement was consistent across development, full validation, and held-out test evaluation.
+
+---
+
+# Final EXP003 Conclusion
+
+EXP003 provides evidence that conventional preprocessing can affect pretrained TrOCR recognition performance, but the effect depends strongly on the transformation and on the individual sample.
+
+Grayscale produced no measurable DEV100 change. CLAHE and denoising did not improve aggregate DEV100 performance under their evaluated configurations. Otsu thresholding was the only tested method to improve CER, WER, and Exact Match simultaneously on DEV100.
+
+The Otsu candidate was then evaluated on the complete IAM validation split, where the improvement generalized. Based only on validation evidence, Otsu was selected and frozen before the held-out test was evaluated.
+
+On the held-out test set, Otsu again improved all three aggregate metrics:
 
 ```text
-EXP002
-
+Original / EXP002
 CER:         3.33%
 WER:         8.63%
 Exact Match: 56.89%
-```
-
----
-
-# Why the Test Set Is Kept Separate
-
-Repeatedly evaluating preprocessing methods on the test set could indirectly optimize experimental decisions toward the test data.
-
-Therefore:
-
-```text
-Validation
-    ↓
-Develop + select preprocessing
-
-Test
-    ↓
-Final evaluation only
-```
-
-This provides a more defensible experimental protocol.
-
----
-
-# Limitations So Far
-
-## 1. DEV100 Sample Size
-
-The current preprocessing conclusion is based on only 100 validation samples.
-
-The result may not generalize to the complete validation distribution.
-
----
-
-## 2. Limited Preprocessing Methods
-
-Only four additional preprocessing conditions were evaluated:
-
-```text
-Grayscale
-Otsu
-CLAHE
-Denoising
-```
-
-Other methods such as:
-
-- deskewing,
-- adaptive thresholding,
-- resizing strategies,
-- morphological operations,
-- and preprocessing combinations
-
-have not yet been evaluated.
-
----
-
-## 3. Fixed Parameters
-
-The current CLAHE and denoising experiments use one parameter configuration each.
-
-Their results should therefore not be interpreted as proving that those techniques can never improve TrOCR.
-
----
-
-## 4. Otsu Is Not Universally Beneficial
-
-Otsu improved CER for 13 DEV100 samples but worsened CER for 10.
-
-This indicates sample-dependent behavior.
-
----
-
-## 5. General HTR Rather Than Structured Forms
-
-EXP003 still evaluates cropped IAM handwriting lines.
-
-It does not yet evaluate:
-
-- template alignment,
-- field detection,
-- field type,
-- expected field format,
-- field-specific constraints,
-- or structured output.
-
-These are part of later thesis stages.
-
----
-
-# Relevance to the Thesis
-
-EXP003 contributes to the thesis by experimentally evaluating a common assumption:
-
-> Does making handwriting images visually cleaner actually improve a pretrained Transformer HTR model?
-
-The preliminary result demonstrates that preprocessing effects are method-dependent.
-
-```text
-Grayscale
-→ no measurable effect
-
-CLAHE
-→ worse under current configuration
-
-Denoising
-→ no aggregate benefit
 
 Otsu
-→ promising improvement
+CER:         2.57%
+WER:         7.39%
+Exact Match: 61.96%
 ```
 
-More importantly, paired analysis shows that even a preprocessing method with better aggregate performance can:
+Paired test analysis showed 251 CER improvements and 112 regressions, while 114 previously non-exact predictions became exact and 39 previously exact predictions became non-exact. This produced a net gain of 75 exact predictions.
 
-```text
-help some samples
-+
-harm other samples
-```
+Therefore, the supported conclusion is:
 
-This observation may become relevant to later structured-form research.
+> **Under the evaluated experimental configuration, Otsu thresholding provides a reproducible overall improvement in pretrained TrOCR recognition on IAM handwriting, while its effect remains sample-dependent.**
 
-Instead of universally applying one preprocessing transformation, future work could potentially investigate preprocessing based on:
+The experiment does **not** establish that Otsu improves every handwritten sample or that it is universally optimal for HTR.
 
-- image condition,
-- field type,
-- handwriting characteristics,
-- or structural information.
-
-That possibility remains a future research direction rather than a conclusion from EXP003.
+No further preprocessing selection or parameter tuning will be performed using the IAM held-out test set.
 
 ---
 
-# Connection to the Thesis Contribution
+# Limitations
 
-TrOCR and Otsu thresholding are existing techniques.
+1. Only a small set of conventional preprocessing methods was compared during candidate selection.
+2. CLAHE and denoising were evaluated under specific parameter configurations rather than exhaustive parameter searches.
+3. Otsu remained sample-dependent and caused regressions for some lines.
+4. EXP003 evaluates IAM cropped handwriting lines rather than complete structured forms.
+5. The experiment does not yet use field location, field type, expected format, or other structured-form information.
+6. No claim is made that Otsu is universally optimal across datasets, acquisition conditions, or HTR architectures.
 
-Therefore, EXP003 itself is not presented as a new OCR algorithm.
+---
 
-The contribution of this stage is the controlled experimental methodology and analysis used to understand:
+# Relevance to the Thesis Contribution
 
-- whether preprocessing helps,
-- which preprocessing method helps,
-- which samples improve,
-- which samples regress,
-- and whether the effect generalizes.
+TrOCR and Otsu thresholding are existing techniques. EXP003 is therefore not presented as a new OCR algorithm.
 
-This evidence will inform the later structured-form pipeline.
+The contribution of this stage is the controlled experimental methodology and analysis used to determine whether preprocessing helps, select a candidate without test-set tuning, verify whether the effect generalizes, and characterize both improvements and regressions at the sample level.
 
-The broader thesis aims to move from:
+This evidence provides a reproducible baseline for the next thesis stage, where the work moves from general handwritten-line recognition toward the structured-form problem.
+
+---
+
+# Next Thesis Stage
+
+EXP003 is complete. The next work will focus on:
 
 ```text
-Existing HTR Model
+EXP004 — Template Alignment
         ↓
-General Recognition
-```
-
-toward:
-
-```text
-Structured Form
+Structured Field Extraction
         ↓
-Template Alignment
-        ↓
-Field Extraction
-        ↓
-HTR
-        ↓
-Field / Structural Information
+Field-Aware Recognition / Constraints
         ↓
 Validated Structured Output
 ```
 
-Later experiments will investigate whether structured information can provide recognition benefits beyond the general HTR baseline.
+The goal is to investigate whether structural information available in fixed-template forms can improve recognition beyond the general-purpose HTR baseline.
 
 ---
 
-# Current Conclusion
-
-The current DEV100 experiment provides preliminary evidence that preprocessing can affect pretrained TrOCR recognition performance, but the effect depends strongly on the preprocessing method.
-
-Otsu thresholding produced the strongest result:
-
-```text
-Original
-
-CER:         2.61%
-WER:         7.27%
-Exact Match: 62%
-
-        ↓ Otsu
-
-CER:         2.49%
-WER:         6.94%
-Exact Match: 68%
-```
-
-Paired analysis showed:
-
-```text
-Recovered Exact: 8
-Lost Exact:      2
-Net Exact Gain: +6
-```
-
-However:
-
-```text
-CER Improved:  13
-CER Worsened:  10
-```
-
-Therefore, the evidence does not support the claim that Otsu universally improves TrOCR.
-
-The current conclusion is:
-
-> **Otsu thresholding is the most promising preprocessing candidate identified in DEV100 and should be evaluated on the complete IAM validation split before any final preprocessing decision is made.**
-
----
-
-# Next Steps
-
-1. Inspect representative Otsu recoveries and regressions.
-2. Run Original on all 1,539 IAM validation samples.
-3. Run Otsu on the same 1,539 samples.
-4. Compare CER, WER, and Exact Match.
-5. Perform paired full-validation analysis.
-6. Freeze the EXP003 preprocessing decision.
-7. Evaluate the selected configuration once on the held-out IAM test set.
-8. Write the final EXP003 conclusion.
-9. Move toward template alignment.
-10. Build structured field extraction.
-11. Investigate field-aware recognition and constraints.
-
----
-
-# Current EXP003 Status
+# Final EXP003 Status
 
 ```text
 Research question defined                    ✓
 Experimental protocol defined                ✓
-DEV100 reproducibly selected                 ✓
-Visual preprocessing analysis                ✓
-Original DEV100 control                      ✓
-Grayscale DEV100                             ✓
-Otsu DEV100                                  ✓
-CLAHE DEV100                                 ✓
-Denoising DEV100                             ✓
-Aggregate comparison                         ✓
-Paired sample-level analysis                 ✓
-Otsu Exact Match transition analysis         ✓
+DEV100 visual analysis                       ✓
+DEV100 controlled comparison                 ✓
+DEV100 paired analysis                       ✓
+Otsu candidate selected                      ✓
+Full validation evaluation                   ✓
+Full validation paired analysis              ✓
+Preprocessing decision frozen                ✓
+Held-out test evaluation                     ✓
+Held-out paired analysis                     ✓
+Final conclusion                             ✓
 
-Current candidate:
-Otsu Thresholding                            ✓
-
-Representative recovery/regression review    NEXT
-Full validation Original                     NEXT
-Full validation Otsu                         NEXT
-Full validation paired analysis              PLANNED
-Preprocessing decision freeze                PLANNED
-Held-out test evaluation                     PLANNED
-Final EXP003 conclusion                      PLANNED
-
-EXP003                                       IN PROGRESS
+EXP003                                       COMPLETE
 ```
